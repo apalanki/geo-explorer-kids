@@ -29,7 +29,6 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        # No version specified — reads from packageManager field in package.json
 
       - name: Install dependencies
         run: pnpm install

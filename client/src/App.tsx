@@ -1,27 +1,24 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Router as WouterRouter, Switch } from "wouter";
+import { Route, Router, Switch } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 
-// Support GitHub Pages subpath deployment.
-// Vite sets import.meta.env.BASE_URL to "/geo-explorer-kids/" when
-// GITHUB_PAGES=true, and "/" in local dev. Wouter needs the base
-// without a trailing slash.
-const base = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "") || "/";
-
+// Use hash-based routing so GitHub Pages static hosting works correctly
+// (no server-side routing needed — all navigation is handled via #hash)
 function AppRouter() {
   return (
-    <WouterRouter base={base === "/" ? "" : base}>
+    <Router hook={useHashLocation}>
       <Switch>
         <Route path={"/"} component={Home} />
         <Route path={"/404"} component={NotFound} />
         {/* Final fallback route */}
         <Route component={NotFound} />
       </Switch>
-    </WouterRouter>
+    </Router>
   );
 }
 
