@@ -153,6 +153,8 @@ function vitePluginManusDebugCollector(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
 export default defineConfig({
+  // Base path: /geo-explorer-kids/ for GitHub Pages, / for local dev
+  base: process.env.GITHUB_PAGES === "true" ? "/geo-explorer-kids/" : "/",
   plugins,
   resolve: {
     alias: {
