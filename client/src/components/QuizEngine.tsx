@@ -4,14 +4,16 @@
 //
 // Structure (landscape two-column):
 //   ┌─────────────────────────────────────────────────────────────┐
-//   │  HEADER (sticky, ~52px): Back | Topic name | ⭐ stars       │
-//   │  PROGRESS BAR (4px)                                         │
+//   │  HEADER (~52px): Back | Topic name | ⭐ stars               │
+//   │  PROGRESS BAR (1.5px)                                       │
 //   ├──────────────────────────────┬──────────────────────────────┤
 //   │  LEFT COLUMN                 │  RIGHT COLUMN                │
-//   │  • Question counter          │  • 4 answer option buttons   │
-//   │  • Clue card(s)              │  • Result panel (after ans.) │
-//   │  • Stars hint / timer        │  • Next button               │
+//   │  • Clue card(s) + timer      │  • 4 answer option buttons   │
+//   │  • Stars hint                │  • Result panel + Next btn   │
 //   └──────────────────────────────┴──────────────────────────────┘
+//
+// Funny reactions: random pool of silly messages + big emoji overlay
+// on both correct and wrong answers, cycling through each time.
 
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -29,6 +31,116 @@ interface QuizEngineProps {
 
 type Phase = "clue" | "answered" | "timeout";
 
+// ── Reaction pools ─────────────────────────────────────────────────
+const CORRECT_REACTIONS = [
+  { emoji: "🎉", text: "WOOHOO!", color: "#16a34a", bg: "#dcfce7" },
+  { emoji: "🧠", text: "GENIUS!!", color: "#7c3aed", bg: "#ede9fe" },
+  { emoji: "🔥", text: "ON FIRE!!", color: "#ea580c", bg: "#ffedd5" },
+  { emoji: "💥", text: "BOOM!!", color: "#dc2626", bg: "#fee2e2" },
+  { emoji: "🦁", text: "ROAR!! YOU ROCK!", color: "#b45309", bg: "#fef3c7" },
+  { emoji: "🚀", text: "BLAST OFF!!", color: "#0284c7", bg: "#e0f2fe" },
+  { emoji: "🏆", text: "CHAMPION!!", color: "#ca8a04", bg: "#fef9c3" },
+  { emoji: "🌟", text: "SUPERSTAR!!", color: "#9333ea", bg: "#f3e8ff" },
+  { emoji: "🎸", text: "ROCK STAR!!", color: "#be185d", bg: "#fce7f3" },
+  { emoji: "🦸", text: "SUPERHERO!!", color: "#1d4ed8", bg: "#dbeafe" },
+  { emoji: "🐉", text: "DRAGON POWER!!", color: "#15803d", bg: "#dcfce7" },
+  { emoji: "🍕", text: "YOU'RE PIZZA-MAZING!!", color: "#c2410c", bg: "#ffedd5" },
+];
+
+const WRONG_REACTIONS = [
+  { emoji: "😱", text: "OH NOOOO!!", color: "#dc2626", bg: "#fee2e2" },
+  { emoji: "🙈", text: "YIKES!!", color: "#9a3412", bg: "#ffedd5" },
+  { emoji: "🤦", text: "WHOOPSIE!!", color: "#7c3aed", bg: "#ede9fe" },
+  { emoji: "😬", text: "OOPSIE DAISY!!", color: "#b45309", bg: "#fef3c7" },
+  { emoji: "🫠", text: "I AM MELTING!!", color: "#0369a1", bg: "#e0f2fe" },
+  { emoji: "🙃", text: "UPSIDE DOWN BRAIN!!", color: "#be185d", bg: "#fce7f3" },
+  { emoji: "🐔", text: "BAWK BAWK!!", color: "#ca8a04", bg: "#fef9c3" },
+  { emoji: "💨", text: "WHOOOOSH... MISSED IT!", color: "#0f766e", bg: "#ccfbf1" },
+  { emoji: "🥴", text: "MY BRAIN IS DIZZY!!", color: "#7c3aed", bg: "#ede9fe" },
+  { emoji: "🦆", text: "QUACK QUACK WRONG!!", color: "#0369a1", bg: "#e0f2fe" },
+];
+
+// Pick a random item from an array, avoiding the last used index
+function pickRandom<T>(arr: T[], lastIdx: number): [T, number] {
+  let idx = Math.floor(Math.random() * arr.length);
+  if (idx === lastIdx && arr.length > 1) idx = (idx + 1) % arr.length;
+  return [arr[idx], idx];
+}
+
+// ── Reaction overlay ───────────────────────────────────────────────
+interface ReactionOverlayProps {
+  emoji: string;
+  text: string;
+  color: string;
+  bg: string;
+  visible: boolean;
+}
+
+function ReactionOverlay({ emoji, text, color, bg, visible }: ReactionOverlayProps) {
+  return (
+    <AnimatePresence>
+      {visible && (
+        <motion.div
+          key={text}
+          initial={{ scale: 0.3, opacity: 0, y: 30 }}
+          animate={{ scale: 1, opacity: 1, y: 0 }}
+          exit={{ scale: 0.8, opacity: 0, y: -20 }}
+          transition={{ type: "spring", stiffness: 500, damping: 18 }}
+          className="absolute inset-0 flex flex-col items-center justify-center z-50 rounded-2xl pointer-events-none"
+          style={{ background: bg + "ee" }}
+        >
+          <motion.span
+            initial={{ rotate: -20, scale: 0.5 }}
+            animate={{ rotate: [-20, 15, -10, 8, 0], scale: [0.5, 1.4, 1.1, 1.2, 1] }}
+            transition={{ duration: 0.5, times: [0, 0.3, 0.5, 0.7, 1] }}
+            style={{ fontSize: "5rem", lineHeight: 1 }}
+          >
+            {emoji}
+          </motion.span>
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.15 }}
+            style={{
+              fontFamily: "'Fredoka One', cursive",
+              fontSize: "2rem",
+              color,
+              textAlign: "center",
+              lineHeight: 1.1,
+              textShadow: "0 2px 0 rgba(0,0,0,0.08)",
+            }}
+          >
+            {text}
+          </motion.p>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+}
+
+// ── Confetti burst ─────────────────────────────────────────────────
+function ConfettiBurst() {
+  const colors = ["#f94144", "#f9c74f", "#43aa8b", "#4cc9f0", "#f3722c", "#90be6d"];
+  return (
+    <div className="absolute inset-0 pointer-events-none overflow-hidden z-40">
+      {Array.from({ length: 20 }).map((_, i) => (
+        <div
+          key={i}
+          className="confetti-piece absolute w-3 h-3 rounded-sm"
+          style={{
+            backgroundColor: colors[i % colors.length],
+            left: `${5 + (i * 4.8) % 90}%`,
+            top: `${5 + (i * 3.7) % 50}%`,
+            animationDelay: `${i * 0.04}s`,
+            transform: `rotate(${i * 22}deg)`,
+          }}
+        />
+      ))}
+    </div>
+  );
+}
+
+// ── Star display ───────────────────────────────────────────────────
 function StarDisplay({ count, animate }: { count: number; animate?: boolean }) {
   return (
     <div className="flex gap-1 justify-center">
@@ -47,6 +159,7 @@ function StarDisplay({ count, animate }: { count: number; animate?: boolean }) {
   );
 }
 
+// ── Timer ring ─────────────────────────────────────────────────────
 function TimerRing({ seconds, total, urgent }: { seconds: number; total: number; urgent: boolean }) {
   const radius = 28;
   const circumference = 2 * Math.PI * radius;
@@ -75,27 +188,7 @@ function TimerRing({ seconds, total, urgent }: { seconds: number; total: number;
   );
 }
 
-function ConfettiBurst() {
-  const colors = ["#f94144", "#f9c74f", "#43aa8b", "#4cc9f0", "#f3722c", "#90be6d"];
-  return (
-    <div className="absolute inset-0 pointer-events-none overflow-hidden z-50">
-      {Array.from({ length: 16 }).map((_, i) => (
-        <div
-          key={i}
-          className="confetti-piece absolute w-3 h-3 rounded-sm"
-          style={{
-            backgroundColor: colors[i % colors.length],
-            left: `${10 + (i * 5.5) % 80}%`,
-            top: `${10 + (i * 3.7) % 40}%`,
-            animationDelay: `${i * 0.05}s`,
-            transform: `rotate(${i * 22}deg)`,
-          }}
-        />
-      ))}
-    </div>
-  );
-}
-
+// ── Main component ─────────────────────────────────────────────────
 export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, getTopicProgress }: QuizEngineProps) {
   const topicProgress = getTopicProgress(topic.id);
   const allQuestions = topic.questions;
@@ -111,6 +204,13 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
   const [sessionStars, setSessionStars] = useState<number[]>([]);
   const [showConfetti, setShowConfetti] = useState(false);
   const [shakeKey, setShakeKey] = useState(0);
+
+  // Reaction state
+  const [reaction, setReaction] = useState<(typeof CORRECT_REACTIONS)[0] | null>(null);
+  const [showReaction, setShowReaction] = useState(false);
+  const lastCorrectIdx = useRef(-1);
+  const lastWrongIdx = useRef(-1);
+
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const currentQ = questions[qIndex];
@@ -155,6 +255,15 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
     if (phase !== "clue") stopTimer();
   }, [phase]);
 
+  // ── Show reaction overlay briefly ─────────────
+  const triggerReaction = (pool: typeof CORRECT_REACTIONS, lastRef: React.MutableRefObject<number>) => {
+    const [r, idx] = pickRandom(pool, lastRef.current);
+    lastRef.current = idx;
+    setReaction(r);
+    setShowReaction(true);
+    setTimeout(() => setShowReaction(false), 1100);
+  };
+
   // ── Answer handler ─────────────────────────────
   const handleAnswer = (option: string) => {
     if (phase !== "clue") return;
@@ -167,14 +276,16 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
       recordAnswer(topic.id, currentQ.id, stars, clueLevel);
       setShowConfetti(true);
       setTimeout(() => setShowConfetti(false), 900);
+      triggerReaction(CORRECT_REACTIONS, lastCorrectIdx);
       setPhase("answered");
     } else {
       setShakeKey((k) => k + 1);
+      triggerReaction(WRONG_REACTIONS, lastWrongIdx);
       setTimeout(() => {
         setSelectedOption(null);
         if (clueLevel < 3) { setClueLevel((p) => (p + 1) as 1 | 2 | 3); setPhase("clue"); }
         else { recordAnswer(topic.id, currentQ.id, 0, 3); setPhase("timeout"); }
-      }, 700);
+      }, 900);
     }
   };
 
@@ -187,6 +298,7 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
       setClueLevel(1);
       setSelectedOption(null);
       setPhase("clue");
+      setShowReaction(false);
     }
   };
 
@@ -196,7 +308,6 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
   const isAnswered = phase === "answered" || phase === "timeout";
 
   // ── Render ─────────────────────────────────────
-  // Outer shell: exactly 100dvh, no overflow, flex column
   return (
     <div
       className="flex flex-col overflow-hidden"
@@ -205,7 +316,7 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
         background: "linear-gradient(135deg, #f0fdf4 0%, #fef9c3 50%, #eff6ff 100%)",
       }}
     >
-      {/* ── HEADER (fixed height ~52px) ── */}
+      {/* ── HEADER ── */}
       <div className="flex-shrink-0 bg-white/90 backdrop-blur border-b border-gray-100 shadow-sm z-30">
         <div className="flex items-center justify-between px-4 py-2 gap-3">
           <button
@@ -215,19 +326,13 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
           >
             ← Back
           </button>
-
-          {/* Topic + question counter */}
           <div className="flex items-center gap-2 min-w-0 flex-1">
             <span className="text-xl flex-shrink-0">{topic.emoji}</span>
             <span className="font-display text-base text-gray-800 truncate" style={{ fontFamily: "'Fredoka One', cursive" }}>
               {topic.name}
             </span>
-            <span className="text-xs text-gray-400 font-bold flex-shrink-0">
-              · Q {qIndex + 1}/{questions.length}
-            </span>
+            <span className="text-xs text-gray-400 font-bold flex-shrink-0">· Q {qIndex + 1}/{questions.length}</span>
           </div>
-
-          {/* Stars */}
           <div className="flex items-center gap-1 bg-yellow-50 border border-yellow-200 rounded-full px-3 py-1 flex-shrink-0">
             <span className="text-base">⭐</span>
             <span className="font-display text-yellow-700 text-sm font-bold" style={{ fontFamily: "'Fredoka One', cursive" }}>
@@ -235,24 +340,19 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
             </span>
           </div>
         </div>
-
-        {/* Progress bar */}
         <div className="w-full bg-gray-100 h-1.5">
           <div
             className="h-1.5 transition-all duration-500"
-            style={{
-              width: `${(qIndex / questions.length) * 100}%`,
-              background: "linear-gradient(90deg, #16a34a, #84cc16)",
-            }}
+            style={{ width: `${(qIndex / questions.length) * 100}%`, background: "linear-gradient(90deg, #16a34a, #84cc16)" }}
           />
         </div>
       </div>
 
-      {/* ── BODY: two columns, fills remaining height ── */}
+      {/* ── BODY: two columns ── */}
       <div className="flex flex-1 min-h-0 gap-3 p-3">
 
         {/* ── LEFT COLUMN: clue card ── */}
-        <div className="flex flex-col flex-1 min-w-0 gap-2">
+        <div className="flex flex-col flex-1 min-w-0">
           <AnimatePresence mode="wait">
             <motion.div
               key={`q-${qIndex}`}
@@ -262,31 +362,22 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
               transition={{ duration: 0.25 }}
               className="flex flex-col h-full"
             >
-              {/* Clue card — fills left column */}
               <div className="jungle-card flex flex-col flex-1 min-h-0 p-4 relative overflow-hidden">
                 {showConfetti && <ConfettiBurst />}
 
-                {/* Clue header: badge + timer/stars */}
+                {/* Clue header */}
                 <div className="flex items-center justify-between mb-3 flex-shrink-0">
                   <div className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold ${badge.bg} ${badge.text}`}>
                     <span>{badge.icon}</span>
                     <span>{badge.label}</span>
                     <span className="opacity-60">({clueLevel}/3)</span>
                   </div>
-                  {phase === "clue" && (
-                    <TimerRing seconds={timeLeft} total={CLUE_TIMER_SECONDS} urgent={urgent} />
-                  )}
-                  {phase === "answered" && (
-                    <div className="bounce-in">
-                      <StarDisplay count={STARS_PER_CLUE[clueLevel]} animate />
-                    </div>
-                  )}
-                  {phase === "timeout" && (
-                    <span className="text-2xl">⏰</span>
-                  )}
+                  {phase === "clue" && <TimerRing seconds={timeLeft} total={CLUE_TIMER_SECONDS} urgent={urgent} />}
+                  {phase === "answered" && <div className="bounce-in"><StarDisplay count={STARS_PER_CLUE[clueLevel]} animate /></div>}
+                  {phase === "timeout" && <span className="text-2xl">⏰</span>}
                 </div>
 
-                {/* Clues revealed so far — scrollable within card if needed */}
+                {/* Clues */}
                 <div className="flex flex-col gap-2 flex-1 min-h-0 overflow-y-auto">
                   {([1, 2, 3] as const).map((level) => {
                     const show = level <= clueLevel || isAnswered;
@@ -308,7 +399,7 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
                   })}
                 </div>
 
-                {/* Stars hint (during clue phase) */}
+                {/* Stars hint */}
                 {phase === "clue" && (
                   <div className="flex items-center gap-1.5 text-xs text-gray-400 font-semibold mt-2 flex-shrink-0">
                     <span>Answer now for</span>
@@ -323,52 +414,62 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
           </AnimatePresence>
         </div>
 
-        {/* ── RIGHT COLUMN: answers + result + next ── */}
+        {/* ── RIGHT COLUMN: answers + result ── */}
         <div className="flex flex-col w-[420px] flex-shrink-0 gap-2">
 
-          {/* 4 answer buttons — equal height, fill available space */}
-          <div
-            key={shakeKey}
-            className={`grid grid-cols-2 gap-2 flex-shrink-0 ${selectedOption && selectedOption !== currentQ.answer ? "shake" : ""}`}
-          >
-            {currentQ.options.map((option) => {
-              let btnStyle = "bg-white border-2 border-gray-200 text-gray-800";
-              if (isAnswered) {
-                if (option === currentQ.answer) btnStyle = "bg-green-500 border-2 border-green-600 text-white";
-                else if (option === selectedOption) btnStyle = "bg-red-100 border-2 border-red-400 text-red-700";
-                else btnStyle = "bg-gray-50 border-2 border-gray-200 text-gray-400 opacity-60";
-              } else if (selectedOption === option) {
-                btnStyle = "bg-red-100 border-2 border-red-400 text-red-700";
-              }
+          {/* Answer buttons — with reaction overlay on top */}
+          <div className="relative flex-shrink-0">
+            <div
+              key={shakeKey}
+              className={`grid grid-cols-2 gap-2 ${selectedOption && selectedOption !== currentQ.answer ? "shake" : ""}`}
+            >
+              {currentQ.options.map((option) => {
+                let btnStyle = "bg-white border-2 border-gray-200 text-gray-800";
+                if (isAnswered) {
+                  if (option === currentQ.answer) btnStyle = "bg-green-500 border-2 border-green-600 text-white";
+                  else if (option === selectedOption) btnStyle = "bg-red-100 border-2 border-red-400 text-red-700";
+                  else btnStyle = "bg-gray-50 border-2 border-gray-200 text-gray-400 opacity-60";
+                } else if (selectedOption === option) {
+                  btnStyle = "bg-red-100 border-2 border-red-400 text-red-700";
+                }
+                return (
+                  <button
+                    key={option}
+                    onClick={() => handleAnswer(option)}
+                    disabled={phase !== "clue"}
+                    className={`jungle-card p-3 text-left font-bold text-sm transition-all duration-200 active:scale-95 ${btnStyle}`}
+                    style={{ fontFamily: "'Nunito', sans-serif", minHeight: "72px" }}
+                  >
+                    {option === currentQ.answer && isAnswered && <span className="mr-1.5">✅</span>}
+                    {option}
+                  </button>
+                );
+              })}
+            </div>
 
-              return (
-                <button
-                  key={option}
-                  onClick={() => handleAnswer(option)}
-                  disabled={phase !== "clue"}
-                  className={`jungle-card p-3 text-left font-bold text-sm transition-all duration-200 active:scale-95 ${btnStyle}`}
-                  style={{ fontFamily: "'Nunito', sans-serif", minHeight: "72px" }}
-                >
-                  {option === currentQ.answer && isAnswered && <span className="mr-1.5">✅</span>}
-                  {option}
-                </button>
-              );
-            })}
+            {/* Reaction overlay — floats over the answer grid */}
+            {reaction && (
+              <ReactionOverlay
+                emoji={reaction.emoji}
+                text={reaction.text}
+                color={reaction.color}
+                bg={reaction.bg}
+                visible={showReaction}
+              />
+            )}
           </div>
 
-          {/* Result panel — appears after answering, fills remaining space */}
+          {/* Result panel */}
           <AnimatePresence>
             {isAnswered && (
               <motion.div
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.15, duration: 0.3 }}
                 className={`flex flex-col flex-1 min-h-0 rounded-2xl p-3 ${
-                  phase === "answered"
-                    ? "bg-green-50 border-2 border-green-300"
-                    : "bg-red-50 border-2 border-red-200"
+                  phase === "answered" ? "bg-green-50 border-2 border-green-300" : "bg-red-50 border-2 border-red-200"
                 }`}
               >
-                {/* Result headline */}
                 <div className="flex-shrink-0 mb-2">
                   {phase === "answered" ? (
                     <>
@@ -394,8 +495,6 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
                       </div>
                     </div>
                   )}
-
-                  {/* Pronunciation for correct answer */}
                   {phase === "answered" && currentQ.pronunciation && (
                     <div className="flex items-center gap-1.5 mt-1">
                       <span className="text-xs text-gray-500 font-semibold">Say it:</span>
@@ -404,13 +503,11 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
                   )}
                 </div>
 
-                {/* Fun fact — scrollable if very long */}
                 <div className="bg-white/70 rounded-xl p-2.5 flex-1 min-h-0 overflow-y-auto mb-2">
                   <p className="text-xs font-bold text-gray-500 uppercase mb-0.5">🌟 Fun Fact</p>
                   <p className="text-gray-700 font-semibold text-xs leading-snug">{currentQ.funFact}</p>
                 </div>
 
-                {/* Next button */}
                 <button
                   onClick={handleNext}
                   className="btn-jungle text-white w-full text-base font-bold flex-shrink-0"
@@ -427,7 +524,7 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
             )}
           </AnimatePresence>
 
-          {/* Placeholder when no result yet — keeps layout stable */}
+          {/* Placeholder before answering */}
           {!isAnswered && (
             <div className="flex-1 flex items-center justify-center rounded-2xl border-2 border-dashed border-gray-200 bg-white/40">
               <p className="text-gray-400 text-sm font-bold text-center px-4" style={{ fontFamily: "'Fredoka One', cursive" }}>
