@@ -20,6 +20,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { CLUE_TIMER_SECONDS, STARS_PER_CLUE, type QuizQuestion, type Topic } from "@/data/quizData";
 import type { TopicProgress } from "@/hooks/useProgress";
 import PronounceButton from "./PronounceButton";
+import { useSound } from "@/hooks/useSound";
 
 interface QuizEngineProps {
   topic: Topic;
@@ -212,6 +213,7 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
   const lastWrongIdx = useRef(-1);
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const { play } = useSound();
 
   const currentQ = questions[qIndex];
   const isLastQuestion = qIndex === questions.length - 1;
@@ -277,10 +279,12 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
       setShowConfetti(true);
       setTimeout(() => setShowConfetti(false), 900);
       triggerReaction(CORRECT_REACTIONS, lastCorrectIdx);
+      play("correct");
       setPhase("answered");
     } else {
       setShakeKey((k) => k + 1);
       triggerReaction(WRONG_REACTIONS, lastWrongIdx);
+      play("wrong");
       setTimeout(() => {
         setSelectedOption(null);
         if (clueLevel < 3) { setClueLevel((p) => (p + 1) as 1 | 2 | 3); setPhase("clue"); }
