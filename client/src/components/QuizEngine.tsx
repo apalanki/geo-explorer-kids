@@ -325,21 +325,21 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
         <div className="flex items-center justify-between px-4 py-2 gap-3">
           <button
             onClick={onBack}
-            className="btn-jungle text-white text-sm px-4 py-2 min-h-[40px] flex-shrink-0"
+            className="btn-jungle text-white text-base px-4 py-2 min-h-[44px] flex-shrink-0"
             style={{ background: "#6b7280" }}
           >
             ← Back
           </button>
           <div className="flex items-center gap-2 min-w-0 flex-1">
-            <span className="text-xl flex-shrink-0">{topic.emoji}</span>
-            <span className="font-display text-base text-gray-800 truncate" style={{ fontFamily: "'Fredoka One', cursive" }}>
+            <span className="text-2xl flex-shrink-0">{topic.emoji}</span>
+            <span className="font-display text-lg text-gray-800 truncate" style={{ fontFamily: "'Fredoka One', cursive" }}>
               {topic.name}
             </span>
-            <span className="text-xs text-gray-400 font-bold flex-shrink-0">· Q {qIndex + 1}/{questions.length}</span>
+            <span className="text-sm text-gray-400 font-bold flex-shrink-0">· Q {qIndex + 1}/{questions.length}</span>
           </div>
           <div className="flex items-center gap-1 bg-yellow-50 border border-yellow-200 rounded-full px-3 py-1 flex-shrink-0">
-            <span className="text-base">⭐</span>
-            <span className="font-display text-yellow-700 text-sm font-bold" style={{ fontFamily: "'Fredoka One', cursive" }}>
+            <span className="text-lg">⭐</span>
+            <span className="font-display text-yellow-700 text-base font-bold" style={{ fontFamily: "'Fredoka One', cursive" }}>
               {totalStarsSoFar}
             </span>
           </div>
@@ -371,7 +371,7 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
 
                 {/* Clue header */}
                 <div className="flex items-center justify-between mb-3 flex-shrink-0">
-                  <div className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold ${badge.bg} ${badge.text}`}>
+                  <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-bold ${badge.bg} ${badge.text}`}>
                     <span>{badge.icon}</span>
                     <span>{badge.label}</span>
                     <span className="opacity-60">({clueLevel}/3)</span>
@@ -396,8 +396,8 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
                         transition={{ duration: 0.25 }}
                         className={`rounded-xl p-3 border-2 flex-shrink-0 ${lb.bg} ${lb.border}`}
                       >
-                        <div className={`text-xs font-bold mb-0.5 ${lb.text}`}>{lb.icon} Clue {level}</div>
-                        <p className="text-gray-800 font-semibold leading-snug text-sm">{c.text}</p>
+                        <div className={`text-sm font-bold mb-1 ${lb.text}`}>{lb.icon} Clue {level}</div>
+                        <p className="text-gray-800 font-semibold leading-snug text-base">{c.text}</p>
                       </motion.div>
                     );
                   })}
@@ -405,7 +405,7 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
 
                 {/* Stars hint */}
                 {phase === "clue" && (
-                  <div className="flex items-center gap-1.5 text-xs text-gray-400 font-semibold mt-2 flex-shrink-0">
+                  <div className="flex items-center gap-1.5 text-sm text-gray-400 font-semibold mt-2 flex-shrink-0">
                     <span>Answer now for</span>
                     {[1, 2, 3].map((i) => (
                       <span key={i} className={i <= STARS_PER_CLUE[clueLevel] ? "text-yellow-500" : "text-gray-300"}>⭐</span>
@@ -441,8 +441,8 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
                     key={option}
                     onClick={() => handleAnswer(option)}
                     disabled={phase !== "clue"}
-                    className={`jungle-card p-3 text-left font-bold text-sm transition-all duration-200 active:scale-95 ${btnStyle}`}
-                    style={{ fontFamily: "'Nunito', sans-serif", minHeight: "72px" }}
+                    className={`jungle-card p-3 text-left font-bold text-base transition-all duration-200 active:scale-95 ${btnStyle}`}
+                    style={{ fontFamily: "'Nunito', sans-serif", minHeight: "80px" }}
                   >
                     {option === currentQ.answer && isAnswered && <span className="mr-1.5">✅</span>}
                     {option}
@@ -477,20 +477,20 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
                 <div className="flex-shrink-0 mb-2">
                   {phase === "answered" ? (
                     <>
-                      <p className="font-display text-lg text-green-700 leading-tight" style={{ fontFamily: "'Fredoka One', cursive" }}>
+                      <p className="font-display text-xl text-green-700 leading-tight" style={{ fontFamily: "'Fredoka One', cursive" }}>
                         🎉 Correct! {STARS_PER_CLUE[clueLevel]} {STARS_PER_CLUE[clueLevel] === 1 ? "star" : "stars"}!
                       </p>
-                      {clueLevel === 1 && <p className="text-green-600 font-bold text-xs">🔥 Got it on the HARDEST clue!</p>}
-                      {clueLevel === 2 && <p className="text-orange-600 font-bold text-xs">👍 Got it on the medium clue!</p>}
-                      {clueLevel === 3 && <p className="text-blue-600 font-bold text-xs">💡 Keep practicing to get it earlier!</p>}
+                      {clueLevel === 1 && <p className="text-green-600 font-bold text-sm">🔥 Got it on the HARDEST clue!</p>}
+                      {clueLevel === 2 && <p className="text-orange-600 font-bold text-sm">👍 Got it on the medium clue!</p>}
+                      {clueLevel === 3 && <p className="text-blue-600 font-bold text-sm">💡 Keep practicing to get it earlier!</p>}
                     </>
                   ) : (
                     <div>
-                      <p className="font-display text-lg text-red-600 leading-tight" style={{ fontFamily: "'Fredoka One', cursive" }}>
+                      <p className="font-display text-xl text-red-600 leading-tight" style={{ fontFamily: "'Fredoka One', cursive" }}>
                         ⏰ Time's up!
                       </p>
                       <div className="flex items-center gap-2 mt-0.5">
-                        <p className="font-display text-base text-green-700" style={{ fontFamily: "'Fredoka One', cursive" }}>
+                        <p className="font-display text-lg text-green-700" style={{ fontFamily: "'Fredoka One', cursive" }}>
                           Answer: {currentQ.answer}
                         </p>
                         {currentQ.pronunciation && (
@@ -501,20 +501,20 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
                   )}
                   {phase === "answered" && currentQ.pronunciation && (
                     <div className="flex items-center gap-1.5 mt-1">
-                      <span className="text-xs text-gray-500 font-semibold">Say it:</span>
+                      <span className="text-sm text-gray-500 font-semibold">Say it:</span>
                       <PronounceButton word={currentQ.answer} phonetic={currentQ.pronunciation} size="sm" />
                     </div>
                   )}
                 </div>
 
                 <div className="bg-white/70 rounded-xl p-2.5 flex-1 min-h-0 overflow-y-auto mb-2">
-                  <p className="text-xs font-bold text-gray-500 uppercase mb-0.5">🌟 Fun Fact</p>
-                  <p className="text-gray-700 font-semibold text-xs leading-snug">{currentQ.funFact}</p>
+                  <p className="text-sm font-bold text-gray-500 uppercase mb-1">🌟 Fun Fact</p>
+                  <p className="text-gray-700 font-semibold text-sm leading-snug">{currentQ.funFact}</p>
                 </div>
 
                 <button
                   onClick={handleNext}
-                  className="btn-jungle text-white w-full text-base font-bold flex-shrink-0"
+                  className="btn-jungle text-white w-full text-lg font-bold flex-shrink-0"
                   style={{
                     background: "linear-gradient(135deg, #16a34a, #15803d)",
                     fontFamily: "'Fredoka One', cursive",
@@ -531,7 +531,7 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
           {/* Placeholder before answering */}
           {!isAnswered && (
             <div className="flex-1 flex items-center justify-center rounded-2xl border-2 border-dashed border-gray-200 bg-white/40">
-              <p className="text-gray-400 text-sm font-bold text-center px-4" style={{ fontFamily: "'Fredoka One', cursive" }}>
+              <p className="text-gray-400 text-base font-bold text-center px-4" style={{ fontFamily: "'Fredoka One', cursive" }}>
                 👆 Pick your answer!
               </p>
             </div>
