@@ -109,14 +109,20 @@ function TopicCard({
         </div>
 
         {/* Stars */}
-        <div className="flex items-center gap-2">
-          <div className="flex gap-0.5">
-            {Array.from({ length: Math.min(maxStars, 15) }).map((_, i) => (
-              <span key={i} className={`text-sm ${i < starsEarned ? "opacity-100" : "opacity-20 grayscale"}`}>⭐</span>
-            ))}
-            {maxStars > 15 && <span className="text-xs text-gray-400 font-bold">+{maxStars - 15}</span>}
+        <div className="flex flex-col gap-1">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-bold text-yellow-600">⭐ Stars earned</span>
+            <span className="text-xs text-gray-500 font-bold">{starsEarned} / {maxStars}</span>
           </div>
-          <span className="text-xs text-gray-500 font-bold ml-auto">{starsEarned}/{maxStars} ⭐</span>
+          <div className="w-full bg-yellow-100 rounded-full h-2 overflow-hidden">
+            <div
+              className="h-2 rounded-full transition-all duration-700"
+              style={{
+                width: `${maxStars > 0 ? (starsEarned / maxStars) * 100 : 0}%`,
+                background: "linear-gradient(90deg, #f59e0b, #fbbf24)",
+              }}
+            />
+          </div>
         </div>
 
         {/* Action buttons */}
