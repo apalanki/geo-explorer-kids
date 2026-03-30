@@ -109,7 +109,7 @@ const continentsOceans: Topic = {
     },
     { id: "co-7", answer: "Indian Ocean", category: "Oceans", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This ocean is bounded by Africa to the west, Australia to the east, and Asia to the north, and contains the island nation of Madagascar." },
+        { level: 1, difficulty: "hard", text: "This ocean is bounded by Africa to the west, Australia to the east, and Asia to the north, and contains the island." },
         { level: 2, difficulty: "medium", text: "This is the third-largest ocean and is the warmest ocean in the world." },
         { level: 3, difficulty: "easy", text: "This ocean is named after a large country in Asia that sits right above it." },
       ],
@@ -127,7 +127,7 @@ const continentsOceans: Topic = {
     },
     { id: "co-9", answer: "North America", category: "Continents", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This continent contains the world's largest freshwater lake system and is bordered by the Arctic Ocean to the north and the Caribbean Sea to the south." },
+        { level: 1, difficulty: "hard", text: "This continent contains the world's largest freshwater lake system and is bordered by the Arctic Ocean to the north and the Caribbean." },
         { level: 2, difficulty: "medium", text: "This continent includes the United States, Canada, and Mexico." },
         { level: 3, difficulty: "easy", text: "The Grand Canyon, Niagara Falls, and the Rocky Mountains are all on this continent." },
       ],
@@ -172,7 +172,7 @@ const continentsOceans: Topic = {
     },
     { id: "co-14", answer: "Mediterranean Sea", pronunciation: "meh-dih-teh-RAY-nee-un SEE", category: "Seas", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This nearly landlocked sea is connected to the Atlantic Ocean only through the Strait of Gibraltar and was the center of ancient Greek and Roman civilization." },
+        { level: 1, difficulty: "hard", text: "This nearly landlocked sea is connected to the Atlantic Ocean only through the Strait of Gibraltar and was the center of ancient." },
         { level: 2, difficulty: "medium", text: "This warm sea is bordered by Europe to the north, Africa to the south, and Asia to the east." },
         { level: 3, difficulty: "easy", text: "This sea is where many Europeans go on summer vacation  -  Spain, Italy, and Greece all have beaches on it." },
       ],
@@ -191,7 +191,7 @@ const continentsOceans: Topic = {
 
     { id: "co-16", answer: "Prime Meridian", pronunciation: "PRYME muh-RID-ee-un", category: "Geography Terms", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This imaginary line at 0 degrees longitude passes through the Royal Observatory in Greenwich, England and divides Earth into Eastern and Western Hemispheres." },
+        { level: 1, difficulty: "hard", text: "This imaginary line at 0 degrees longitude passes through the Royal Observatory in Greenwich, England and divides Earth into Eastern and Western." },
         { level: 2, difficulty: "medium", text: "This imaginary north-south line is used as the starting point for measuring longitude around the world." },
         { level: 3, difficulty: "easy", text: "This is the imaginary line that goes from the North Pole to the South Pole through England." },
       ],
@@ -200,7 +200,7 @@ const continentsOceans: Topic = {
     },
     { id: "co-17", answer: "Tropic of Cancer", pronunciation: "TROP-ik of KAN-ser", category: "Geography Terms", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This line of latitude at approximately 23.5 degrees north marks the northernmost point where the sun can be directly overhead at noon, occurring at the June solstice." },
+        { level: 1, difficulty: "hard", text: "This line of latitude at approximately 23.5 degrees north marks the northernmost point where the sun can be directly overhead at noon." },
         { level: 2, difficulty: "medium", text: "This imaginary line in the Northern Hemisphere marks the northern boundary of the tropics." },
         { level: 3, difficulty: "easy", text: "This imaginary line circles the Earth in the Northern Hemisphere and passes through Mexico, Egypt, and India." },
       ],
@@ -236,7 +236,7 @@ const continentsOceans: Topic = {
     },
     { id: "co-21", answer: "Latitude", pronunciation: "LAT-ih-tood", category: "Geography Terms", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This measurement in degrees tells you how far north or south a place is from the Equator, ranging from 0° at the Equator to 90° at the poles." },
+        { level: 1, difficulty: "hard", text: "This measurement in degrees tells you how far north or south a place is from the Equator, ranging from 0° at the." },
         { level: 2, difficulty: "medium", text: "This is the measurement that tells you how far north or south you are on Earth, measured in degrees." },
         { level: 3, difficulty: "easy", text: "This tells you how far north or south a place is  -  the Equator is at 0 degrees of this." },
       ],
@@ -245,7 +245,7 @@ const continentsOceans: Topic = {
     },
     { id: "co-22", answer: "Longitude", pronunciation: "LON-jih-tood", category: "Geography Terms", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This measurement in degrees tells you how far east or west a place is from the Prime Meridian, ranging from 0° to 180° in each direction." },
+        { level: 1, difficulty: "hard", text: "This measurement in degrees tells you how far east or west a place is from the Prime Meridian, ranging from 0° to." },
         { level: 2, difficulty: "medium", text: "This is the measurement that tells you how far east or west you are on Earth, measured in degrees." },
         { level: 3, difficulty: "easy", text: "This tells you how far east or west a place is  -  the Prime Meridian is at 0 degrees of this." },
       ],
@@ -272,7 +272,7 @@ const continentsOceans: Topic = {
     },
     { id: "co-25", answer: "Caspian Sea", pronunciation: "KAS-pee-un SEE", category: "Seas", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is the world's largest inland body of water, bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan, and is technically classified as a lake despite being called a sea." },
+        { level: 1, difficulty: "hard", text: "This is the world's largest inland body of water, bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan, and is technically classified as." },
         { level: 2, difficulty: "medium", text: "This is the world's largest lake  -  so big it is called a sea. It is surrounded by five countries." },
         { level: 3, difficulty: "easy", text: "This is the world's biggest lake, found between Europe and Asia. It has no connection to any ocean." },
       ],
@@ -281,7 +281,7 @@ const continentsOceans: Topic = {
     },
     { id: "co-26", answer: "Tropic of Capricorn", pronunciation: "TROP-ik of KAP-rih-korn", category: "Geography Terms", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This line of latitude at approximately 23.5 degrees south marks the southernmost point where the sun can be directly overhead, occurring at the December solstice." },
+        { level: 1, difficulty: "hard", text: "This line of latitude at approximately 23.5 degrees south marks the southernmost point where the sun can be directly overhead, occurring at." },
         { level: 2, difficulty: "medium", text: "This imaginary line in the Southern Hemisphere marks the southern boundary of the tropics." },
         { level: 3, difficulty: "easy", text: "This imaginary line circles the Earth in the Southern Hemisphere and passes through Brazil, South Africa, and Australia." },
       ],
@@ -290,7 +290,7 @@ const continentsOceans: Topic = {
     },
     { id: "co-27", answer: "Continent", category: "Geography Terms", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This geographical term refers to one of Earth's seven major landmasses, defined by convention rather than strict scientific criteria, which is why some models count only 5 or 6." },
+        { level: 1, difficulty: "hard", text: "This geographical term refers to one of Earth's seven major landmasses, defined by convention rather than strict scientific criteria, which is why." },
         { level: 2, difficulty: "medium", text: "This word describes one of Earth's seven large landmasses  -  Asia, Africa, North America, South America, Europe, Australia, and Antarctica." },
         { level: 3, difficulty: "easy", text: "Earth has seven of these large pieces of land  -  Asia is the biggest and Australia is the smallest." },
       ],
@@ -326,7 +326,7 @@ const continentsOceans: Topic = {
     },
     { id: "co-31", answer: "Dead Sea", category: "Seas", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This hypersaline lake on the border of Jordan and Israel is the lowest point on Earth's surface at about 430 meters below sea level and is so salty that almost nothing can live in it." },
+        { level: 1, difficulty: "hard", text: "This hypersaline lake on the border of Jordan and Israel is the lowest point on Earth's surface at about 430 meters below." },
         { level: 2, difficulty: "medium", text: "This lake is so salty that people can float in it without swimming, and it is the lowest point on Earth's surface." },
         { level: 3, difficulty: "easy", text: "This very salty lake is so salty you can float in it without trying  -  it's the lowest place on Earth!" },
       ],
@@ -372,36 +372,36 @@ const continentsOceans: Topic = {
 
     { id: "co-37", answer: "Amazon River", pronunciation: "AM-uh-zon RIV-er", category: "Rivers", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This South American river carries approximately 20% of all freshwater discharged into the world's oceans, drains a basin of about 7 million square kilometres, and has its mouth near Marajó Island in Brazil." },
-        { level: 2, difficulty: "medium", text: "This is the world's largest river by water volume, flowing through the rainforest of South America and emptying into the Atlantic Ocean in Brazil." },
-        { level: 3, difficulty: "easy", text: "This giant river flows through the biggest rainforest in the world in South America  -  it has more water than any other river on Earth!" },
+        { level: 1, difficulty: "hard", text: "This South American river carries approximately 20% of all freshwater discharged into the world's oceans, drains a basin of about 7 million." },
+        { level: 2, difficulty: "medium", text: "This is the world's largest river by water volume, flowing through the rainforest of South America and emptying into the Atlantic Ocean." },
+        { level: 3, difficulty: "easy", text: "This giant river flows through the biggest rainforest in the world in South America - it has more water than any other." },
       ],
       options: ["Nile River", "Mississippi River", "Amazon River", "Congo River"],
       funFact: "The Amazon River releases so much freshwater into the Atlantic Ocean that you can drink non-salty water 160 km out to sea! 🐊",
     },
     { id: "co-39", answer: "Himalayas", pronunciation: "him-AH-lay-uhz", category: "Mountains", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range in Asia stretches across five countries  -  Nepal, India, Bhutan, China, and Pakistan  -  contains the world's ten highest peaks, and was formed by the collision of the Indian and Eurasian tectonic plates." },
+        { level: 1, difficulty: "hard", text: "This mountain range in Asia stretches across five countries - Nepal, India, Bhutan, China, and Pakistan - contains the world's ten highest." },
         { level: 2, difficulty: "medium", text: "This mountain range in Asia contains the world's highest peaks, including Mount Everest, and stretches across Nepal, India, and China." },
-        { level: 3, difficulty: "easy", text: "This is the tallest mountain range in the world, found in Asia  -  it is home to Mount Everest, the highest mountain on Earth!" },
+        { level: 3, difficulty: "easy", text: "This is the tallest mountain range in the world, found in Asia - it is home to Mount Everest, the highest mountain." },
       ],
       options: ["Andes", "Rocky Mountains", "Himalayas", "Alps"],
       funFact: "The Himalayas are still growing! The collision of tectonic plates pushes them about 5 mm higher every year. 🏔️",
     },
     { id: "co-40", answer: "Andes Mountains", pronunciation: "AN-deez MOWN-tinz", category: "Mountains", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range runs along the western edge of South America for approximately 7,000 kilometres, making it the world's longest continental mountain range, and includes peaks such as Aconcagua, the highest peak outside Asia." },
+        { level: 1, difficulty: "hard", text: "This mountain range runs along the western edge of South America for approximately 7,000 kilometres, making it the world's longest continental mountain." },
         { level: 2, difficulty: "medium", text: "This is the world's longest mountain range, running along the western coast of South America through seven countries." },
-        { level: 3, difficulty: "easy", text: "This very long mountain range runs down the western side of South America  -  it is the longest mountain range in the whole world!" },
+        { level: 3, difficulty: "easy", text: "This very long mountain range runs down the western side of South America - it is the longest mountain range in the." },
       ],
       options: ["Rocky Mountains", "Andes Mountains", "Atlas Mountains", "Appalachians"],
       funFact: "The Andes Mountains are so long that they pass through 7 countries  -  Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina! 🦙",
     },
     { id: "co-41", answer: "Great Barrier Reef", category: "Oceans", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This coral reef system off the coast of Queensland, Australia, is the world's largest, stretching over 2,300 kilometres, and is the only living organism visible from space." },
-        { level: 2, difficulty: "medium", text: "This is the world's largest coral reef system, located off the northeastern coast of Australia and home to thousands of species of fish and coral." },
-        { level: 3, difficulty: "easy", text: "This giant underwater reef off the coast of Australia is so big you can see it from space  -  it is full of colorful fish and coral!" },
+        { level: 1, difficulty: "hard", text: "This coral reef system off the coast of Queensland, Australia, is the world's largest, stretching over 2,300 kilometres, and is the only." },
+        { level: 2, difficulty: "medium", text: "This is the world's largest coral reef system, located off the northeastern coast of Australia and home to thousands of species of." },
+        { level: 3, difficulty: "easy", text: "This giant underwater reef off the coast of Australia is so big you can see it from space - it is full." },
       ],
       options: ["Coral Triangle", "Great Barrier Reef", "Mesoamerican Reef", "Red Sea Reef"],
       funFact: "The Great Barrier Reef is home to over 1,500 species of fish, 4,000 types of mollusk, and 240 species of birds  -  it is a whole underwater city! 🐠",
@@ -417,18 +417,18 @@ const continentsOceans: Topic = {
     },
     { id: "co-44", answer: "Strait of Malacca", pronunciation: "STRAYT of muh-LAK-uh", category: "Seas", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This narrow stretch of water between the Malay Peninsula and the Indonesian island of Sumatra is one of the world's most important shipping lanes, connecting the Indian Ocean to the South China Sea." },
-        { level: 2, difficulty: "medium", text: "This narrow waterway between Malaysia and Indonesia is one of the busiest shipping lanes in the world, connecting the Indian Ocean to the Pacific." },
-        { level: 3, difficulty: "easy", text: "This narrow strip of water between Malaysia and Indonesia is like a busy highway for ships  -  millions of barrels of oil pass through it every day!" },
+        { level: 1, difficulty: "hard", text: "This narrow stretch of water between the Malay Peninsula and the Indonesian island of Sumatra is one of the world's most important." },
+        { level: 2, difficulty: "medium", text: "This narrow waterway between Malaysia and Indonesia is one of the busiest shipping lanes in the world, connecting the Indian Ocean to." },
+        { level: 3, difficulty: "easy", text: "This narrow strip of water between Malaysia and Indonesia is like a busy highway for ships - millions of barrels of oil." },
       ],
       options: ["Strait of Hormuz", "Strait of Malacca", "Strait of Dover", "Bosphorus"],
       funFact: "About 25% of all the world's traded goods pass through the Strait of Malacca every year  -  that is one very busy waterway! 🚢",
     },
     { id: "co-45", answer: "Congo River", pronunciation: "KONG-go RIV-er", category: "Rivers", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river in central Africa is the world's deepest river, reaching depths of over 220 metres, and the second largest by water volume after the Amazon, draining a basin that spans nine countries." },
+        { level: 1, difficulty: "hard", text: "This river in central Africa is the world's deepest river, reaching depths of over 220 metres, and the second largest by water." },
         { level: 2, difficulty: "medium", text: "This is the world's deepest river, flowing through the rainforest of central Africa and emptying into the Atlantic Ocean." },
-        { level: 3, difficulty: "easy", text: "This very deep river flows through the rainforest in the middle of Africa  -  it is so deep that special fish live at the bottom that cannot be found anywhere else!" },
+        { level: 3, difficulty: "easy", text: "This very deep river flows through the rainforest in the middle of Africa - it is so deep that special fish live." },
       ],
       options: ["Niger River", "Zambezi River", "Congo River", "Orange River"],
       funFact: "The Congo River is so deep in some places that sunlight cannot reach the bottom  -  unique blind fish have evolved to live in its darkest depths! 🐟",
@@ -462,18 +462,18 @@ const continentsOceans: Topic = {
     },
     { id: "co-49", answer: "Strait of Hormuz", pronunciation: "STRAYT of HOR-mooz", category: "Seas", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This narrow waterway between the Persian Gulf and the Gulf of Oman is the world's most important oil transit chokepoint, with approximately 21 million barrels of oil passing through it daily." },
-        { level: 2, difficulty: "medium", text: "This narrow strait between Iran and Oman is the world's most important oil shipping route  -  about 20% of the world's oil passes through it." },
-        { level: 3, difficulty: "easy", text: "This narrow waterway near Iran is like a giant oil pipeline for ships  -  almost one-fifth of all the oil in the world travels through here!" },
+        { level: 1, difficulty: "hard", text: "This narrow waterway between the Persian Gulf and the Gulf of Oman is the world's most important oil transit chokepoint, with approximately." },
+        { level: 2, difficulty: "medium", text: "This narrow strait between Iran and Oman is the world's most important oil shipping route - about 20% of the world's oil." },
+        { level: 3, difficulty: "easy", text: "This narrow waterway near Iran is like a giant oil pipeline for ships - almost one-fifth of all the oil in the." },
       ],
       options: ["Strait of Malacca", "Strait of Gibraltar", "Strait of Hormuz", "Bosphorus Strait"],
       funFact: "If the Strait of Hormuz were ever blocked, it would cause an immediate global oil crisis  -  it is only 33 kilometres wide at its narrowest point! ⛽",
     },
     { id: "co-50", answer: "Great Rift Valley", category: "Landforms", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This continuous geographic trench running approximately 6,000 kilometres from the Afar Triangle in Ethiopia to Mozambique in southern Africa was formed by the divergence of tectonic plates and contains many of Africa's great lakes." },
-        { level: 2, difficulty: "medium", text: "This giant crack in the Earth's surface runs through eastern Africa and contains many large lakes  -  it was formed by tectonic plates pulling apart." },
-        { level: 3, difficulty: "easy", text: "This is a giant valley in eastern Africa formed by the Earth's crust slowly pulling apart  -  it contains many of Africa's biggest lakes!" },
+        { level: 1, difficulty: "hard", text: "This continuous geographic trench running approximately 6,000 kilometres from the Afar Triangle in Ethiopia to Mozambique in southern Africa was formed by." },
+        { level: 2, difficulty: "medium", text: "This giant crack in the Earth's surface runs through eastern Africa and contains many large lakes - it was formed by tectonic." },
+        { level: 3, difficulty: "easy", text: "This is a giant valley in eastern Africa formed by the Earth's crust slowly pulling apart - it contains many of Africa's." },
       ],
       options: ["Congo Basin", "Great Rift Valley", "Nile Valley", "Kalahari Basin"],
       funFact: "The Great Rift Valley is slowly splitting Africa apart! In about 10 million years, eastern Africa will separate and become a new island! 🌍",
@@ -498,27 +498,27 @@ const continentsOceans: Topic = {
     },
     { id: "co-53", answer: "Tibetan Plateau", pronunciation: "tih-BEE-tun pluh-TOH", category: "Landforms", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This high-altitude plateau in Central Asia, averaging over 4,500 metres above sea level, covers an area of 2.5 million square kilometres and is known as the 'Roof of the World'  -  it is the source of many of Asia's major rivers." },
-        { level: 2, difficulty: "medium", text: "This is the world's highest plateau, located in Asia and often called the 'Roof of the World'  -  it is where many of Asia's great rivers begin." },
-        { level: 3, difficulty: "easy", text: "This is the highest flat land in the whole world, found in Asia  -  it is so high up that it is called the 'Roof of the World'!" },
+        { level: 1, difficulty: "hard", text: "This high-altitude plateau in Central Asia, averaging over 4,500 metres above sea level, covers an area of 2.5 million square kilometres and." },
+        { level: 2, difficulty: "medium", text: "This is the world's highest plateau, located in Asia and often called the 'Roof of the World' - it is where many." },
+        { level: 3, difficulty: "easy", text: "This is the highest flat land in the whole world, found in Asia - it is so high up that it is." },
       ],
       options: ["Deccan Plateau", "Tibetan Plateau", "Colorado Plateau", "Mongolian Plateau"],
       funFact: "The Tibetan Plateau is so high that the air has 40% less oxygen than at sea level  -  climbers need special equipment just to breathe there! 🏔️",
     },
     { id: "co-54", answer: "Lake Victoria", category: "Lakes", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This lake in East Africa, shared by Uganda, Kenya, and Tanzania, is the world's largest tropical lake and the second largest freshwater lake by surface area, and is considered the primary source of the Nile River." },
-        { level: 2, difficulty: "medium", text: "This is Africa's largest lake, located in East Africa and shared by Uganda, Kenya, and Tanzania  -  it is also considered the main source of the Nile River." },
-        { level: 3, difficulty: "easy", text: "This giant lake in Africa is so big that three countries share it  -  Uganda, Kenya, and Tanzania! It is also where the Nile River begins!" },
+        { level: 1, difficulty: "hard", text: "This lake in East Africa, shared by Uganda, Kenya, and Tanzania, is the world's largest tropical lake and the second largest freshwater." },
+        { level: 2, difficulty: "medium", text: "This is Africa's largest lake, located in East Africa and shared by Uganda, Kenya, and Tanzania - it is also considered the." },
+        { level: 3, difficulty: "easy", text: "This giant lake in Africa is so big that three countries share it  -  Uganda, Kenya, and Tanzania!" },
       ],
       options: ["Lake Tanganyika", "Lake Malawi", "Lake Victoria", "Lake Chad"],
       funFact: "Lake Victoria is so large that it creates its own weather  -  storms can appear suddenly on the lake even when the surrounding land is calm! ⛈️",
     },
     { id: "co-55", answer: "Lake Baikal", pronunciation: "LAYK by-KAHL", category: "Lakes", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This lake in Siberia, Russia, is the world's deepest lake at 1,642 metres and the world's largest freshwater lake by volume, containing approximately 20% of the world's unfrozen surface fresh water." },
+        { level: 1, difficulty: "hard", text: "This lake in Siberia, Russia, is the world's deepest lake at 1,642 metres and the world's largest freshwater lake by volume, containing." },
         { level: 2, difficulty: "medium", text: "This lake in Russia is the world's deepest lake and holds about 20% of all the world's fresh surface water." },
-        { level: 3, difficulty: "easy", text: "This lake in Russia is the deepest lake in the whole world  -  it holds more fresh water than all of the Great Lakes in North America put together!" },
+        { level: 3, difficulty: "easy", text: "This lake in Russia is the deepest lake in the whole world - it holds more fresh water than all of the." },
       ],
       options: ["Lake Superior", "Caspian Sea", "Lake Baikal", "Lake Huron"],
       funFact: "Lake Baikal is so deep that if you stacked the Eiffel Tower on top of itself 5 times, it would still be underwater! 🏔️",
@@ -543,26 +543,26 @@ const continentsOceans: Topic = {
     },
     { id: "co-58", answer: "Atacama Desert", pronunciation: "at-uh-KAH-muh DEZ-ert", category: "Landforms", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This coastal desert in South America, stretching along the Pacific coast of Chile and Peru, is the world's driest non-polar desert, with some weather stations having never recorded any rainfall." },
-        { level: 2, difficulty: "medium", text: "This desert along the Pacific coast of South America is the driest desert in the world  -  some parts have never received any rainfall in recorded history." },
-        { level: 3, difficulty: "easy", text: "This desert in South America is the driest place on Earth  -  some parts have not had any rain for hundreds of years!" },
+        { level: 1, difficulty: "hard", text: "This coastal desert in South America, stretching along the Pacific coast of Chile and Peru, is the world's driest non-polar desert, with." },
+        { level: 2, difficulty: "medium", text: "This desert along the Pacific coast of South America is the driest desert in the world - some parts have never received." },
+        { level: 3, difficulty: "easy", text: "This desert in South America is the driest place on Earth - some parts have not had any rain for hundreds of." },
       ],
       options: ["Patagonian Desert", "Atacama Desert", "Sechura Desert", "Monte Desert"],
       funFact: "The Atacama Desert is so dry that NASA tests Mars rovers there  -  the conditions are similar to the surface of Mars! 🚀",
     },
     { id: "co-59", answer: "Mekong River", pronunciation: "MAY-kong RIV-er", category: "Rivers", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river flowing approximately 4,350 kilometres from the Tibetan Plateau through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam is the world's 12th longest river and supports the world's largest inland fishery." },
-        { level: 2, difficulty: "medium", text: "This major river flows through six countries in Southeast Asia  -  China, Myanmar, Laos, Thailand, Cambodia, and Vietnam  -  before emptying into the South China Sea." },
-        { level: 3, difficulty: "easy", text: "This big river flows through six countries in Southeast Asia  -  it is one of the most important rivers in the world for fishing and farming!" },
+        { level: 1, difficulty: "hard", text: "This river flowing approximately 4,350 kilometres from the Tibetan Plateau through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam is the world's 12th." },
+        { level: 2, difficulty: "medium", text: "This major river flows through six countries in Southeast Asia - China, Myanmar, Laos, Thailand, Cambodia, and Vietnam - before emptying into." },
+        { level: 3, difficulty: "easy", text: "This big river flows through six countries in Southeast Asia - it is one of the most important rivers in the world." },
       ],
       options: ["Irrawaddy River", "Salween River", "Mekong River", "Yangtze River"],
       funFact: "The Mekong River is home to the giant freshwater stingray  -  the world's largest freshwater fish, which can weigh as much as 300 kg! 🐟",
     },
     { id: "co-61", answer: "Volga River", pronunciation: "VOL-guh RIV-er", category: "Rivers", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river in Russia, approximately 3,530 kilometres long, is the longest river in Europe, flows into the Caspian Sea, and drains about 40% of European Russia." },
-        { level: 2, difficulty: "medium", text: "This is the longest river in Europe, flowing through Russia and emptying into the Caspian Sea  -  it is sometimes called 'Mother Volga' by Russians." },
+        { level: 1, difficulty: "hard", text: "This river in Russia, approximately 3,530 kilometres long, is the longest river in Europe, flows into the Caspian Sea, and drains about." },
+        { level: 2, difficulty: "medium", text: "This is the longest river in Europe, flowing through Russia and emptying into the Caspian Sea - it is sometimes called 'Mother." },
         { level: 3, difficulty: "easy", text: "This is the longest river in Europe, flowing through Russia  -  Russians love it so much they call it 'Mother Volga'!" },
       ],
       options: ["Danube River", "Rhine River", "Volga River", "Don River"],
@@ -579,27 +579,27 @@ const continentsOceans: Topic = {
     },
     { id: "co-63", answer: "Great Lakes", category: "Lakes", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This group of five interconnected freshwater lakes  -  Superior, Michigan, Huron, Erie, and Ontario  -  on the border of the United States and Canada contains about 21% of the world's surface fresh water." },
-        { level: 2, difficulty: "medium", text: "This group of five large lakes on the border of the United States and Canada  -  Superior, Michigan, Huron, Erie, and Ontario  -  contains about 21% of the world's fresh surface water." },
-        { level: 3, difficulty: "easy", text: "This group of five giant lakes sits between the United States and Canada  -  they are so big that sailors sometimes call them 'inland seas'!" },
+        { level: 1, difficulty: "hard", text: "This group of five interconnected freshwater lakes - Superior, Michigan, Huron, Erie, and Ontario - on the border of the United States." },
+        { level: 2, difficulty: "medium", text: "This group of five large lakes on the border of the United States and Canada - Superior, Michigan, Huron, Erie, and Ontario." },
+        { level: 3, difficulty: "easy", text: "This group of five giant lakes sits between the United States and Canada - they are so big that sailors sometimes call." },
       ],
       options: ["African Great Lakes", "Great Lakes", "Laurentian Lakes", "North American Lakes"],
       funFact: "If you poured all the water from the Great Lakes onto the United States, it would cover the entire country with about 3 metres of water! 💧",
     },
     { id: "co-64", answer: "Euphrates River", pronunciation: "yoo-FRAY-teez RIV-er", category: "Rivers", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river originating in Turkey and flowing through Syria and Iraq before joining the Tigris River to form the Shatt al-Arab was one of the two rivers that defined ancient Mesopotamia, one of the world's earliest civilizations." },
-        { level: 2, difficulty: "medium", text: "This river flows through Turkey, Syria, and Iraq and was one of the two rivers of ancient Mesopotamia  -  one of the world's oldest civilizations grew up between this river and the Tigris." },
-        { level: 3, difficulty: "easy", text: "This river in the Middle East is one of the most famous rivers in history  -  the ancient people of Mesopotamia built one of the world's first civilizations along its banks!" },
+        { level: 1, difficulty: "hard", text: "This river originating in Turkey and flowing through Syria and Iraq before joining the Tigris River to form the Shatt al-Arab was." },
+        { level: 2, difficulty: "medium", text: "This river flows through Turkey, Syria, and Iraq and was one of the two rivers of ancient Mesopotamia - one of the." },
+        { level: 3, difficulty: "easy", text: "This river in the Middle East is one of the most famous rivers in history - the ancient people of Mesopotamia built." },
       ],
       options: ["Tigris River", "Euphrates River", "Jordan River", "Indus River"],
       funFact: "The word 'Mesopotamia' means 'land between two rivers' in Greek  -  those rivers are the Tigris and the Euphrates! 🏛️",
     },
     { id: "co-65", answer: "Indus River", pronunciation: "IN-dus RIV-er", category: "Rivers", topicId: "continents-oceans",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river originating in Tibet and flowing through India and Pakistan before emptying into the Arabian Sea gave its name to the country of India and was the site of one of the world's earliest urban civilizations, the Indus Valley Civilization." },
-        { level: 2, difficulty: "medium", text: "This river flows through Pakistan and gave its name to the country of India  -  one of the world's oldest civilizations, the Indus Valley Civilization, grew up along its banks." },
-        { level: 3, difficulty: "easy", text: "This river in South Asia is very old and important  -  the country of India is actually named after it! One of the world's first cities was built along its banks!" },
+        { level: 1, difficulty: "hard", text: "This river originating in Tibet and flowing through India and Pakistan before emptying into the Arabian Sea gave its name to the." },
+        { level: 2, difficulty: "medium", text: "This river flows through Pakistan and gave its name to the country of India - one of the world's oldest civilizations, the." },
+        { level: 3, difficulty: "easy", text: "This river in South Asia is very old and important  -  the country of India is actually named after it!" },
       ],
       options: ["Ganges River", "Brahmaputra River", "Indus River", "Krishna River"],
       funFact: "The Indus Valley Civilization that grew up along this river 5,000 years ago had running water and sewage systems  -  more advanced than many cities today! 🏙️",
@@ -607,7 +607,7 @@ const continentsOceans: Topic = {
     {
       id: "co-66",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is a geographic region that includes Melanesia, Micronesia, and Polynesia  -  thousands of islands spread across the central and south Pacific Ocean." },
+      { level: 1, difficulty: "hard", text: "It is a geographic region that includes Melanesia, Micronesia, and Polynesia - thousands of islands spread across the central and south Pacific." },
       { level: 2, difficulty: "medium", text: "It is a geographic region consisting of Australia, New Zealand, and thousands of Pacific islands." },
       { level: 3, difficulty: "easy", text: "This region includes Australia, New Zealand, and thousands of islands in the Pacific Ocean." }
       ],
@@ -667,7 +667,7 @@ const europe: Topic = {
     },
     { id: "eu-4", answer: "London", category: "Capitals", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city sits on the River Thames and was the center of the largest empire in history, once controlling about a quarter of the world's land." },
+        { level: 1, difficulty: "hard", text: "This city sits on the River Thames and was the center of the largest empire in history, once controlling about a quarter." },
         { level: 2, difficulty: "medium", text: "This city is the capital of the United Kingdom and is home to Buckingham Palace." },
         { level: 3, difficulty: "easy", text: "This city has a famous clock tower called Big Ben and red double-decker buses." },
       ],
@@ -676,7 +676,7 @@ const europe: Topic = {
     },
     { id: "eu-5", answer: "Russia", category: "Countries", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This country spans 11 time zones and contains Lake Baikal, the world's deepest lake, as well as the Ural Mountains that divide two continents." },
+        { level: 1, difficulty: "hard", text: "This country spans 11 time zones and contains Lake Baikal, the world's deepest lake, as well as the Ural Mountains that divide." },
         { level: 2, difficulty: "medium", text: "This is the world's largest country by area, stretching from Europe all the way to the Pacific Ocean." },
         { level: 3, difficulty: "easy", text: "This country's capital is Moscow and it has famous colorful onion-domed churches." },
       ],
@@ -685,7 +685,7 @@ const europe: Topic = {
     },
     { id: "eu-6", answer: "Athens", pronunciation: "ATH-enz", category: "Capitals", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city is home to the Acropolis and the Parthenon, ancient temples built over 2,400 years ago, and is considered the birthplace of democracy." },
+        { level: 1, difficulty: "hard", text: "This city is home to the Acropolis and the Parthenon, ancient temples built over 2,400 years ago, and is considered the birthplace." },
         { level: 2, difficulty: "medium", text: "This is the capital of Greece and one of the oldest cities in the world." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Greece, the country where the ancient Olympics were invented!" },
       ],
@@ -712,7 +712,7 @@ const europe: Topic = {
     },
     { id: "eu-9", answer: "Madrid", pronunciation: "muh-DRID", category: "Capitals", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city sits on the Manzanares River at an elevation of 667 meters, making it the highest capital city in the European Union." },
+        { level: 1, difficulty: "hard", text: "This city sits on the Manzanares River at an elevation of 667 meters, making it the highest capital city in the European." },
         { level: 2, difficulty: "medium", text: "This is the capital of Spain and home to the famous Prado Museum and Real Madrid football club." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Spain, a country famous for flamenco dancing and bullfighting." },
       ],
@@ -730,7 +730,7 @@ const europe: Topic = {
     },
     { id: "eu-11", answer: "Vatican City", pronunciation: "VAT-ih-kun SIT-ee", category: "Countries", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city-state covers just 0.44 square kilometers, making it the world's smallest country by both area and population, and is home to the Pope." },
+        { level: 1, difficulty: "hard", text: "This city-state covers just 0.44 square kilometers, making it the world's smallest country by both area and population, and is home to." },
         { level: 2, difficulty: "medium", text: "This is the world's smallest country, located inside the city of Rome, Italy." },
         { level: 3, difficulty: "easy", text: "This tiny country inside Rome is where the Pope lives and where St. Peter's Basilica is found." },
       ],
@@ -739,7 +739,7 @@ const europe: Topic = {
     },
     { id: "eu-12", answer: "The Ural Mountains", pronunciation: "The YOOR-ul MOWN-tinz", category: "Physical Features", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range stretches about 2,500 km from the Arctic Ocean to the Ural River and is considered the natural boundary between Europe and Asia." },
+        { level: 1, difficulty: "hard", text: "This mountain range stretches about 2,500 km from the Arctic Ocean to the Ural River and is considered the natural boundary between." },
         { level: 2, difficulty: "medium", text: "This mountain range in Russia marks the dividing line between the continents of Europe and Asia." },
         { level: 3, difficulty: "easy", text: "This mountain range in Russia is like a natural fence separating Europe from Asia." },
       ],
@@ -775,7 +775,7 @@ const europe: Topic = {
     },    { id: "eu-16", answer: "Camargue", category: "Wetlands", topicId: "europe",
       clues: [
         { level: 1, difficulty: "hard", text: "This large river delta in France is a special nature park. It is a UNESCO Biosphere Reserve." },
-        { level: 2, difficulty: "medium", text: "This wetland in southern France is Western Europe's largest river delta, formed where the Rhône meets the Mediterranean, and is famous for wild white horses, black bulls, and flamingos." },
+        { level: 2, difficulty: "medium", text: "This wetland in southern France is Western Europe's largest river delta, formed where the Rhône meets the Mediterranean, and is famous for." },
         { level: 3, difficulty: "easy", text: "This place in southern France is famous for its wild white horses and black bulls." },
       ],
       options: ["Camargue", "Carmargue", "Provence", "Languedoc"],
@@ -784,7 +784,7 @@ const europe: Topic = {
     },
     { id: "eu-17", answer: "Alps", category: "Mountains", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range stretches across eight countries including France, Switzerland, Italy, Austria, and Germany, and contains Mont Blanc, the highest peak in Western Europe at 4,808 meters." },
+        { level: 1, difficulty: "hard", text: "This mountain range stretches across eight countries including France, Switzerland, Italy, Austria, and Germany, and contains Mont Blanc, the highest peak in." },
         { level: 2, difficulty: "medium", text: "This famous mountain range runs through Switzerland, France, Italy, and Austria and is popular for skiing." },
         { level: 3, difficulty: "easy", text: "These are the big mountains in the middle of Europe where people go skiing in Switzerland and Austria." },
       ],
@@ -804,7 +804,7 @@ const europe: Topic = {
       clues: [
         { level: 1, difficulty: "hard", text: "This is Europe's second-longest river, flowing 2,860 km from Germany's Black Forest through 10 countries before emptying into the Black Sea." },
         { level: 2, difficulty: "medium", text: "This is Europe's second-longest river, flowing through 10 countries including Germany, Austria, Hungary, and Romania." },
-        { level: 3, difficulty: "easy", text: "This long river flows through many countries in Europe including Austria and Hungary  -  it passes through the capital cities of four countries!" },
+        { level: 3, difficulty: "easy", text: "This long river flows through many countries in Europe including Austria and Hungary - it passes through the capital cities of four." },
       ],
       options: ["Rhine River", "Volga River", "Danube River", "Seine River"],
       funFact: "The Danube River passes through the capital cities of four countries: Vienna, Bratislava, Budapest, and Belgrade! 🌊",
@@ -820,7 +820,7 @@ const europe: Topic = {
     },
     { id: "eu-21", answer: "Ural Mountains", pronunciation: "YOOR-ul MOWN-tinz", category: "Mountains", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range in Russia stretches about 2,500 km from the Arctic Ocean to the Ural River and is traditionally considered the boundary between Europe and Asia." },
+        { level: 1, difficulty: "hard", text: "This mountain range in Russia stretches about 2,500 km from the Arctic Ocean to the Ural River and is traditionally considered the." },
         { level: 2, difficulty: "medium", text: "This mountain range in Russia forms the natural boundary between Europe and Asia." },
         { level: 3, difficulty: "easy", text: "These mountains in Russia mark where Europe ends and Asia begins." },
       ],
@@ -829,7 +829,7 @@ const europe: Topic = {
     },
     { id: "eu-22", answer: "Iberian Peninsula", pronunciation: "eye-BEER-ee-un peh-NIN-syoo-luh", category: "Regions", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This peninsula in southwestern Europe is separated from the rest of the continent by the Pyrenees Mountains and contains the countries of Spain, Portugal, and Andorra." },
+        { level: 1, difficulty: "hard", text: "This peninsula in southwestern Europe is separated from the rest of the continent by the Pyrenees Mountains and contains the countries of." },
         { level: 2, difficulty: "medium", text: "This peninsula in southwestern Europe contains Spain and Portugal and is separated from France by the Pyrenees Mountains." },
         { level: 3, difficulty: "easy", text: "This is the part of Europe that sticks out into the Atlantic Ocean and contains Spain and Portugal." },
       ],
@@ -837,9 +837,9 @@ const europe: Topic = {
       funFact: "The Iberian Peninsula was once connected to Africa  -  the Strait of Gibraltar is only 14 km wide at its narrowest point! 🌊",
     },    { id: "eu-23", answer: "Danube Delta", category: "Deltas", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river delta in Romania and Ukraine where the Danube River meets the Black Sea is the second largest river delta in Europe, is a UNESCO World Heritage Site and Biosphere Reserve, is home to over 300 species of birds  -  including the world's largest colony of white pelicans outside Africa  -  and covers about 5,800 square kilometres of wetlands, lakes, and channels." },
-        { level: 2, difficulty: "medium", text: "This delta in Romania and Ukraine where the Danube meets the Black Sea is a UNESCO World Heritage Site with 300 bird species including the world's largest white pelican colony outside Africa." },
-        { level: 3, difficulty: "easy", text: "This delta in Romania is where the Danube River meets the Black Sea  -  it has 300 species of birds and the world's biggest colony of white pelicans outside Africa!" },
+        { level: 1, difficulty: "hard", text: "This river delta in Romania and Ukraine where the Danube River meets the Black Sea is the second largest river delta in." },
+        { level: 2, difficulty: "medium", text: "This delta in Romania and Ukraine where the Danube meets the Black Sea is a UNESCO World Heritage Site with 300 bird." },
+        { level: 3, difficulty: "easy", text: "This delta in Romania is where the Danube River meets the Black Sea - it has 300 species of birds and the." },
       ],
       options: ["Danube Delta", "Rhine Delta", "Volga Delta", "Po Delta"],
       funFact: "The Danube Delta has the world's largest colony of white pelicans outside Africa  -  thousands of pelicans nest there every year! 🦢",
@@ -847,7 +847,7 @@ const europe: Topic = {
     },
     { id: "eu-24", answer: "Pyrenees", pronunciation: "PEER-uh-neez", category: "Mountains", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range forms a natural border between France and Spain, stretching about 430 km from the Bay of Biscay to the Mediterranean Sea." },
+        { level: 1, difficulty: "hard", text: "This mountain range forms a natural border between France and Spain, stretching about 430 km from the Bay of Biscay to the." },
         { level: 2, difficulty: "medium", text: "These mountains form the natural border between France and Spain." },
         { level: 3, difficulty: "easy", text: "These mountains separate France from Spain  -  they are the natural border between the two countries." },
       ],
@@ -883,7 +883,7 @@ const europe: Topic = {
     },
     { id: "eu-28", answer: "North Sea", category: "Seas", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This marginal sea of the Atlantic Ocean is bordered by Norway, Denmark, Germany, the Netherlands, Belgium, France, and the United Kingdom, and is one of the world's most important fishing grounds." },
+        { level: 1, difficulty: "hard", text: "This marginal sea of the Atlantic Ocean is bordered by Norway, Denmark, Germany, the Netherlands, Belgium, France, and the United Kingdom, and." },
         { level: 2, difficulty: "medium", text: "This sea is between the United Kingdom and the coasts of Norway, Denmark, Germany, and the Netherlands." },
         { level: 3, difficulty: "easy", text: "This sea is between England and the countries of Norway, Denmark, and the Netherlands." },
       ],
@@ -919,7 +919,7 @@ const europe: Topic = {
     },
     { id: "eu-32", answer: "Strait of Gibraltar", pronunciation: "STRAYT of jih-BRAWL-ter", category: "Landforms", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This narrow strait connecting the Atlantic Ocean to the Mediterranean Sea is only 14 km wide at its narrowest point and separates Spain from Morocco." },
+        { level: 1, difficulty: "hard", text: "This narrow strait connecting the Atlantic Ocean to the Mediterranean Sea is only 14 km wide at its narrowest point and separates." },
         { level: 2, difficulty: "medium", text: "This narrow waterway connects the Atlantic Ocean to the Mediterranean Sea and separates Europe from Africa." },
         { level: 3, difficulty: "easy", text: "This narrow strip of water separates Spain from Morocco  -  you can see Africa from Europe here!" },
       ],
@@ -928,7 +928,7 @@ const europe: Topic = {
     },
     { id: "eu-33", answer: "Vesuvius", pronunciation: "veh-SOO-vee-us", category: "Volcanoes", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This stratovolcano near Naples, Italy, famously erupted in 79 AD, burying the Roman cities of Pompeii and Herculaneum under volcanic ash and pumice." },
+        { level: 1, difficulty: "hard", text: "This stratovolcano near Naples, Italy, famously erupted in 79 AD, burying the Roman cities of Pompeii and Herculaneum under volcanic ash and." },
         { level: 2, difficulty: "medium", text: "This famous volcano in Italy erupted in 79 AD and buried the ancient city of Pompeii." },
         { level: 3, difficulty: "easy", text: "This famous volcano in Italy buried an entire ancient city called Pompeii almost 2,000 years ago!" },
       ],
@@ -937,7 +937,7 @@ const europe: Topic = {
     },
     { id: "eu-34", answer: "Etna", category: "Volcanoes", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is Europe's tallest active volcano at about 3,357 meters, located on the island of Sicily in Italy, and has been erupting almost continuously for thousands of years." },
+        { level: 1, difficulty: "hard", text: "This is Europe's tallest active volcano at about 3,357 meters, located on the island of Sicily in Italy, and has been erupting." },
         { level: 2, difficulty: "medium", text: "This is Europe's tallest active volcano, located on the island of Sicily in southern Italy." },
         { level: 3, difficulty: "easy", text: "This is the tallest active volcano in Europe, found on the island of Sicily in Italy." },
       ],
@@ -946,7 +946,7 @@ const europe: Topic = {
     },
     { id: "eu-35", answer: "English Channel", category: "Seas", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This arm of the Atlantic Ocean separating southern England from northern France is the world's busiest shipping lane and was crossed by the Channel Tunnel, completed in 1994." },
+        { level: 1, difficulty: "hard", text: "This arm of the Atlantic Ocean separating southern England from northern France is the world's busiest shipping lane and was crossed by." },
         { level: 2, difficulty: "medium", text: "This narrow body of water separates England from France  -  a tunnel called the Chunnel runs under it." },
         { level: 3, difficulty: "easy", text: "This is the body of water between England and France  -  you can take a train under it through the Channel Tunnel!" },
       ],
@@ -965,9 +965,9 @@ const europe: Topic = {
     },
     { id: "eu-37", answer: "Prague", pronunciation: "PRAHG", category: "Capitals", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This capital city of the Czech Republic, situated on the Vltava River, is known as the 'City of a Hundred Spires' and its historic centre, including Prague Castle, is a UNESCO World Heritage Site." },
-        { level: 2, difficulty: "medium", text: "This capital of the Czech Republic is called the 'City of a Hundred Spires' because of its many beautiful old church towers  -  it sits on the Vltava River." },
-        { level: 3, difficulty: "easy", text: "This beautiful capital city in the Czech Republic has so many church towers and spires that people call it the 'City of a Hundred Spires'!" },
+        { level: 1, difficulty: "hard", text: "This capital city of the Czech Republic, situated on the Vltava River, is known as the 'City of a Hundred Spires' and." },
+        { level: 2, difficulty: "medium", text: "This capital of the Czech Republic is called the 'City of a Hundred Spires' because of its many beautiful old church towers." },
+        { level: 3, difficulty: "easy", text: "This beautiful capital city in the Czech Republic has so many church towers and spires that people call it the 'City of." },
       ],
       options: ["Warsaw", "Bratislava", "Prague", "Budapest"],
       funFact: "Prague's Old Town Square has an astronomical clock built in 1410  -  it is one of the oldest working clocks in the world and still tells the time today! ⏰",
@@ -1019,9 +1019,9 @@ const europe: Topic = {
     },
     { id: "eu-43", answer: "Eiffel Tower", pronunciation: "EYE-ful TOW-er", category: "Landmarks", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This iron lattice tower on the Champ de Mars in Paris was designed by Gustave Eiffel, completed in 1889 for the World's Fair, and was the world's tallest man-made structure for 41 years until the Chrysler Building was built." },
-        { level: 2, difficulty: "medium", text: "This famous iron tower in Paris, France, was built in 1889 for a World's Fair and was the world's tallest structure for over 40 years." },
-        { level: 3, difficulty: "easy", text: "This famous tall iron tower in Paris, France, is one of the most visited places in the world  -  it was built in 1889 and lights up beautifully at night!" },
+        { level: 1, difficulty: "hard", text: "This iron lattice tower on the Champ de Mars in Paris was designed by Gustave Eiffel, completed in 1889 for the World's." },
+        { level: 2, difficulty: "medium", text: "This famous iron tower in Paris, France, was built in 1889 for a World's Fair and was the world's tallest structure for." },
+        { level: 3, difficulty: "easy", text: "This famous tall iron tower in Paris, France, is one of the most visited places in the world - it was built." },
       ],
       options: ["Big Ben", "Eiffel Tower", "Leaning Tower of Pisa", "Arc de Triomphe"],
       funFact: "The Eiffel Tower grows about 15 cm taller in summer  -  the iron expands in the heat! It also sways slightly in strong winds. 🗼",
@@ -1029,7 +1029,7 @@ const europe: Topic = {
     { id: "eu-44", answer: "Big Ben", category: "Landmarks", topicId: "europe",
       clues: [
         { level: 1, difficulty: "hard", text: "This famous clock tower in London, England, has a giant bell. It is part of a big building." },
-        { level: 2, difficulty: "medium", text: "This famous clock tower in London, England, is part of the Houses of Parliament  -  its deep bell chimes are broadcast around the world on New Year's Eve." },
+        { level: 2, difficulty: "medium", text: "This famous clock tower in London, England, is part of the Houses of Parliament - its deep bell chimes are broadcast around." },
         { level: 3, difficulty: "easy", text: "This clock tower in London, England, is known for its deep chimes. You can hear them far away." },
       ],
       options: ["Tower of London", "Big Ben", "Buckingham Palace", "Tower Bridge"],
@@ -1057,7 +1057,7 @@ const europe: Topic = {
       clues: [
         { level: 1, difficulty: "hard", text: "This mountain is on the border of France and Italy. It is the tallest in Western Europe." },
         { level: 2, difficulty: "medium", text: "This mountain is the highest peak in the Alps. Many people climb it every year." },
-        { level: 3, difficulty: "easy", text: "This is the tallest mountain in Western Europe, sitting on the border between France and Italy  -  its name means 'White Mountain' in French!" },
+        { level: 3, difficulty: "easy", text: "This is the tallest mountain in Western Europe, sitting on the border between France and Italy - its name means 'White Mountain'." },
       ],
       options: ["Matterhorn", "Mont Blanc", "Monte Rosa", "Gran Paradiso"],
       funFact: "Mont Blanc means 'White Mountain' in French  -  it is covered in snow and glaciers all year round, even in summer! 🏔️",
@@ -1074,8 +1074,8 @@ const europe: Topic = {
     { id: "eu-49", answer: "Loch Ness", pronunciation: "LOK NES", category: "Lakes", topicId: "europe",
       clues: [
         { level: 1, difficulty: "hard", text: "This deep lake in Scotland is famous for a monster. Many people believe it lives there." },
-        { level: 2, difficulty: "medium", text: "This large, deep lake in Scotland is famous around the world because people claim to have seen a mysterious sea monster called 'Nessie' living in its dark waters." },
-        { level: 3, difficulty: "easy", text: "This famous lake in Scotland is said to be home to a mysterious monster called 'Nessie'  -  people have been looking for it for hundreds of years!" },
+        { level: 2, difficulty: "medium", text: "This large, deep lake in Scotland is famous around the world because people claim to have seen a mysterious sea monster called." },
+        { level: 3, difficulty: "easy", text: "This famous lake in Scotland is said to be home to a mysterious monster called 'Nessie' - people have been looking for." },
       ],
       options: ["Loch Lomond", "Loch Ness", "Windermere", "Loch Tay"],
       funFact: "Loch Ness contains more water than all the lakes in England and Wales combined  -  it is so deep and dark that even with modern technology, we have not found Nessie! 🦕",
@@ -1127,7 +1127,7 @@ const europe: Topic = {
     },
     { id: "eu-55", answer: "Fjords of Norway", pronunciation: "FYORDZ of NOR-way", category: "Landforms", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "These long, narrow inlets with steep sides carved by glaciers during the last ice age are found along the western coast of Norway  -  the Sognefjord is the world's deepest at 1,308 metres and the second longest at 204 kilometres." },
+        { level: 1, difficulty: "hard", text: "These long, narrow inlets with steep sides carved by glaciers during the last ice age are found along the western coast of." },
         { level: 2, difficulty: "medium", text: "These long, narrow waterways in Norway were carved by ice." },
         { level: 3, difficulty: "easy", text: "These beautiful waterways have steep cliffs and are found in Norway." },
       ],
@@ -1145,9 +1145,9 @@ const europe: Topic = {
     },
     { id: "eu-57", answer: "Neuschwanstein Castle", pronunciation: "noy-SHVAN-shtyn KAS-ul", category: "Landmarks", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This 19th-century Romanesque Revival palace in Bavaria, Germany, was commissioned by King Ludwig II of Bavaria and was the inspiration for Sleeping Beauty's Castle at Disneyland  -  it was never completed during the king's lifetime." },
-        { level: 2, difficulty: "medium", text: "This fairy-tale castle in Bavaria, Germany, was built by King Ludwig II in the 1800s  -  it inspired the design of Sleeping Beauty's Castle at Disneyland." },
-        { level: 3, difficulty: "easy", text: "This beautiful castle in Germany looks like it came straight out of a fairy tale  -  it actually inspired the design of the castle at Disneyland!" },
+        { level: 1, difficulty: "hard", text: "This 19th-century Romanesque Revival palace in Bavaria, Germany, was commissioned by King Ludwig II of Bavaria and was the inspiration for Sleeping." },
+        { level: 2, difficulty: "medium", text: "This fairy-tale castle in Bavaria, Germany, was built by King Ludwig II in the 1800s - it inspired the design of Sleeping." },
+        { level: 3, difficulty: "easy", text: "This beautiful castle in Germany looks like it came straight out of a fairy tale - it actually inspired the design of." },
       ],
       options: ["Hohenzollern Castle", "Neuschwanstein Castle", "Heidelberg Castle", "Wartburg Castle"],
       funFact: "Neuschwanstein Castle was only lived in for 172 days before King Ludwig II died  -  it was never actually finished! 🏰",
@@ -1163,9 +1163,9 @@ const europe: Topic = {
     },
     { id: "eu-59", answer: "Transylvania", pronunciation: "tran-sil-VAY-nee-uh", category: "Regions", topicId: "europe",
       clues: [
-        { level: 1, difficulty: "hard", text: "This historical region in central Romania, surrounded by the Carpathian Mountains, is famous for its medieval castles, Saxon villages, and as the setting for Bram Stoker's novel 'Dracula,' inspired by the real historical figure Vlad the Impaler." },
+        { level: 1, difficulty: "hard", text: "This historical region in central Romania, surrounded by the Carpathian Mountains, is famous for its medieval castles, Saxon villages, and as the." },
         { level: 2, difficulty: "medium", text: "This region in Romania is famous for its medieval castles and dark forests  -  it inspired the famous story of Count Dracula!" },
-        { level: 3, difficulty: "easy", text: "This region in Romania is famous for its spooky castles and dark forests  -  it is where the story of Count Dracula is set!" },
+        { level: 3, difficulty: "easy", text: "This region in Romania is famous for its spooky castles and dark forests - it is where the story of Count Dracula." },
       ],
       options: ["Wallachia", "Transylvania", "Moldavia", "Dobruja"],
       funFact: "The real inspiration for Dracula was Vlad the Impaler, a Romanian prince who was actually considered a hero for defending his country against invaders! 🧛",
@@ -1251,7 +1251,7 @@ const asia: Topic = {
     },
     { id: "as-2", answer: "Beijing", pronunciation: "Bay-JING", category: "Capitals", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city served as the imperial capital of the Ming and Qing dynasties and contains the Forbidden City, a palace with 9,999 rooms." },
+        { level: 1, difficulty: "hard", text: "This city served as the imperial capital of the Ming and Qing dynasties and contains the Forbidden City, a palace with 9,999." },
         { level: 2, difficulty: "medium", text: "This city is the capital of China and hosted the Summer Olympics in 2008." },
         { level: 3, difficulty: "easy", text: "This city is the capital of China, the most populous country in Asia." },
       ],
@@ -1260,7 +1260,7 @@ const asia: Topic = {
     },
     { id: "as-3", answer: "The Ganges River", pronunciation: "The GAN-jeez RIV-er", category: "Physical Features", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river originates in the Gangotri Glacier in the Himalayas and empties into the Bay of Bengal, forming one of the world's largest deltas." },
+        { level: 1, difficulty: "hard", text: "This river originates in the Gangotri Glacier in the Himalayas and empties into the Bay of Bengal, forming one of the world's." },
         { level: 2, difficulty: "medium", text: "This river flows through northern India and Bangladesh and is considered sacred by Hindus." },
         { level: 3, difficulty: "easy", text: "This famous river flows through India and is very important to the Hindu religion." },
       ],
@@ -1287,7 +1287,7 @@ const asia: Topic = {
     },
     { id: "as-6", answer: "New Delhi", pronunciation: "Noo DEL-ee", category: "Capitals", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city was built by the British as a planned capital in the early 20th century and contains the famous India Gate war memorial." },
+        { level: 1, difficulty: "hard", text: "This city was built by the British as a planned capital in the early 20th century and contains the famous India Gate." },
         { level: 2, difficulty: "medium", text: "This city is the capital of India, the world's most populous country." },
         { level: 3, difficulty: "easy", text: "This city is the capital of India, a country famous for the Taj Mahal and spicy curry!" },
       ],
@@ -1296,7 +1296,7 @@ const asia: Topic = {
     },
     { id: "as-7", answer: "The Himalayas", pronunciation: "The him-uh-LAY-uhz", category: "Physical Features", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range was formed when the Indian tectonic plate collided with the Eurasian plate about 50 million years ago and contains 9 of the world's 10 highest peaks." },
+        { level: 1, difficulty: "hard", text: "This mountain range was formed when the Indian tectonic plate collided with the Eurasian plate about 50 million years ago and contains." },
         { level: 2, difficulty: "medium", text: "This is the world's highest mountain range, located in Asia and home to Mount Everest." },
         { level: 3, difficulty: "easy", text: "This mountain range is home to the snow leopard and the giant panda." },
       ],
@@ -1305,7 +1305,7 @@ const asia: Topic = {
     },
     { id: "as-8", answer: "Bangkok", pronunciation: "BANG-kok", category: "Capitals", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city's full ceremonial name is the longest place name in the world  -  169 letters in Thai  -  and it sits on the Chao Phraya River delta." },
+        { level: 1, difficulty: "hard", text: "This city's full ceremonial name is the longest place name in the world - 169 letters in Thai - and it sits." },
         { level: 2, difficulty: "medium", text: "This is the capital of Thailand and is famous for its ornate Buddhist temples and floating markets." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Thailand, a country in Southeast Asia famous for its beautiful temples." },
       ],
@@ -1314,7 +1314,7 @@ const asia: Topic = {
     },
     { id: "as-9", answer: "The Yellow River", category: "Physical Features", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river is called 'China's Sorrow' because of its devastating floods throughout history, and its basin is considered the birthplace of Chinese civilization." },
+        { level: 1, difficulty: "hard", text: "This river is called 'China's Sorrow' because of its devastating floods throughout history, and its basin is considered the birthplace of Chinese." },
         { level: 2, difficulty: "medium", text: "This is China's second-longest river and gets its name from the yellow silt it carries." },
         { level: 3, difficulty: "easy", text: "This river in China is named for its color  -  the muddy water makes it look yellow!" },
       ],
@@ -1323,7 +1323,7 @@ const asia: Topic = {
     },
     { id: "as-10", answer: "Seoul", pronunciation: "SOLE", category: "Capitals", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city hosted the 1988 Summer Olympics and is home to the world's fastest internet speeds and the highest density of skyscrapers in Asia." },
+        { level: 1, difficulty: "hard", text: "This city hosted the 1988 Summer Olympics and is home to the world's fastest internet speeds and the highest density of skyscrapers." },
         { level: 2, difficulty: "medium", text: "This is the capital of South Korea, one of the world's most technologically advanced countries." },
         { level: 3, difficulty: "easy", text: "This city is the capital of South Korea, a country famous for K-pop music and delicious kimchi!" },
       ],
@@ -1341,7 +1341,7 @@ const asia: Topic = {
     },
     { id: "as-12", answer: "Jakarta", pronunciation: "juh-KAR-tuh", category: "Capitals", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city is the capital of the world's largest archipelago nation and is sinking so fast that the government is building a brand new capital city to replace it." },
+        { level: 1, difficulty: "hard", text: "This city is the capital of the world's largest archipelago nation and is sinking so fast that the government is building a." },
         { level: 2, difficulty: "medium", text: "This is the capital of Indonesia, the world's largest island nation with over 17,000 islands." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Indonesia, a country made up of thousands of islands in Southeast Asia." },
       ],
@@ -1350,7 +1350,7 @@ const asia: Topic = {
     },
     { id: "as-13", answer: "The Arabian Peninsula", pronunciation: "The uh-RAY-bee-un puh-NIN-soo-luh", category: "Physical Features", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This landmass is the world's largest peninsula, bordered by the Red Sea to the west, the Arabian Sea to the south, and the Persian Gulf to the east." },
+        { level: 1, difficulty: "hard", text: "This landmass is the world's largest peninsula, bordered by the Red Sea to the west, the Arabian Sea to the south, and." },
         { level: 2, difficulty: "medium", text: "This large peninsula in the Middle East contains Saudi Arabia and is the world's biggest source of oil." },
         { level: 3, difficulty: "easy", text: "This large piece of land in the Middle East sticks out into the sea and has lots of oil and sand deserts." },
       ],
@@ -1359,7 +1359,7 @@ const asia: Topic = {
     },
     { id: "as-14", answer: "Ulaanbaatar", pronunciation: "oo-LAHN-bah-tar", category: "Capitals", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city is the world's coldest capital city, with average winter temperatures of -25°C, and is home to nearly half of Mongolia's entire population." },
+        { level: 1, difficulty: "hard", text: "This city is the world's coldest capital city, with average winter temperatures of -25°C, and is home to nearly half of Mongolia's." },
         { level: 2, difficulty: "medium", text: "This city is the coldest national capital in the world." },
         { level: 3, difficulty: "easy", text: "It is the capital city of Mongolia." },
       ],
@@ -1377,7 +1377,7 @@ const asia: Topic = {
     },
     { id: "as-21", answer: "Yellow River", category: "Rivers", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river, known as the Huang He in Chinese, is the second-longest river in China and is called the 'cradle of Chinese civilization' because the earliest Chinese dynasties developed along its banks." },
+        { level: 1, difficulty: "hard", text: "This river, known as the Huang He in Chinese, is the second-longest river in China and is called the 'cradle of Chinese." },
         { level: 2, difficulty: "medium", text: "This river in China is called the 'cradle of Chinese civilization' and gets its name from the yellow silt it carries." },
         { level: 3, difficulty: "easy", text: "This river in China gets its name from the yellow-colored mud it carries  -  it is one of China's most important rivers." },
       ],
@@ -1386,7 +1386,7 @@ const asia: Topic = {
     },
     { id: "as-23", answer: "Arabian Peninsula", pronunciation: "uh-RAY-bee-un peh-NIN-syoo-luh", category: "Regions", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This peninsula in southwestern Asia is the world's largest peninsula, bordered by the Red Sea, the Arabian Sea, and the Persian Gulf, and contains Saudi Arabia, Yemen, Oman, UAE, Qatar, Bahrain, and Kuwait." },
+        { level: 1, difficulty: "hard", text: "This peninsula in southwestern Asia is the world's largest peninsula, bordered by the Red Sea, the Arabian Sea, and the Persian Gulf." },
         { level: 2, difficulty: "medium", text: "This is the world's largest peninsula, located in southwestern Asia and containing Saudi Arabia and other oil-rich countries." },
         { level: 3, difficulty: "easy", text: "This is the world's biggest peninsula, found in southwestern Asia  -  Saudi Arabia is the biggest country on it." },
       ],
@@ -1395,7 +1395,7 @@ const asia: Topic = {
     },
     { id: "as-24", answer: "Thar Desert", pronunciation: "TAR DEZ-ert", category: "Deserts", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This large arid region on the Indian subcontinent, also called the Great Indian Desert, straddles the border between India and Pakistan and is the world's 17th-largest desert." },
+        { level: 1, difficulty: "hard", text: "This large arid region on the Indian subcontinent, also called the Great Indian Desert, straddles the border between India and Pakistan and." },
         { level: 2, difficulty: "medium", text: "This desert on the border of India and Pakistan is also called the Great Indian Desert." },
         { level: 3, difficulty: "easy", text: "This is a big desert on the border between India and Pakistan  -  it is also called the Great Indian Desert." },
       ],
@@ -1404,7 +1404,7 @@ const asia: Topic = {
     },
     { id: "as-25", answer: "Borneo", pronunciation: "BOR-nee-oh", category: "Islands", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is the world's third-largest island, shared by three countries  -  Malaysia, Indonesia, and Brunei  -  and is home to one of the world's oldest rainforests and the endangered orangutan." },
+        { level: 1, difficulty: "hard", text: "This is the world's third-largest island, shared by three countries - Malaysia, Indonesia, and Brunei - and is home to one of." },
         { level: 2, difficulty: "medium", text: "This is the world's third-largest island, shared by Malaysia, Indonesia, and Brunei, and is famous for its ancient rainforest and orangutans." },
         { level: 3, difficulty: "easy", text: "This is the world's third-largest island, found in Southeast Asia  -  it is home to orangutans and ancient rainforests!" },
       ],
@@ -1422,7 +1422,7 @@ const asia: Topic = {
     },
     { id: "as-27", answer: "Deccan Plateau", pronunciation: "DEK-un pluh-TOH", category: "Landforms", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This large triangular plateau forms the southern part of the Indian subcontinent and is bounded by the Western Ghats, the Eastern Ghats, and the Vindhya Range." },
+        { level: 1, difficulty: "hard", text: "This large triangular plateau forms the southern part of the Indian subcontinent and is bounded by the Western Ghats, the Eastern Ghats." },
         { level: 2, difficulty: "medium", text: "This large plateau covers most of southern India and is bounded by mountain ranges on both sides." },
         { level: 3, difficulty: "easy", text: "This is a large, flat, high area of land in southern India." },
       ],
@@ -1431,7 +1431,7 @@ const asia: Topic = {
     },
     { id: "as-30", answer: "Taklamakan Desert", pronunciation: "tak-luh-muh-KAN DEZ-ert", category: "Deserts", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This cold desert in the Xinjiang region of China is the world's second-largest shifting sand desert and was an important part of the ancient Silk Road trade route." },
+        { level: 1, difficulty: "hard", text: "This cold desert in the Xinjiang region of China is the world's second-largest shifting sand desert and was an important part of." },
         { level: 2, difficulty: "medium", text: "This desert in western China was crossed by ancient Silk Road traders and has very large sand dunes." },
         { level: 3, difficulty: "easy", text: "This desert in western China was crossed by ancient traders on the Silk Road  -  it has huge sand dunes!" },
       ],
@@ -1440,9 +1440,9 @@ const asia: Topic = {
     },
     { id: "as-31", answer: "Irrawaddy River", pronunciation: "ir-uh-WAH-dee RIV-er", category: "Rivers", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river is the most important commercial waterway in Myanmar, flowing about 2,170 km from the Himalayas to the Andaman Sea, and is sometimes called the 'Road to Mandalay.'" },
+        { level: 1, difficulty: "hard", text: "This river is the most important commercial waterway in Myanmar, flowing about 2,170 km from the Himalayas to the Andaman Sea, and." },
         { level: 2, difficulty: "medium", text: "This is the most important river in Myanmar, flowing from the Himalayas to the sea." },
-        { level: 3, difficulty: "easy", text: "This is the most important river in Myanmar  -  it flows from the mountains to the sea and is used for travel and trade." },
+        { level: 3, difficulty: "easy", text: "This is the most important river in Myanmar - it flows from the mountains to the sea and is used for travel." },
       ],
       options: ["Mekong River", "Salween River", "Irrawaddy River", "Chao Phraya River"],
       funFact: "The Irrawaddy River is home to the rare Irrawaddy dolphin, a freshwater dolphin that helps fishermen catch fish! 🐬",
@@ -1458,7 +1458,7 @@ const asia: Topic = {
     },
     { id: "as-33", answer: "Maldives", pronunciation: "MAWL-deevz", category: "Countries", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This island nation in the Indian Ocean is the world's lowest-lying country, with an average ground elevation of only 1.5 meters above sea level, making it extremely vulnerable to rising sea levels." },
+        { level: 1, difficulty: "hard", text: "This island nation in the Indian Ocean is the world's lowest-lying country, with an average ground elevation of only 1.5 meters above." },
         { level: 2, difficulty: "medium", text: "This island nation in the Indian Ocean is the world's lowest-lying country and is threatened by rising sea levels." },
         { level: 3, difficulty: "easy", text: "This island country in the Indian Ocean is so low and flat that rising sea levels could cover the whole country underwater!" },
       ],
@@ -1467,7 +1467,7 @@ const asia: Topic = {
     },
     { id: "as-34", answer: "Brahmaputra River", pronunciation: "brah-muh-POO-truh RIV-er", category: "Rivers", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river originates in Tibet, flows through India and Bangladesh, and is one of the major rivers of Asia, known for creating one of the world's largest river islands  -  Majuli Island in India." },
+        { level: 1, difficulty: "hard", text: "This river originates in Tibet, flows through India and Bangladesh, and is one of the major rivers of Asia, known for creating." },
         { level: 2, difficulty: "medium", text: "This major river flows from Tibet through India and Bangladesh before joining the Ganges River." },
         { level: 3, difficulty: "easy", text: "This big river flows from Tibet through India and Bangladesh  -  it joins the Ganges River before reaching the sea." },
       ],
@@ -1477,15 +1477,15 @@ const asia: Topic = {
     { id: "as-35", answer: "Aral Sea", pronunciation: "AIR-ul SEE", category: "Seas", topicId: "asia",
       clues: [
         { level: 1, difficulty: "hard", text: "This body of water in Central Asia has almost completely dried up." },
-        { level: 2, difficulty: "medium", text: "This lake in Central Asia was once one of the world's largest lakes but has mostly dried up due to water being diverted for farming." },
-        { level: 3, difficulty: "easy", text: "This lake in Central Asia used to be huge but is now mostly dried up  -  it is one of the world's biggest environmental disasters." },
+        { level: 2, difficulty: "medium", text: "This lake in Central Asia was once one of the world's largest lakes but has mostly dried up due to water being." },
+        { level: 3, difficulty: "easy", text: "This lake in Central Asia used to be huge but is now mostly dried up - it is one of the world's." },
       ],
       options: ["Caspian Sea", "Lake Baikal", "Aral Sea", "Dead Sea"],
       funFact: "The Aral Sea has shrunk so much that ships now sit stranded in the desert where the water used to be! 🚢",
     },
     { id: "as-44", answer: "Philippines", category: "Countries", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This archipelago nation in Southeast Asia consists of 7,641 islands, has Manila as its capital, is the only predominantly Christian country in Asia due to Spanish colonization, and is home to the Tubbataha Reef  -  a UNESCO World Heritage Site and one of the world's best diving spots." },
+        { level: 1, difficulty: "hard", text: "This archipelago nation in Southeast Asia consists of 7,641 islands, has Manila as its capital, is the only predominantly Christian country in." },
         { level: 2, difficulty: "medium", text: "This country is the only predominantly Christian nation in Asia." },
         { level: 3, difficulty: "easy", text: "Its capital city is Manila." },
       ],
@@ -1495,8 +1495,8 @@ const asia: Topic = {
     },
     { id: "as-54", answer: "Huang He", category: "Rivers", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river in China is the second longest river in China and the sixth longest in the world at about 5,464 km, gets its name from the yellow silt it carries, is called the 'Cradle of Chinese Civilization' because the earliest Chinese dynasties developed along its banks, and has caused some of the deadliest floods in human history." },
-        { level: 2, difficulty: "medium", text: "This river in China is called the 'Cradle of Chinese Civilization' because ancient China began along its banks  -  its name means 'Yellow River' because of the yellow mud it carries." },
+        { level: 1, difficulty: "hard", text: "This river in China is the second longest river in China and the sixth longest in the world at about 5,464 km." },
+        { level: 2, difficulty: "medium", text: "This river in China is called the 'Cradle of Chinese Civilization' because ancient China began along its banks - its name means." },
         { level: 3, difficulty: "easy", text: "This river is sometimes called China's Sorrow because of its floods." },
       ],
       options: ["Huang He", "Yangtze River", "Pearl River", "Liao River"],
@@ -1515,8 +1515,8 @@ const asia: Topic = {
     },
     { id: "as-57", answer: "Persian Gulf", category: "Bodies of Water", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This body of water is an extension of the Indian Ocean between Iran and the Arabian Peninsula, covers about 251,000 square kilometres, has an average depth of only 50 metres making it one of the world's shallowest seas, and the countries surrounding it hold about 55% of the world's proven oil reserves." },
-        { level: 2, difficulty: "medium", text: "This body of water between Iran and the Arabian Peninsula is surrounded by countries that hold more than half of the world's oil reserves." },
+        { level: 1, difficulty: "hard", text: "This body of water is an extension of the Indian Ocean between Iran and the Arabian Peninsula, covers about 251,000 square kilometres." },
+        { level: 2, difficulty: "medium", text: "This body of water between Iran and the Arabian Peninsula is surrounded by countries that hold more than half of the world's." },
         { level: 3, difficulty: "easy", text: "This body of water separates Iran from the Arabian Peninsula." },
       ],
       options: ["Persian Gulf", "Red Sea", "Arabian Sea", "Gulf of Oman"],
@@ -1525,9 +1525,9 @@ const asia: Topic = {
     },
     { id: "as-63", answer: "Mekong Delta", category: "Landforms", topicId: "asia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river delta in southern Vietnam where the Mekong River meets the South China Sea covers about 40,000 square kilometres, is one of the world's most productive agricultural regions producing about half of Vietnam's food, and is called the 'Rice Bowl of Vietnam' because of its enormous rice production." },
-        { level: 2, difficulty: "medium", text: "This river delta in southern Vietnam is called the 'Rice Bowl of Vietnam' because it produces about half of the country's food and is one of the world's most productive farming regions." },
-        { level: 3, difficulty: "easy", text: "This river delta in Vietnam is called the 'Rice Bowl of Vietnam' because so much rice is grown there  -  it feeds half the country!" },
+        { level: 1, difficulty: "hard", text: "This river delta in southern Vietnam where the Mekong River meets the South China Sea covers about 40,000 square kilometres, is one." },
+        { level: 2, difficulty: "medium", text: "This river delta in southern Vietnam is called the 'Rice Bowl of Vietnam' because it produces about half of the country's food." },
+        { level: 3, difficulty: "easy", text: "This river delta in Vietnam is called the 'Rice Bowl of Vietnam' because so much rice is grown there - it feeds." },
       ],
       options: ["Mekong Delta", "Red River Delta", "Irrawaddy Delta", "Chao Phraya Delta"],
       funFact: "The Mekong Delta produces so much rice that Vietnam is one of the world's biggest rice exporters  -  much of the world's rice comes from this delta! 🍚",
@@ -1544,7 +1544,7 @@ const asia: Topic = {
     },    { id: "as-65", answer: "Karakoram Range", category: "Mountains", topicId: "asia",
       clues: [
         { level: 1, difficulty: "hard", text: "This mountain range is nicknamed the Third Pole for its many glaciers." },
-        { level: 2, difficulty: "medium", text: "This mountain range on the Pakistan-India-China border has K2  -  the world's second highest peak at 8,611 metres  -  four other 8,000+ metre peaks, and more glaciers than anywhere outside the poles." },
+        { level: 2, difficulty: "medium", text: "This mountain range on the Pakistan-India-China border has K2 - the world's second highest peak at 8,611 metres - four other 8,000+." },
         { level: 3, difficulty: "easy", text: "It is located on the border of Pakistan, India, and China." },
       ],
       options: ["Karakoram Range", "Hindu Kush", "Pamir Mountains", "Tian Shan"],
@@ -1566,12 +1566,12 @@ const asia: Topic = {
       {
         level: 2,
         difficulty: "medium",
-        text: "This massive temple complex in Cambodia was built in the 12th century by the Khmer king Suryavarman II and covers 400 acres  -  the largest religious monument in the world  -  originally Hindu then converted to Buddhist, and its image appears on Cambodia's national flag.",
+        text: "This massive temple complex in Cambodia was built in the 12th century by the Khmer king.",
       },
       {
         level: 3,
         difficulty: "easy",
-        text: "This enormous ancient temple in Cambodia is the biggest religious building in the world  -  it is so important to Cambodia that its picture is on the country's flag! It was built over 900 years ago!",
+        text: "This enormous ancient temple in Cambodia is the biggest religious building in the world.",
       }
       ],
       options: ["Angkor Wat", "Borobudur", "Prambanan", "Bagan"],
@@ -1587,17 +1587,17 @@ const asia: Topic = {
       {
         level: 1,
         difficulty: "hard",
-        text: "This Indonesian island of about 5,780 square kilometers is known as the 'Island of the Gods' and is the only Hindu-majority region in predominantly Muslim Indonesia  -  it is famous for its terraced rice paddies, elaborate Hindu temples, traditional dance performances, and the Nyepi Day of Silence when the entire island shuts down for 24 hours.",
+        text: "This Indonesian island is known as the 'Island of the Gods' and is famous for its temples.",
       },
       {
         level: 2,
         difficulty: "medium",
-        text: "This Indonesian island known as the 'Island of the Gods' is the only Hindu-majority region in Muslim-majority Indonesia  -  famous for its terraced rice paddies, Hindu temples, and the Nyepi Day of Silence when the entire island shuts down for 24 hours.",
+        text: "This Indonesian island is the only Hindu-majority region in Muslim-majority Indonesia.",
       },
       {
         level: 3,
         difficulty: "easy",
-        text: "This beautiful Indonesian island is called the 'Island of the Gods' and has a special holiday called the Day of Silence where everyone on the island stays quiet and indoors for a whole day  -  no cars, no lights, no noise!",
+        text: "This beautiful Indonesian island is called the 'Island of the Gods' and has unique Hindu culture.",
       }
       ],
       options: ["Bali", "Java", "Lombok", "Flores"],
@@ -1659,7 +1659,7 @@ const asia: Topic = {
     {
       id: "as-70",
       clues: [
-      { level: 1, difficulty: "hard", text: "This stratovolcano is the highest peak in its country and is considered a sacred symbol in Shinto and Buddhist traditions  -  it has been dormant since 1707." },
+      { level: 1, difficulty: "hard", text: "This stratovolcano is the highest peak in its country and is considered a sacred symbol in Shinto and Buddhist traditions - it." },
       { level: 2, difficulty: "medium", text: "This iconic snow-capped mountain is visible from a major Asian capital city on clear days and appears on many paintings and artworks." },
       { level: 3, difficulty: "easy", text: "This beautiful cone-shaped mountain in Japan is the country's tallest peak and is visited by millions of tourists every year." }
       ],
@@ -1713,9 +1713,9 @@ const asia: Topic = {
     {
       id: "as-73",
       clues: [
-      { level: 1, difficulty: "hard", text: "This vast geographic region of Russia spans from the Ural Mountains to the Pacific Ocean  -  it covers about 77% of Russia's total area but is home to only about 27% of its population due to its extreme cold." },
-      { level: 2, difficulty: "medium", text: "This enormous region of northern Asia is known for its extreme cold  -  the town of Oymyakon there holds the record for the coldest permanently inhabited place on Earth." },
-      { level: 3, difficulty: "easy", text: "This huge cold region in northern Russia is one of the largest and coldest places on Earth  -  winters there can be extremely cold, sometimes reaching -60°C!" }
+      { level: 1, difficulty: "hard", text: "This vast geographic region of Russia spans from the Ural Mountains to the Pacific Ocean - it covers about 77% of Russia's." },
+      { level: 2, difficulty: "medium", text: "This enormous region of northern Asia is known for its extreme cold - the town of Oymyakon there holds the record for." },
+      { level: 3, difficulty: "easy", text: "This huge cold region in northern Russia is one of the largest and coldest places on Earth - winters there can be." }
       ],
       options: [
       "Siberia",
@@ -1940,7 +1940,7 @@ const asia: Topic = {
     {
       id: "as-85",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is the only country in the world that expelled itself from a federation  -  it was forced out of Malaysia in 1965." },
+      { level: 1, difficulty: "hard", text: "It is the only country in the world that expelled itself from a federation - it was forced out of Malaysia in." },
       { level: 2, difficulty: "medium", text: "It is a city-state island nation at the southern tip of the Malay Peninsula." },
       { level: 3, difficulty: "easy", text: "This tiny island country in Southeast Asia is one of the world's busiest ports." }
       ],
@@ -2109,7 +2109,7 @@ const asia: Topic = {
     {
       id: "as-94",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is one of the most disputed bodies of water in the world, with China, Vietnam, Philippines, Malaysia, and Brunei all claiming parts of it." },
+      { level: 1, difficulty: "hard", text: "It is one of the most disputed bodies of water in the world, with China, Vietnam, Philippines, Malaysia, and Brunei all claiming." },
       { level: 2, difficulty: "medium", text: "It is one of the world's busiest shipping lanes, with about one-third of global shipping passing through it." },
       { level: 3, difficulty: "easy", text: "This large body of water lies between China and Southeast Asia." }
       ],
@@ -2179,7 +2179,7 @@ const africa: Topic = {
   questions: [
     { id: "af-1", answer: "The Nile River", pronunciation: "The NILE RIV-er", category: "Physical Features", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river flows northward through Sudan and Egypt, and its annual flooding created the rich farmland that allowed ancient Egyptian civilization to flourish." },
+        { level: 1, difficulty: "hard", text: "This river flows northward through Sudan and Egypt, and its annual flooding created the rich farmland that allowed ancient Egyptian civilization to." },
         { level: 2, difficulty: "medium", text: "This is the world's longest river, flowing through northeastern Africa and emptying into the Mediterranean Sea." },
         { level: 3, difficulty: "easy", text: "This very long river in Africa flows past the Pyramids of Giza in Egypt." },
       ],
@@ -2188,7 +2188,7 @@ const africa: Topic = {
     },
     { id: "af-2", answer: "Cairo", pronunciation: "KY-roh", category: "Capitals", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city is the largest in Africa by population and is located near the apex of the Nile Delta, close to the ancient site of Memphis." },
+        { level: 1, difficulty: "hard", text: "This city is the largest in Africa by population and is located near the apex of the Nile Delta, close to the." },
         { level: 2, difficulty: "medium", text: "This city is the capital of Egypt and is just a short drive from the famous Pyramids of Giza." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Egypt, the country with the famous pyramids and the Sphinx." },
       ],
@@ -2215,7 +2215,7 @@ const africa: Topic = {
     },
     { id: "af-5", answer: "Victoria Falls", pronunciation: "vik-TOR-ee-uh FAWLZ", category: "Landmarks", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This waterfall on the Zambezi River forms the border between Zambia and Zimbabwe and is known locally as 'Mosi-oa-Tunya' meaning 'the smoke that thunders'." },
+        { level: 1, difficulty: "hard", text: "This waterfall on the Zambezi River forms the border between Zambia and Zimbabwe and is known locally as 'Mosi-oa-Tunya' meaning 'the smoke." },
         { level: 2, difficulty: "medium", text: "This is one of the world's largest waterfalls, located in southern Africa, and was named by explorer David Livingstone." },
         { level: 3, difficulty: "easy", text: "This huge waterfall is on the border of Zambia and Zimbabwe." },
       ],
@@ -2224,7 +2224,7 @@ const africa: Topic = {
     },
     { id: "af-6", answer: "Nairobi", pronunciation: "ny-ROH-bee", category: "Capitals", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city sits at an elevation of 1,795 meters and is unique for having a national park within its city limits where lions and giraffes roam." },
+        { level: 1, difficulty: "hard", text: "This city sits at an elevation of 1,795 meters and is unique for having a national park within its city limits where." },
         { level: 2, difficulty: "medium", text: "This city is the capital of Kenya and is known as the 'Green City in the Sun'." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Kenya, a country in East Africa famous for safaris." },
       ],
@@ -2233,7 +2233,7 @@ const africa: Topic = {
     },
     { id: "af-7", answer: "The Congo River", pronunciation: "The KONG-oh RIV-er", category: "Physical Features", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river is the world's deepest river, reaching depths of over 220 meters, and is the only major river that crosses the Equator twice." },
+        { level: 1, difficulty: "hard", text: "This river is the world's deepest river, reaching depths of over 220 meters, and is the only major river that crosses the." },
         { level: 2, difficulty: "medium", text: "This is Africa's second-longest river and flows through the world's second-largest tropical rainforest." },
         { level: 3, difficulty: "easy", text: "This deep river in central Africa flows through a huge rainforest full of gorillas and chimpanzees." },
       ],
@@ -2242,8 +2242,8 @@ const africa: Topic = {
     },
     { id: "af-8", answer: "Addis Ababa", pronunciation: "AD-is AB-uh-buh", category: "Capitals", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city is the headquarters of the African Union and sits at an elevation of 2,355 meters, making it one of the highest capital cities in the world." },
-        { level: 2, difficulty: "medium", text: "This is the capital of Ethiopia, one of the oldest countries in the world and the only African country never colonized by Europeans." },
+        { level: 1, difficulty: "hard", text: "This city is the headquarters of the African Union and sits at an elevation of 2,355 meters, making it one of the." },
+        { level: 2, difficulty: "medium", text: "This is the capital of Ethiopia, one of the oldest countries in the world and the only African country never colonized by." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Ethiopia, a country in East Africa that is famous for long-distance runners!" },
       ],
       options: ["Khartoum", "Addis Ababa", "Mogadishu", "Djibouti"],
@@ -2260,9 +2260,9 @@ const africa: Topic = {
     },
     { id: "af-10", answer: "Accra", pronunciation: "AK-ruh", category: "Capitals", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This coastal city sits almost exactly on the Prime Meridian and the Equator's parallel, making it one of the closest capital cities to the geographic center of Earth." },
-        { level: 2, difficulty: "medium", text: "This is the capital of Ghana, a West African country that was the first sub-Saharan African country to gain independence from colonial rule in 1957." },
-        { level: 3, difficulty: "easy", text: "This city is the capital of Ghana, a country in West Africa famous for its chocolate  -  Ghana grows a lot of cocoa!" },
+        { level: 1, difficulty: "hard", text: "This coastal city sits almost exactly on the Prime Meridian and the Equator's parallel, making it one of the closest capital cities." },
+        { level: 2, difficulty: "medium", text: "This is the capital of Ghana, a West African country that was the first sub-Saharan African country to gain independence from colonial." },
+        { level: 3, difficulty: "easy", text: "This city is the capital of Ghana, a country in West Africa famous for its chocolate - Ghana grows a lot of." },
       ],
       options: ["Dakar", "Lagos", "Abidjan", "Accra"],
       funFact: "Ghana is one of the world's top producers of cocoa  -  the main ingredient in chocolate! 🍫",
@@ -2287,7 +2287,7 @@ const africa: Topic = {
     },
     { id: "af-13", answer: "Madagascar", pronunciation: "mad-uh-GAS-kar", category: "Countries", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This island nation off the east coast of Africa is the world's fourth-largest island and is home to over 90% of its wildlife found nowhere else on Earth, including lemurs." },
+        { level: 1, difficulty: "hard", text: "This island nation off the east coast of Africa is the world's fourth-largest island and is home to over 90% of its." },
         { level: 2, difficulty: "medium", text: "This large island country off the east coast of Africa is famous for its unique animals, especially lemurs." },
         { level: 3, difficulty: "easy", text: "This big island near Africa is famous for lemurs  -  the big-eyed animals from the movie Madagascar!" },
       ],
@@ -2296,16 +2296,16 @@ const africa: Topic = {
     },
     { id: "af-14", answer: "The Great Rift Valley", pronunciation: "The GRAYT RIFT VAL-ee", category: "Physical Features", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This geological formation stretches 6,000 km from Lebanon to Mozambique and is where scientists believe the earliest humans evolved millions of years ago." },
+        { level: 1, difficulty: "hard", text: "This geological formation stretches 6,000 km from Lebanon to Mozambique and is where scientists believe the earliest humans evolved millions of years." },
         { level: 2, difficulty: "medium", text: "This giant crack in the Earth's surface runs through East Africa and contains many of Africa's great lakes." },
-        { level: 3, difficulty: "easy", text: "This giant valley in East Africa was formed when the Earth's crust split apart  -  it's like a huge crack in the ground!" },
+        { level: 3, difficulty: "easy", text: "This giant valley in East Africa was formed when the Earth's crust split apart - it's like a huge crack in the." },
       ],
       options: ["The Nile Valley", "The Congo Basin", "The Great Rift Valley", "The Sahel"],
       funFact: "The Great Rift Valley is where the oldest human fossils have been found  -  our earliest ancestors lived there! 🦴",
     },
     { id: "af-15", answer: "Dakar", pronunciation: "dah-KAR", category: "Capitals", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city on the Cape Verde Peninsula is the westernmost point of the African continent and was the endpoint of the famous Paris-Dakar Rally." },
+        { level: 1, difficulty: "hard", text: "This city on the Cape Verde Peninsula is the westernmost point of the African continent and was the endpoint of the famous." },
         { level: 2, difficulty: "medium", text: "This is the capital of Senegal and the westernmost capital city on the African continent." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Senegal, a country on the very western tip of Africa." },
       ],
@@ -2323,7 +2323,7 @@ const africa: Topic = {
     },
     { id: "af-19", answer: "Rift Valley", category: "Landforms", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This geological feature stretching from the Afar Triangle in Ethiopia to Mozambique is where the African tectonic plate is slowly splitting apart, and contains some of Africa's deepest lakes including Tanganyika and Malawi." },
+        { level: 1, difficulty: "hard", text: "This geological feature stretching from the Afar Triangle in Ethiopia to Mozambique is where the African tectonic plate is slowly splitting apart." },
         { level: 2, difficulty: "medium", text: "This long valley in East Africa is where the land is slowly pulling apart." },
         { level: 3, difficulty: "easy", text: "It has many deep lakes and volcanoes." },
       ],
@@ -2332,7 +2332,7 @@ const africa: Topic = {
     },
     { id: "af-20", answer: "Lake Tanganyika", pronunciation: "tang-guh-NYEE-kuh", category: "Lakes", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is the world's second-deepest lake at 1,470 meters, located in the East African Rift Valley and shared by Tanzania, Democratic Republic of Congo, Burundi, and Zambia." },
+        { level: 1, difficulty: "hard", text: "This is the world's second-deepest lake at 1,470 meters, located in the East African Rift Valley and shared by Tanzania, Democratic Republic." },
         { level: 2, difficulty: "medium", text: "This is the world's second-deepest lake, located in East Africa and shared by four countries." },
         { level: 3, difficulty: "easy", text: "This is one of Africa's deepest lakes  -  it is shared by four countries including Tanzania and Congo." },
       ],
@@ -2359,7 +2359,7 @@ const africa: Topic = {
     },
     { id: "af-24", answer: "Nile Delta", category: "Landforms", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This triangular-shaped alluvial plain in northern Egypt is where the Nile River fans out into the Mediterranean Sea, forming one of the world's largest river deltas covering about 24,000 square kilometers." },
+        { level: 1, difficulty: "hard", text: "This triangular-shaped alluvial plain in northern Egypt is where the Nile River fans out into the Mediterranean Sea, forming one of the." },
         { level: 2, difficulty: "medium", text: "This rich farming area in northern Egypt is shaped like a triangle." },
         { level: 3, difficulty: "easy", text: "It is where the Nile River splits into many smaller rivers." },
       ],
@@ -2368,25 +2368,25 @@ const africa: Topic = {
     },
     { id: "af-25", answer: "Horn of Africa", category: "Regions", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This peninsula in northeastern Africa that juts into the Arabian Sea is the easternmost point of the continent and includes the countries of Djibouti, Eritrea, Ethiopia, and Somalia." },
+        { level: 1, difficulty: "hard", text: "This peninsula in northeastern Africa that juts into the Arabian Sea is the easternmost point of the continent and includes the countries." },
         { level: 2, difficulty: "medium", text: "This peninsula in northeastern Africa is the easternmost point of the continent and includes countries like Ethiopia and Somalia." },
-        { level: 3, difficulty: "easy", text: "This is the part of Africa that sticks out the most to the east  -  it is shaped like a horn and includes countries like Somalia and Ethiopia." },
+        { level: 3, difficulty: "easy", text: "This is the part of Africa that sticks out the most to the east - it is shaped like a horn and." },
       ],
       options: ["Cape Verde", "Horn of Africa", "Gulf of Guinea", "Bight of Benin"],
       funFact: "The Horn of Africa is the closest part of Africa to Asia  -  the Gulf of Aden separates it from the Arabian Peninsula! 🌍",
     },
     { id: "af-26", answer: "Okavango Delta", pronunciation: "oh-kuh-VANG-go DEL-tuh", category: "Landforms", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This inland river delta in Botswana is one of the world's largest inland deltas and is unique because the Okavango River flows into the Kalahari Desert and evaporates rather than reaching the sea." },
+        { level: 1, difficulty: "hard", text: "This inland river delta in Botswana is one of the world's largest inland deltas and is unique because the Okavango River flows." },
         { level: 2, difficulty: "medium", text: "This is a unique river delta in Botswana where a river flows into the Kalahari Desert and creates a huge wetland." },
-        { level: 3, difficulty: "easy", text: "This is a beautiful wetland in Botswana where a river flows into the desert  -  it is full of elephants, hippos, and lions!" },
+        { level: 3, difficulty: "easy", text: "This is a beautiful wetland in Botswana where a river flows into the desert - it is full of elephants, hippos, and." },
       ],
       options: ["Niger Delta", "Nile Delta", "Okavango Delta", "Limpopo Delta"],
       funFact: "The Okavango Delta is unique because it is an inland delta  -  the river flows into the desert and never reaches the sea! 🐘",
     },
     { id: "af-27", answer: "Lake Malawi", pronunciation: "muh-LAH-wee", category: "Lakes", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This lake in the East African Rift Valley, also called Lake Nyasa, is the world's ninth-largest lake and contains more species of fish than any other lake on Earth, with over 1,000 species of cichlid fish." },
+        { level: 1, difficulty: "hard", text: "This lake in the East African Rift Valley, also called Lake Nyasa, is the world's ninth-largest lake and contains more species of." },
         { level: 2, difficulty: "medium", text: "This lake in East Africa has more kinds of fish than any other lake." },
         { level: 3, difficulty: "easy", text: "It is also called Lake Nyasa and is very deep." },
       ],
@@ -2404,7 +2404,7 @@ const africa: Topic = {
     },
     { id: "af-29", answer: "Namib Desert", pronunciation: "NAH-mib DEZ-ert", category: "Deserts", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This coastal desert in Namibia is considered the world's oldest desert, estimated to be 55-80 million years old, and is famous for its massive sand dunes, some of which are the tallest in the world." },
+        { level: 1, difficulty: "hard", text: "This coastal desert in Namibia is considered the world's oldest desert, estimated to be 55-80 million years old, and is famous for." },
         { level: 2, difficulty: "medium", text: "This desert along the coast of Namibia is considered the world's oldest desert and has some of the world's tallest sand dunes." },
         { level: 3, difficulty: "easy", text: "This desert in Namibia is the world's oldest desert  -  it has giant red sand dunes right next to the ocean!" },
       ],
@@ -2413,7 +2413,7 @@ const africa: Topic = {
     },
     { id: "af-30", answer: "Niger River", pronunciation: "NY-jer RIV-er", category: "Rivers", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is Africa's third-longest river, flowing about 4,180 km through Guinea, Mali, Niger, Benin, and Nigeria before emptying into the Gulf of Guinea, and unusually flows away from the sea before turning back toward it." },
+        { level: 1, difficulty: "hard", text: "This is Africa's third-longest river, flowing about 4,180 km through Guinea, Mali, Niger, Benin, and Nigeria before emptying into the Gulf of." },
         { level: 2, difficulty: "medium", text: "This is Africa's third-longest river, flowing through West Africa through countries including Mali, Niger, and Nigeria." },
         { level: 3, difficulty: "easy", text: "This is one of Africa's longest rivers, flowing through West Africa  -  the country of Niger is named after it!" },
       ],
@@ -2422,7 +2422,7 @@ const africa: Topic = {
     },
     { id: "af-31", answer: "Atlas Mountains", pronunciation: "AT-lus MOWN-tinz", category: "Mountains", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range in northwestern Africa stretches about 2,500 km across Morocco, Algeria, and Tunisia and forms a barrier between the Mediterranean coast and the Sahara Desert." },
+        { level: 1, difficulty: "hard", text: "This mountain range in northwestern Africa stretches about 2,500 km across Morocco, Algeria, and Tunisia and forms a barrier between the Mediterranean." },
         { level: 2, difficulty: "medium", text: "These mountains in northwestern Africa stretch across Morocco, Algeria, and Tunisia and separate the Mediterranean coast from the Sahara Desert." },
         { level: 3, difficulty: "easy", text: "These mountains in Morocco and Algeria separate the green Mediterranean coast from the dry Sahara Desert." },
       ],
@@ -2431,7 +2431,7 @@ const africa: Topic = {
     },
     { id: "af-32", answer: "Drakensberg Mountains", pronunciation: "DRAK-enz-burg MOWN-tinz", category: "Mountains", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range in South Africa and Lesotho is the highest mountain range in southern Africa, with peaks reaching over 3,000 meters, and contains ancient San rock art." },
+        { level: 1, difficulty: "hard", text: "This mountain range in South Africa and Lesotho is the highest mountain range in southern Africa, with peaks reaching over 3,000 meters." },
         { level: 2, difficulty: "medium", text: "These are the highest mountains in southern Africa, located in South Africa and Lesotho." },
         { level: 3, difficulty: "easy", text: "These are the highest mountains in southern Africa  -  their name means 'Dragon's Mountain' in Afrikaans!" },
       ],
@@ -2442,16 +2442,16 @@ const africa: Topic = {
       clues: [
         { level: 1, difficulty: "hard", text: "This lake in central Africa has shrunk a lot over the years." },
         { level: 2, difficulty: "medium", text: "It is bordered by Chad, Cameroon, Niger, and Nigeria." },
-        { level: 3, difficulty: "easy", text: "This lake in central Africa used to be one of Africa's biggest lakes but has gotten much smaller  -  it is an example of climate change!" },
+        { level: 3, difficulty: "easy", text: "This lake in central Africa used to be one of Africa's biggest lakes but has gotten much smaller - it is an." },
       ],
       options: ["Lake Turkana", "Lake Albert", "Lake Chad", "Lake Volta"],
       funFact: "Lake Chad has shrunk by 90% since the 1960s  -  it used to be as big as the Caspian Sea! 🌊",
     },
     { id: "af-45", answer: "Ethiopian Highlands", category: "Landforms", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range in Ethiopia is the largest continuous mountain mass in Africa, is sometimes called the 'Roof of Africa', is the source of the Blue Nile River, and is home to many endemic species including the Ethiopian wolf  -  Africa's most endangered carnivore  -  and the gelada baboon found nowhere else on Earth." },
-        { level: 2, difficulty: "medium", text: "This mountain range in Ethiopia is called the 'Roof of Africa', is the source of the Blue Nile River, and is home to the Ethiopian wolf  -  Africa's most endangered carnivore." },
-        { level: 3, difficulty: "easy", text: "This mountain range in Ethiopia is called the 'Roof of Africa' because it is the highest mountain area in Africa  -  the Blue Nile River starts here!" },
+        { level: 1, difficulty: "hard", text: "This mountain range in Ethiopia is the largest continuous mountain mass in Africa, is sometimes called the 'Roof of Africa', is the." },
+        { level: 2, difficulty: "medium", text: "This mountain range in Ethiopia is called the 'Roof of Africa', is the source of the Blue Nile River, and is home." },
+        { level: 3, difficulty: "easy", text: "This mountain range in Ethiopia is called the 'Roof of Africa' because it is the highest mountain area in Africa - the." },
       ],
       options: ["Ethiopian Highlands", "Atlas Mountains", "Drakensberg Mountains", "Rwenzori Mountains"],
       funFact: "The Ethiopian Highlands are called the 'Roof of Africa'  -  they are so high that the Blue Nile starts here and flows all the way to Egypt! 🏔️",
@@ -2459,9 +2459,9 @@ const africa: Topic = {
     },
     { id: "af-54", answer: "Rwenzori Mountains", category: "Mountain Ranges", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range on the border of Uganda and Democratic Republic of Congo is the third highest mountain range in Africa, contains the continent's third highest peak (Margherita Peak at 5,109 m), is permanently snow-capped despite being near the equator, and was called the 'Mountains of the Moon' by ancient Greek geographer Ptolemy who believed they were the source of the Nile." },
-        { level: 2, difficulty: "medium", text: "This mountain range on the Uganda-Congo border is permanently snow-capped despite being near the equator, and was called the 'Mountains of the Moon' by ancient Greek geographers." },
-        { level: 3, difficulty: "easy", text: "This mountain range in Africa is covered in snow even though it is near the equator  -  ancient Greeks called them the 'Mountains of the Moon' because they seemed magical!" },
+        { level: 1, difficulty: "hard", text: "This mountain range on the border of Uganda and Democratic Republic of Congo is the third highest mountain range in Africa, contains." },
+        { level: 2, difficulty: "medium", text: "This mountain range on the Uganda-Congo border is permanently snow-capped despite being near the equator, and was called the 'Mountains of the." },
+        { level: 3, difficulty: "easy", text: "This mountain range in Africa is covered in snow even though it is near the equator - ancient Greeks called them the." },
       ],
       options: ["Rwenzori Mountains", "Ethiopian Highlands", "Drakensberg Mountains", "Atlas Mountains"],
       funFact: "The Rwenzori Mountains are covered in snow even though they are right next to the equator  -  the equator is usually very hot but these mountains are so tall they stay snowy! ❄️",
@@ -2487,8 +2487,8 @@ const africa: Topic = {
     },
     { id: "af-60", answer: "Gulf of Guinea", category: "Bodies of Water", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This body of water on the Atlantic coast of West Africa is the northernmost part of the Atlantic Ocean, is the location of 0° latitude and 0° longitude  -  the exact center point of the Earth's coordinate system  -  and the Niger River, Congo River, and Volta River all empty into it." },
-        { level: 2, difficulty: "medium", text: "This body of water on the West African coast is where 0° latitude and 0° longitude meet  -  the exact center point of the Earth's coordinate system." },
+        { level: 1, difficulty: "hard", text: "This body of water on the Atlantic coast of West Africa is the northernmost part of the Atlantic Ocean, is the location." },
+        { level: 2, difficulty: "medium", text: "This body of water on the West African coast is where 0° latitude and 0° longitude meet - the exact center point." },
         { level: 3, difficulty: "easy", text: "This part of the Atlantic Ocean is off the coast of West Africa." },
       ],
       options: ["Gulf of Guinea", "Gulf of Aden", "Red Sea", "Mozambique Channel"],
@@ -2497,9 +2497,9 @@ const africa: Topic = {
     },
     { id: "af-61", answer: "Kilimanjaro", category: "Mountains", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This stratovolcano in Tanzania is the highest peak in Africa at 5,895 metres, is the world's tallest free-standing mountain, has three volcanic cones named Kibo, Mawenzi, and Shira, and despite being near the equator has a permanent ice cap at its summit  -  though scientists predict the glaciers may completely disappear by 2040 due to climate change." },
-        { level: 2, difficulty: "medium", text: "This volcano in Tanzania is the highest peak in Africa and the world's tallest free-standing mountain  -  it has a permanent ice cap at the summit despite being near the equator." },
-        { level: 3, difficulty: "easy", text: "This is the highest mountain in Africa  -  it is near the equator where it is usually very hot, but the top is covered in snow and ice!" },
+        { level: 1, difficulty: "hard", text: "This stratovolcano in Tanzania is the highest peak in Africa at 5,895 metres, is the world's tallest free-standing mountain, has three volcanic." },
+        { level: 2, difficulty: "medium", text: "This volcano in Tanzania is the highest peak in Africa and the world's tallest free-standing mountain - it has a permanent ice." },
+        { level: 3, difficulty: "easy", text: "This is the highest mountain in Africa - it is near the equator where it is usually very hot, but the top." },
       ],
       options: ["Kilimanjaro", "Mount Kenya", "Rwenzori Mountains", "Ethiopian Highlands"],
       funFact: "Kilimanjaro is near the equator where it is very hot, but the top is covered in snow  -  the mountain is so tall it makes its own cold weather! 🏔️",
@@ -2507,7 +2507,7 @@ const africa: Topic = {
     },
     { id: "af-62", answer: "Mozambique Channel", category: "Bodies of Water", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This body of water in the Indian Ocean separates the island of Madagascar from the southeastern coast of Africa, is about 1,600 km long and 400 km wide, and is home to important coral reefs and one of the world's largest populations of dugongs  -  large marine mammals related to manatees." },
+        { level: 1, difficulty: "hard", text: "This body of water in the Indian Ocean separates the island of Madagascar from the southeastern coast of Africa, is about 1,600." },
         { level: 2, difficulty: "medium", text: "This water separates Madagascar from the rest of Africa." },
         { level: 3, difficulty: "easy", text: "It has beautiful coral reefs and sea animals called dugongs." },
       ],
@@ -2516,17 +2516,17 @@ const africa: Topic = {
       pronunciation: "moh-zam-BEEK CHAN-ul",
     },    { id: "af-63", answer: "Limpopo River", category: "Rivers", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river in southern Africa flows about 1,750 km from South Africa through Botswana, Zimbabwe, and Mozambique before emptying into the Indian Ocean, forms the northern border of South Africa's Kruger National Park, and was made famous in Rudyard Kipling's Just So Stories where the 'great grey-green greasy Limpopo River' is mentioned." },
-        { level: 2, difficulty: "medium", text: "This 1,750 km river flows through South Africa, Botswana, Zimbabwe, and Mozambique, forms the northern border of Kruger National Park, and was made famous in Rudyard Kipling's Just So Stories." },
-        { level: 3, difficulty: "easy", text: "This river in southern Africa is famous from Rudyard Kipling's Just So Stories  -  he called it the 'great grey-green greasy Limpopo River'! It flows through 4 countries!" },
+        { level: 1, difficulty: "hard", text: "This river in southern Africa flows about 1,750 km from South Africa through Botswana, Zimbabwe, and Mozambique before emptying into the Indian." },
+        { level: 2, difficulty: "medium", text: "This 1,750 km river flows through South Africa, Botswana, Zimbabwe, and Mozambique, forms the northern border of Kruger National Park, and was." },
+        { level: 3, difficulty: "easy", text: "This river in southern Africa is famous from Rudyard Kipling's Just So Stories - he called it the 'great grey-green greasy Limpopo." },
       ],
       options: ["Limpopo River", "Orange River", "Vaal River", "Cunene River"],
       funFact: "The Limpopo River was made famous by Rudyard Kipling who called it the 'great grey-green greasy Limpopo River' in his Just So Stories  -  it is one of the most famous rivers in children's literature! 📚",
       pronunciation: "lim-POH-poh RIV-er",
     },    { id: "af-64", answer: "Bight of Benin", category: "Bodies of Water", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This large bay on the western coast of Africa is part of the Gulf of Guinea, is bordered by countries including Nigeria, Benin, Togo, and Ghana, was historically known as the Slave Coast because it was one of the main areas from which enslaved Africans were shipped to the Americas during the transatlantic slave trade, and the old sailor's rhyme warned 'Beware, beware the Bight of Benin, for few come out though many go in.'" },
-        { level: 2, difficulty: "medium", text: "This large bay on West Africa's coast is part of the Gulf of Guinea, bordered by Nigeria, Benin, Togo, and Ghana, and was historically called the Slave Coast during the transatlantic slave trade." },
+        { level: 1, difficulty: "hard", text: "This large bay on the western coast of Africa is part of the Gulf of Guinea, is bordered by countries including Nigeria." },
+        { level: 2, difficulty: "medium", text: "This large bay on West Africa's coast is part of the Gulf of Guinea, bordered by Nigeria, Benin, Togo, and Ghana, and." },
         { level: 3, difficulty: "easy", text: "This bay on the west coast of Africa was once called the Slave Coast." },
       ],
       options: ["Bight of Benin", "Gulf of Guinea", "Bight of Biafra", "Gulf of Aden"],
@@ -2535,9 +2535,9 @@ const africa: Topic = {
     },
     { id: "af-65", answer: "Congo Rainforest", category: "Ecosystems", topicId: "africa",
       clues: [
-        { level: 1, difficulty: "hard", text: "This tropical rainforest in Central Africa is the world's second largest tropical rainforest after the Amazon, covers about 3.3 million square kilometres across six countries, is home to gorillas, chimpanzees, bonobos, forest elephants, and okapis, and is sometimes called the 'lungs of Africa' for the oxygen it produces." },
-        { level: 2, difficulty: "medium", text: "This rainforest in Central Africa is the world's second largest tropical rainforest, is home to gorillas and bonobos, and is called the 'lungs of Africa' for the oxygen it produces." },
-        { level: 3, difficulty: "easy", text: "This huge rainforest in Central Africa is the second biggest rainforest in the world  -  gorillas and chimpanzees live there and it is called the 'lungs of Africa'!" },
+        { level: 1, difficulty: "hard", text: "This tropical rainforest in Central Africa is the world's second largest tropical rainforest after the Amazon, covers about 3.3 million square kilometres." },
+        { level: 2, difficulty: "medium", text: "This rainforest in Central Africa is the world's second largest tropical rainforest, is home to gorillas and bonobos, and is called the." },
+        { level: 3, difficulty: "easy", text: "This huge rainforest in Central Africa is the second biggest rainforest in the world - gorillas and chimpanzees live there and it." },
       ],
       options: ["Congo Rainforest", "Amazon Rainforest", "Daintree Rainforest", "Borneo Rainforest"],
       funFact: "The Congo Rainforest is home to bonobos  -  our closest relatives after chimpanzees  -  and they are found nowhere else on Earth! 🦍",
@@ -2553,17 +2553,17 @@ const africa: Topic = {
       {
         level: 1,
         difficulty: "hard",
-        text: "This archipelago off the coast of Tanzania in the Indian Ocean was historically one of the world's most important spice trading centers, particularly for cloves, and was the capital of the Omani Empire's East African territory  -  it was also the birthplace of Freddie Mercury of the rock band Queen, and its Stone Town is a UNESCO World Heritage Site famous for its carved wooden doors.",
+        text: "This island off Tanzania in the Indian Ocean was historically a major spice trading center.",
       },
       {
         level: 2,
         difficulty: "medium",
-        text: "This Tanzanian archipelago in the Indian Ocean was historically one of the world's most important spice trading centers  -  especially for cloves  -  and was the capital of the Omani Empire's East African territory, with its Stone Town being a UNESCO World Heritage Site.",
+        text: "This Tanzanian island in the Indian Ocean was once one of the world's most important spice hubs.",
       },
       {
         level: 3,
         difficulty: "easy",
-        text: "This beautiful island off Tanzania's coast was once one of the world's most important spice trading centers  -  especially for cloves! Its old Stone Town has amazing carved wooden doors and is a UNESCO World Heritage Site!",
+        text: "This beautiful island off Tanzania's coast was once a major world spice trading center.",
       }
       ],
       options: ["Zanzibar", "Madagascar", "Comoros", "Seychelles"],
@@ -2573,9 +2573,9 @@ const africa: Topic = {
     {
       id: "af-67",
       clues: [
-      { level: 1, difficulty: "hard", text: "This is the world's second-largest tropical rainforest after the Amazon  -  it covers about 3.7 million square kilometers across six countries in Central Africa and is drained by the Congo River." },
-      { level: 2, difficulty: "medium", text: "This vast rainforest region in Central Africa is home to gorillas, chimpanzees, forest elephants, and okapis  -  it is sometimes called the 'lungs of Africa.'" },
-      { level: 3, difficulty: "easy", text: "This huge rainforest in Central Africa is the second-largest rainforest in the world  -  it is home to gorillas and many other amazing animals." }
+      { level: 1, difficulty: "hard", text: "This is the world's second-largest tropical rainforest after the Amazon - it covers about 3.7 million square kilometers across six countries in." },
+      { level: 2, difficulty: "medium", text: "This vast rainforest region in Central Africa is home to gorillas, chimpanzees, forest elephants, and okapis - it is sometimes called the." },
+      { level: 3, difficulty: "easy", text: "This huge rainforest in Central Africa is the second-largest rainforest in the world - it is home to gorillas and many other." }
       ],
       options: [
       "Congo Basin",
@@ -2686,7 +2686,7 @@ const africa: Topic = {
       id: "af-73",
       clues: [
       { level: 1, difficulty: "hard", text: "It is home to Lake Assal, which at 155 meters below sea level is the lowest point in Africa." },
-      { level: 2, difficulty: "medium", text: "It is a tiny country on the Horn of Africa that controls a strategic strait between the Red Sea and Gulf of Aden." },
+      { level: 2, difficulty: "medium", text: "It is a tiny country on the Horn of Africa that controls a strategic strait between the Red Sea and Gulf of." },
       { level: 3, difficulty: "easy", text: "This small country in East Africa shares its name with its capital city." }
       ],
       options: [
@@ -2931,7 +2931,7 @@ const africa: Topic = {
     {
       id: "af-86",
       clues: [
-      { level: 1, difficulty: "hard", text: "Its name means 'fortified place' in Arabic, and it has been Morocco's capital since 1912 when the French made it their administrative center." },
+      { level: 1, difficulty: "hard", text: "Its name means 'fortified place' in Arabic, and it has been Morocco's capital since 1912 when the French made it their administrative." },
       { level: 2, difficulty: "medium", text: "It is located on the Atlantic coast at the mouth of the Bou Regreg River." },
       { level: 3, difficulty: "easy", text: "This is the capital city of Morocco." }
       ],
@@ -2969,7 +2969,7 @@ const africa: Topic = {
     {
       id: "af-88",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is often called the cleanest city in Africa  -  plastic bags are banned and the first Saturday of every month is a national cleaning day." },
+      { level: 1, difficulty: "hard", text: "It is often called the cleanest city in Africa - plastic bags are banned and the first Saturday of every month is." },
       { level: 2, difficulty: "medium", text: "It is the capital and largest city of Rwanda." },
       { level: 3, difficulty: "easy", text: "This is the capital city of Rwanda." }
       ],
@@ -3042,7 +3042,7 @@ const southAmerica: Topic = {
   questions: [
     { id: "sa-1", answer: "The Amazon River", pronunciation: "The AM-uh-zon RIV-er", category: "Physical Features", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river discharges about 20% of all fresh water that flows into the world's oceans and its basin contains the largest tropical rainforest on Earth." },
+        { level: 1, difficulty: "hard", text: "This river discharges about 20% of all fresh water that flows into the world's oceans and its basin contains the largest tropical." },
         { level: 2, difficulty: "medium", text: "This river in South America carries more water than any other river in the world and flows through Brazil." },
         { level: 3, difficulty: "easy", text: "This giant river in South America flows through the biggest rainforest in the world, home to jaguars and toucans." },
       ],
@@ -3051,7 +3051,7 @@ const southAmerica: Topic = {
     },
     { id: "sa-2", answer: "The Andes Mountains", pronunciation: "The AN-deez MOWN-tinz", category: "Physical Features", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range runs along the entire western coast of South America for 7,000 km and contains Aconcagua, the highest peak in the Western Hemisphere." },
+        { level: 1, difficulty: "hard", text: "This mountain range runs along the entire western coast of South America for 7,000 km and contains Aconcagua, the highest peak in." },
         { level: 2, difficulty: "medium", text: "This is the world's longest mountain range, running through seven countries along the western edge of South America." },
         { level: 3, difficulty: "easy", text: "This very long mountain range runs all the way down the left side of South America, from Colombia to Chile." },
       ],
@@ -3060,25 +3060,25 @@ const southAmerica: Topic = {
     },
     { id: "sa-3", answer: "Brasília", pronunciation: "bruh-ZIL-ee-uh", category: "Capitals", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city was purpose-built as a capital in the 1950s and is designed in the shape of an airplane when viewed from above." },
-        { level: 2, difficulty: "medium", text: "This is the capital of Brazil, the largest country in South America. It was built from scratch in the middle of the country." },
-        { level: 3, difficulty: "easy", text: "This is the capital of Brazil  -  not Rio de Janeiro or São Paulo, but a newer city built just to be the capital!" },
+        { level: 1, difficulty: "hard", text: "This city was purpose-built as a capital in the 1950s and is designed in the shape of an airplane when viewed from." },
+        { level: 2, difficulty: "medium", text: "This is the capital of Brazil, the largest country in South America." },
+        { level: 3, difficulty: "easy", text: "This is the capital of Brazil - not Rio de Janeiro or São Paulo, but a newer city built just to be." },
       ],
       options: ["Rio de Janeiro", "São Paulo", "Brasília", "Buenos Aires"],
       funFact: "Brasília was built in just 41 months  -  an entire new capital city! 🏙️",
     },
     { id: "sa-4", answer: "Machu Picchu", pronunciation: "MAH-choo PEE-choo", category: "Landmarks", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This 15th-century Inca citadel sits at 2,430 meters above sea level in the Cusco Region of Peru and was rediscovered by Hiram Bingham in 1911." },
-        { level: 2, difficulty: "medium", text: "This ancient Inca city in Peru is built high in the Andes Mountains and is one of the most famous archaeological sites in the world." },
-        { level: 3, difficulty: "easy", text: "This ancient stone city in Peru was built by the Inca people high up in the mountains  -  it's like a real-life lost city!" },
+        { level: 1, difficulty: "hard", text: "This 15th-century Inca citadel sits at 2,430 meters above sea level in the Cusco Region of Peru and was rediscovered by Hiram." },
+        { level: 2, difficulty: "medium", text: "This ancient Inca city in Peru is built high in the Andes Mountains and is one of the most famous archaeological sites." },
+        { level: 3, difficulty: "easy", text: "This ancient stone city in Peru was built by the Inca people high up in the mountains - it's like a real-life." },
       ],
       options: ["Chichen Itza", "Machu Picchu", "Easter Island", "Tikal"],
       funFact: "Machu Picchu was built without any mortar  -  the stones fit so perfectly a knife can't fit between them! 🏛️",
     },
     { id: "sa-5", answer: "Buenos Aires", pronunciation: "BWAY-nos EYE-reez", category: "Capitals", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city on the Río de la Plata estuary is known as the 'Paris of South America' and is the birthplace of the tango dance." },
+        { level: 1, difficulty: "hard", text: "This city on the Río de la Plata estuary is known as the 'Paris of South America' and is the birthplace of." },
         { level: 2, difficulty: "medium", text: "This is the capital of Argentina and the second-largest city in South America." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Argentina, a country famous for soccer and steak!" },
       ],
@@ -3087,16 +3087,16 @@ const southAmerica: Topic = {
     },
     { id: "sa-6", answer: "Angel Falls", category: "Physical Features", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This waterfall drops from the Auyán-tepui mountain in Canaima National Park, Venezuela, and was named after aviator Jimmie Angel who flew over it in 1933." },
+        { level: 1, difficulty: "hard", text: "This waterfall drops from the Auyán-tepui mountain in Canaima National Park, Venezuela, and was named after aviator Jimmie Angel who flew over." },
         { level: 2, difficulty: "medium", text: "This is the world's highest uninterrupted waterfall, located in Venezuela, South America." },
-        { level: 3, difficulty: "easy", text: "This is the tallest waterfall in the world  -  the water falls so far that some of it turns to mist before reaching the bottom!" },
+        { level: 3, difficulty: "easy", text: "This is the tallest waterfall in the world - the water falls so far that some of it turns to mist before." },
       ],
       options: ["Niagara Falls", "Victoria Falls", "Angel Falls", "Iguazu Falls"],
       funFact: "Angel Falls is so tall that the water turns into mist and fog before it even reaches the ground! 💦",
     },
     { id: "sa-7", answer: "Lima", pronunciation: "LEE-muh", category: "Capitals", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city was founded by Spanish conquistador Francisco Pizarro in 1535 and is one of the driest capital cities in the world despite being on the coast." },
+        { level: 1, difficulty: "hard", text: "This city was founded by Spanish conquistador Francisco Pizarro in 1535 and is one of the driest capital cities in the world." },
         { level: 2, difficulty: "medium", text: "This is the capital of Peru, the country that was home to the ancient Inca Empire." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Peru, the country where Machu Picchu is found." },
       ],
@@ -3105,7 +3105,7 @@ const southAmerica: Topic = {
     },
     { id: "sa-8", answer: "The Atacama Desert", pronunciation: "The at-uh-KAH-muh DEZ-ert", category: "Physical Features", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This desert in Chile is the driest non-polar desert on Earth  -  some weather stations there have never recorded any rainfall at all." },
+        { level: 1, difficulty: "hard", text: "This desert in Chile is the driest non-polar desert on Earth - some weather stations there have never recorded any rainfall at." },
         { level: 2, difficulty: "medium", text: "This desert along the Pacific coast of South America is the driest place on Earth outside of Antarctica." },
         { level: 3, difficulty: "easy", text: "This desert in Chile is so dry that some parts of it have never had any rain  -  ever!" },
       ],
@@ -3114,7 +3114,7 @@ const southAmerica: Topic = {
     },
     { id: "sa-9", answer: "Lake Titicaca", pronunciation: "LAYK tit-ih-KAH-kuh", category: "Physical Features", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This lake sits at 3,812 meters above sea level on the border of Peru and Bolivia and is the highest navigable lake in the world." },
+        { level: 1, difficulty: "hard", text: "This lake sits at 3,812 meters above sea level on the border of Peru and Bolivia and is the highest navigable lake." },
         { level: 2, difficulty: "medium", text: "This is the largest lake in South America and the highest large lake in the world, located in the Andes Mountains." },
         { level: 3, difficulty: "easy", text: "This very high lake in South America sits in the mountains between Peru and Bolivia  -  boats can sail on it!" },
       ],
@@ -3123,7 +3123,7 @@ const southAmerica: Topic = {
     },
     { id: "sa-10", answer: "Bogotá", pronunciation: "boh-guh-TAH", category: "Capitals", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city sits at 2,625 meters above sea level on a high plateau called the Bogotá Savanna and is the capital of the world's top producer of emeralds." },
+        { level: 1, difficulty: "hard", text: "This city sits at 2,625 meters above sea level on a high plateau called the Bogotá Savanna and is the capital of." },
         { level: 2, difficulty: "medium", text: "This is the capital of Colombia, a country in northern South America famous for coffee and emeralds." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Colombia, a country in South America famous for delicious coffee!" },
       ],
@@ -3150,25 +3150,25 @@ const southAmerica: Topic = {
     },
     { id: "sa-13", answer: "The Amazon Rainforest", category: "Physical Features", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This biome covers about 5.5 million square kilometers and produces about 20% of the world's oxygen, earning it the nickname 'the lungs of the Earth'." },
-        { level: 2, difficulty: "medium", text: "This is the world's largest tropical rainforest, located in South America, and is home to more species of plants and animals than anywhere else on Earth." },
-        { level: 3, difficulty: "easy", text: "This giant forest in South America is home to jaguars, toucans, and millions of insects  -  it's the biggest forest in the world!" },
+        { level: 1, difficulty: "hard", text: "This biome covers about 5.5 million square kilometers and produces about 20% of the world's oxygen, earning it the nickname 'the lungs." },
+        { level: 2, difficulty: "medium", text: "This is the world's largest tropical rainforest, located in South America, and is home to more species of plants and animals than." },
+        { level: 3, difficulty: "easy", text: "This giant forest in South America is home to jaguars, toucans, and millions of insects - it's the biggest forest in the." },
       ],
       options: ["Congo Rainforest", "Daintree Rainforest", "The Amazon Rainforest", "Borneo Rainforest"],
       funFact: "The Amazon Rainforest has more species of trees in one square kilometer than all of Europe combined! 🌳",
     },
     { id: "sa-14", answer: "Santiago", pronunciation: "san-tee-AH-goh", category: "Capitals", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city sits in a valley between the Andes Mountains and the Chilean Coastal Range and is the capital of the world's longest and narrowest country." },
+        { level: 1, difficulty: "hard", text: "This city sits in a valley between the Andes Mountains and the Chilean Coastal Range and is the capital of the world's." },
         { level: 2, difficulty: "medium", text: "This is the capital of Chile, a long thin country on the western coast of South America." },
-        { level: 3, difficulty: "easy", text: "This city is the capital of Chile, a very long and skinny country that runs all the way down the side of South America." },
+        { level: 3, difficulty: "easy", text: "This city is the capital of Chile, a very long and skinny country that runs all the way down the side of." },
       ],
       options: ["Montevideo", "Asunción", "Santiago", "La Paz"],
       funFact: "Chile is the world's longest country  -  it stretches 4,300 km from north to south! 🌋",
     },
     { id: "sa-18", answer: "Pampas", pronunciation: "PAM-puz", category: "Regions", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "These fertile lowland plains in Argentina, Uruguay, and southern Brazil are one of the world's most important agricultural regions, known for cattle ranching and wheat and soybean production." },
+        { level: 1, difficulty: "hard", text: "These fertile lowland plains in Argentina, Uruguay, and southern Brazil are one of the world's most important agricultural regions, known for cattle." },
         { level: 2, difficulty: "medium", text: "These are the vast, flat grasslands of Argentina and Uruguay, famous for cattle ranching." },
         { level: 3, difficulty: "easy", text: "These are the huge, flat grasslands in Argentina  -  they are famous for cattle and gauchos (South American cowboys)!" },
       ],
@@ -3177,7 +3177,7 @@ const southAmerica: Topic = {
     },
     { id: "sa-19", answer: "Galapagos Islands", pronunciation: "guh-LAP-uh-gus EYE-lundz", category: "Islands", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This archipelago of volcanic islands belonging to Ecuador in the Pacific Ocean inspired Charles Darwin's theory of evolution by natural selection after he visited in 1835 and observed the unique wildlife." },
+        { level: 1, difficulty: "hard", text: "This archipelago of volcanic islands belonging to Ecuador in the Pacific Ocean inspired Charles Darwin's theory of evolution by natural selection after." },
         { level: 2, difficulty: "medium", text: "These volcanic islands belonging to Ecuador in the Pacific Ocean inspired Charles Darwin's theory of evolution." },
         { level: 3, difficulty: "easy", text: "These islands are famous for their unique animals like giant tortoises." },
       ],
@@ -3186,7 +3186,7 @@ const southAmerica: Topic = {
     },
     { id: "sa-20", answer: "Cerrado", pronunciation: "seh-HAH-doh", category: "Regions", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This tropical savanna ecoregion in Brazil is the world's most biodiverse savanna, covering about 25% of Brazil's territory, and is sometimes called the 'Cradle of Waters' because it is the source of several major river systems." },
+        { level: 1, difficulty: "hard", text: "This tropical savanna ecoregion in Brazil is the world's most biodiverse savanna, covering about 25% of Brazil's territory, and is sometimes called." },
         { level: 2, difficulty: "medium", text: "This is Brazil's vast tropical savanna, covering about 25% of the country, and is one of the world's most biodiverse regions." },
         { level: 3, difficulty: "easy", text: "This is a huge area of tropical grassland and scrubland in Brazil  -  it is home to giant anteaters and giant armadillos!" },
       ],
@@ -3204,7 +3204,7 @@ const southAmerica: Topic = {
     },
     { id: "sa-22", answer: "Tierra del Fuego", pronunciation: "tee-AIR-uh del FWAY-go", category: "Regions", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This archipelago at the southern tip of South America is divided between Argentina and Chile and was named 'Land of Fire' by Ferdinand Magellan in 1520 when he saw fires lit by the indigenous Selknam people." },
+        { level: 1, difficulty: "hard", text: "This archipelago at the southern tip of South America is divided between Argentina and Chile and was named 'Land of Fire' by." },
         { level: 2, difficulty: "medium", text: "This archipelago at the very tip of South America is divided between Argentina and Chile and means 'Land of Fire' in Spanish." },
         { level: 3, difficulty: "easy", text: "This is the group of islands at the very bottom of South America  -  its name means 'Land of Fire' in Spanish!" },
       ],
@@ -3213,7 +3213,7 @@ const southAmerica: Topic = {
     },
     { id: "sa-23", answer: "Pantanal", pronunciation: "pan-tuh-NAL", category: "Regions", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is the world's largest tropical wetland, covering about 150,000 to 195,000 square kilometers across Brazil, Bolivia, and Paraguay, and is home to jaguars, giant otters, and the world's largest concentration of caimans." },
+        { level: 1, difficulty: "hard", text: "This is the world's largest tropical wetland, covering about 150,000 to 195,000 square kilometers across Brazil, Bolivia, and Paraguay, and is home." },
         { level: 2, difficulty: "medium", text: "This is the world's largest tropical wetland, located mainly in Brazil, and is home to jaguars and giant otters." },
         { level: 3, difficulty: "easy", text: "This is the world's biggest tropical wetland, found in Brazil  -  it is full of jaguars, caimans, and giant otters!" },
       ],
@@ -3231,7 +3231,7 @@ const southAmerica: Topic = {
     },
     { id: "sa-25", answer: "Llanos", pronunciation: "YAH-nos", category: "Regions", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "These vast tropical grasslands in Venezuela and Colombia are one of South America's most important ecosystems and flood seasonally, supporting large populations of capybaras, anacondas, and caimans." },
+        { level: 1, difficulty: "hard", text: "These vast tropical grasslands in Venezuela and Colombia are one of South America's most important ecosystems and flood seasonally, supporting large populations." },
         { level: 2, difficulty: "medium", text: "These are the vast tropical grasslands of Venezuela and Colombia that flood seasonally." },
         { level: 3, difficulty: "easy", text: "These are the huge, flat grasslands in Venezuela and Colombia  -  they flood every rainy season!" },
       ],
@@ -3267,16 +3267,16 @@ const southAmerica: Topic = {
     },
     { id: "sa-32", answer: "Amazon Basin", category: "Regions", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This vast drainage basin covering about 7 million square kilometers contains the world's largest tropical rainforest and produces about 20% of all the fresh water that flows into the world's oceans." },
+        { level: 1, difficulty: "hard", text: "This vast drainage basin covering about 7 million square kilometers contains the world's largest tropical rainforest and produces about 20% of all." },
         { level: 2, difficulty: "medium", text: "This huge region in South America contains the world's largest rainforest and drains into the Amazon River." },
-        { level: 3, difficulty: "easy", text: "This is the huge area of rainforest in South America around the Amazon River  -  it is home to more species than anywhere else on Earth!" },
+        { level: 3, difficulty: "easy", text: "This is the huge area of rainforest in South America around the Amazon River - it is home to more species than." },
       ],
       options: ["Orinoco Basin", "Paraná Basin", "Amazon Basin", "Río de la Plata Basin"],
       funFact: "The Amazon Basin produces about 20% of all the oxygen in Earth's atmosphere  -  it is truly the 'lungs of the Earth'! 🌿",
     },
     { id: "sa-34", answer: "Aconcagua", pronunciation: "ah-kon-KAH-gwuh", category: "Mountains", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain in Argentina at 6,961 meters is the highest peak in the Western Hemisphere and the Southern Hemisphere, and is part of the Andes mountain range." },
+        { level: 1, difficulty: "hard", text: "This mountain in Argentina at 6,961 meters is the highest peak in the Western Hemisphere and the Southern Hemisphere, and is part." },
         { level: 2, difficulty: "medium", text: "This mountain in Argentina is the highest peak in both the Western and Southern Hemispheres." },
         { level: 3, difficulty: "easy", text: "This mountain in Argentina is the tallest mountain in South America and in the entire Western Hemisphere!" },
       ],
@@ -3285,9 +3285,9 @@ const southAmerica: Topic = {
     },
     { id: "sa-37", answer: "Salar de Uyuni", category: "Landscapes", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This salt flat in Bolivia is the world's largest salt flat at about 10,582 square kilometres, was formed when prehistoric lakes evaporated, contains about 50-70% of the world's known lithium reserves  -  a metal essential for electric car batteries  -  and after rain, a thin layer of water creates a perfect mirror effect that reflects the sky." },
-        { level: 2, difficulty: "medium", text: "This Bolivian salt flat is the world's largest at 10,582 square kilometres, contains 50-70% of the world's lithium reserves, and after rain creates a perfect mirror reflection of the sky." },
-        { level: 3, difficulty: "easy", text: "This giant salt flat in Bolivia is the world's biggest  -  after it rains, the water creates a perfect mirror that reflects the sky! It also has most of the world's lithium for electric car batteries!" },
+        { level: 1, difficulty: "hard", text: "This salt flat in Bolivia is the world's largest salt flat at about 10,582 square kilometres, was formed when prehistoric lakes evaporated." },
+        { level: 2, difficulty: "medium", text: "This Bolivian salt flat is the world's largest at 10,582 square kilometres, contains 50-70% of the world's lithium reserves, and after rain." },
+        { level: 3, difficulty: "easy", text: "This giant salt flat in Bolivia is the world's biggest - after it rains, the water creates a perfect mirror that reflects." },
       ],
       options: ["Salar de Uyuni", "Salar de Atacama", "Salar de Coipasa", "Salar de Arizaro"],
       funFact: "Salar de Uyuni contains 50-70% of the world's lithium  -  the same metal used in your phone and laptop batteries! 🔋",
@@ -3306,7 +3306,7 @@ const southAmerica: Topic = {
     { id: "sa-39", answer: "Cerro Aconcagua", category: "Mountains", topicId: "south-america",
       clues: [
         { level: 1, difficulty: "hard", text: "This mountain is the highest in South America." },
-        { level: 2, difficulty: "medium", text: "This mountain in Argentina's Andes is the highest peak in the Western and Southern Hemispheres at 6,961 metres, the highest peak outside Asia, and is only 112 km from the Pacific Ocean." },
+        { level: 2, difficulty: "medium", text: "This mountain in Argentina's Andes is the highest peak in the Western and Southern Hemispheres at 6,961 metres, the highest peak outside." },
         { level: 3, difficulty: "easy", text: "It is also the highest mountain outside of Asia." },
       ],
       options: ["Cerro Aconcagua", "Ojos del Salado", "Monte Pissis", "Huascarán"],
@@ -3325,9 +3325,9 @@ const southAmerica: Topic = {
     },
     { id: "sa-46", answer: "Ushuaia", category: "Cities", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city in Argentina is the southernmost city in the world, is located on the island of Tierra del Fuego, is called 'the city at the end of the world', is a major departure point for expeditions to Antarctica, and is surrounded by the Martial Mountains and the Beagle Channel  -  named after the ship that carried Charles Darwin on his famous voyage." },
-        { level: 2, difficulty: "medium", text: "This Argentine city is the world's southernmost city, is on Tierra del Fuego, is called 'the city at the end of the world', and is a major departure point for Antarctica expeditions." },
-        { level: 3, difficulty: "easy", text: "This city in Argentina is the southernmost city in the world  -  it is called 'the city at the end of the world' and is the starting point for trips to Antarctica!" },
+        { level: 1, difficulty: "hard", text: "This city in Argentina is the southernmost city in the world, is located on the island of Tierra del Fuego, is called." },
+        { level: 2, difficulty: "medium", text: "This Argentine city is the world's southernmost city, is on Tierra del Fuego, is called 'the city at the end of the." },
+        { level: 3, difficulty: "easy", text: "This city in Argentina is the southernmost city in the world - it is called 'the city at the end of the." },
       ],
       options: ["Ushuaia", "Punta Arenas", "Puerto Natales", "Puerto Montt"],
       funFact: "Ushuaia is called 'the city at the end of the world'  -  it is the southernmost city on Earth and the last stop before Antarctica! 🐧",
@@ -3335,9 +3335,9 @@ const southAmerica: Topic = {
     },
     { id: "sa-47", answer: "Carnaval de Rio", category: "Cultural Events", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This annual festival in Rio de Janeiro, Brazil is the world's largest carnival, attracts about 2 million people per day during its peak days, features elaborate samba parades in the Sambadrome  -  a purpose-built parade avenue  -  where competing samba schools spend the entire year preparing their costumes and floats." },
-        { level: 2, difficulty: "medium", text: "This annual festival in Rio de Janeiro is the world's largest carnival, attracts 2 million people per day, and features samba parades in the Sambadrome where schools compete with elaborate costumes and floats." },
-        { level: 3, difficulty: "easy", text: "This huge festival in Rio de Janeiro, Brazil is the world's biggest party  -  2 million people celebrate every day with amazing samba dancing, colorful costumes, and giant floats!" },
+        { level: 1, difficulty: "hard", text: "This annual festival in Rio de Janeiro, Brazil is the world's largest carnival, attracts about 2 million people per day during its." },
+        { level: 2, difficulty: "medium", text: "This annual festival in Rio de Janeiro is the world's largest carnival, attracts 2 million people per day, and features samba parades." },
+        { level: 3, difficulty: "easy", text: "This huge festival in Rio de Janeiro, Brazil is the world's biggest party - 2 million people celebrate every day with amazing." },
       ],
       options: ["Carnaval de Rio", "Inti Raymi", "Carnival of Oruro", "Festival of Lights"],
       funFact: "Rio Carnival is the world's biggest party  -  2 million people celebrate every single day! The samba schools spend the whole year making their costumes and floats! 🎭",
@@ -3355,9 +3355,9 @@ const southAmerica: Topic = {
     },
     { id: "sa-51", answer: "Andes Condor", category: "Wildlife", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This bird found in the Andes Mountains is the world's largest flying bird by wingspan  -  with wings spanning up to 3.3 metres  -  is a vulture that feeds on carrion, can live up to 70 years in the wild, and is the national symbol of Argentina, Bolivia, Chile, Colombia, Ecuador, and Peru." },
-        { level: 2, difficulty: "medium", text: "This bird in the Andes is the world's largest flying bird with a wingspan up to 3.3 metres, is a vulture that feeds on carrion, can live 70 years, and is the national symbol of six South American countries." },
-        { level: 3, difficulty: "easy", text: "This bird in the Andes Mountains is the world's biggest flying bird  -  its wings can span 3.3 metres, as wide as a small car! It is the national symbol of six South American countries!" },
+        { level: 1, difficulty: "hard", text: "This bird found in the Andes Mountains is the world's largest flying bird by wingspan - with wings spanning up to 3.3." },
+        { level: 2, difficulty: "medium", text: "This bird in the Andes is the world's largest flying bird with a wingspan up to 3.3 metres, is a vulture that." },
+        { level: 3, difficulty: "easy", text: "This bird in the Andes Mountains is the world's biggest flying bird - its wings can span 3.3 metres, as wide as." },
       ],
       options: ["Andean Condor", "Harpy Eagle", "King Vulture", "Jabiru Stork"],
       funFact: "The Andean Condor has the largest wingspan of any flying bird  -  3.3 metres! It can soar for hours without flapping its wings, using rising air currents to stay aloft! 🦅",
@@ -3365,8 +3365,8 @@ const southAmerica: Topic = {
     },
     { id: "sa-52", answer: "Potosí", category: "Cities", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city in Bolivia at 4,090 metres above sea level is one of the highest cities in the world, was once one of the largest cities in the world in the 16th and 17th centuries because of the enormous silver deposits in Cerro Rico  -  the 'Rich Mountain'  -  which produced about 60% of the world's silver and funded the Spanish Empire." },
-        { level: 2, difficulty: "medium", text: "This Bolivian city at 4,090 metres was one of the world's largest cities in the 1600s because Cerro Rico mountain produced 60% of the world's silver, funding the Spanish Empire." },
+        { level: 1, difficulty: "hard", text: "This city in Bolivia at 4,090 metres above sea level is one of the highest cities in the world, was once one." },
+        { level: 2, difficulty: "medium", text: "This Bolivian city at 4,090 metres was one of the world's largest cities in the 1600s because Cerro Rico mountain produced 60%." },
         { level: 3, difficulty: "easy", text: "This city in Bolivia is one of the highest in the world." },
       ],
       options: ["Potosí", "La Paz", "Sucre", "Oruro"],
@@ -3375,9 +3375,9 @@ const southAmerica: Topic = {
     },
     { id: "sa-54", answer: "Cotopaxi", category: "Volcanoes", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This volcano in Ecuador at 5,897 metres is one of the world's highest active volcanoes, is famous for its nearly perfect cone shape and its glacier-covered summit, and is located in the Avenue of Volcanoes  -  a line of volcanoes running through Ecuador's highlands." },
-        { level: 2, difficulty: "medium", text: "This volcano in Ecuador at 5,897 metres is one of the world's highest active volcanoes, has a nearly perfect cone shape with a glacier-covered summit, and is in Ecuador's Avenue of Volcanoes." },
-        { level: 3, difficulty: "easy", text: "This volcano in Ecuador is one of the world's highest active volcanoes  -  it has a perfect cone shape and is covered in glaciers even though it is a hot volcano!" },
+        { level: 1, difficulty: "hard", text: "This volcano in Ecuador at 5,897 metres is one of the world's highest active volcanoes, is famous for its nearly perfect cone." },
+        { level: 2, difficulty: "medium", text: "This volcano in Ecuador at 5,897 metres is one of the world's highest active volcanoes, has a nearly perfect cone shape with." },
+        { level: 3, difficulty: "easy", text: "This volcano in Ecuador is one of the world's highest active volcanoes - it has a perfect cone shape and is covered." },
       ],
       options: ["Cotopaxi", "Chimborazo", "Pichincha", "Tungurahua"],
       funFact: "Cotopaxi is one of the world's highest active volcanoes  -  it is covered in glaciers even though it is an active volcano! When it erupts, the heat melts the glaciers and causes massive floods! 🌋",
@@ -3385,9 +3385,9 @@ const southAmerica: Topic = {
     },
     { id: "sa-55", answer: "Chimborazo", category: "Mountains", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This volcano in Ecuador at 6,268 metres is not the world's highest mountain above sea level  -  that is Mount Everest  -  but it is the point on Earth's surface that is farthest from the Earth's center, because the Earth bulges at the equator and this mountain sits near the equator." },
-        { level: 2, difficulty: "medium", text: "This volcano in Ecuador at 6,268 metres is the point on Earth's surface farthest from the Earth's center  -  not because it is tallest above sea level, but because the Earth bulges at the equator." },
-        { level: 3, difficulty: "easy", text: "This volcano in Ecuador is the farthest point from the center of the Earth  -  not because it is the tallest mountain, but because the Earth is fatter at the equator where this mountain sits!" },
+        { level: 1, difficulty: "hard", text: "This volcano in Ecuador at 6,268 metres is not the world's highest mountain above sea level - that is Mount Everest -." },
+        { level: 2, difficulty: "medium", text: "This volcano in Ecuador at 6,268 metres is the point on Earth's surface farthest from the Earth's center - not because it." },
+        { level: 3, difficulty: "easy", text: "This volcano in Ecuador is the farthest point from the center of the Earth - not because it is the tallest mountain." },
       ],
       options: ["Chimborazo", "Cotopaxi", "Huascarán", "Aconcagua"],
       funFact: "Chimborazo is the farthest point from the center of the Earth  -  even though Mount Everest is taller, Chimborazo's summit is 6,384 km from Earth's center while Everest's is only 6,382 km! 🌍",
@@ -3395,9 +3395,9 @@ const southAmerica: Topic = {
     },
     { id: "sa-56", answer: "Galápagos Tortoise", category: "Wildlife", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This animal found only on the Galápagos Islands is the world's largest living species of tortoise, can weigh up to 417 kg and live over 170 years, and inspired Charles Darwin's theory of natural selection when he observed that tortoises on different islands had evolved different shell shapes depending on the food available on each island." },
-        { level: 2, difficulty: "medium", text: "This tortoise found only on the Galápagos Islands is the world's largest, can weigh 417 kg and live over 170 years, and inspired Darwin's theory of natural selection." },
-        { level: 3, difficulty: "easy", text: "This giant tortoise found only on the Galápagos Islands is the world's biggest tortoise  -  it can weigh as much as a horse and live for over 170 years!" },
+        { level: 1, difficulty: "hard", text: "This animal found only on the Galápagos Islands is the world's largest living species of tortoise, can weigh up to 417 kg." },
+        { level: 2, difficulty: "medium", text: "This tortoise found only on the Galápagos Islands is the world's largest, can weigh 417 kg and live over 170 years, and." },
+        { level: 3, difficulty: "easy", text: "This giant tortoise found only on the Galápagos Islands is the world's biggest tortoise - it can weigh as much as a." },
       ],
       options: ["Galápagos Tortoise", "Leatherback Sea Turtle", "Aldabra Giant Tortoise", "Loggerhead Turtle"],
       funFact: "The Galápagos Tortoise can live over 170 years  -  some tortoises alive today were born before the American Civil War! 🐢",
@@ -3416,7 +3416,7 @@ const southAmerica: Topic = {
     { id: "sa-58", answer: "Nazca Lines", category: "Historical Sites", topicId: "south-america",
       clues: [
         { level: 1, difficulty: "hard", text: "Ancient people made these huge drawings by moving dark rocks to show lighter ground." },
-        { level: 2, difficulty: "medium", text: "These geoglyphs in Peru's Nazca Desert were made by the Nazca people between 500 BCE and 500 CE, include animal and geometric designs up to 370 metres long, and are only fully visible from the air." },
+        { level: 2, difficulty: "medium", text: "These geoglyphs in Peru's Nazca Desert were made by the Nazca people between 500 BCE and 500 CE, include animal and geometric." },
         { level: 3, difficulty: "easy", text: "These giant drawings in Peru show animals and shapes." },
       ],
       options: ["Nazca Lines", "Machu Picchu", "Tiwanaku", "Chan Chan"],
@@ -3426,7 +3426,7 @@ const southAmerica: Topic = {
     { id: "sa-59", answer: "Tiwanaku", category: "Historical Sites", topicId: "south-america",
       clues: [
         { level: 1, difficulty: "hard", text: "This ancient city in Bolivia has a famous stone arch called the Gateway of the Sun." },
-        { level: 2, difficulty: "medium", text: "This ancient city near Lake Titicaca in Bolivia was a major pre-Columbian capital from 300-1000 CE, is famous for the Gateway of the Sun carved stone arch, and is one of South America's most important archaeological sites." },
+        { level: 2, difficulty: "medium", text: "This ancient city near Lake Titicaca in Bolivia was a major pre-Columbian capital from 300-1000 CE, is famous for the Gateway of." },
         { level: 3, difficulty: "easy", text: "This old city near Lake Titicaca was once a powerful empire." },
       ],
       options: ["Tiwanaku", "Chan Chan", "Caral", "Chavín de Huántar"],
@@ -3435,9 +3435,9 @@ const southAmerica: Topic = {
     },
     { id: "sa-45", answer: "Guiana Highlands", category: "Landforms", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This ancient plateau in northeastern South America is one of the oldest geological formations on Earth at about 1.7 billion years old, is home to the tepuis  -  flat-topped mountains that inspired Arthur Conan Doyle's novel The Lost World  -  and Angel Falls  -  the world's highest waterfall  -  drops off the edge of one of these tepuis." },
-        { level: 2, difficulty: "medium", text: "This ancient plateau in northeastern South America is 1.7 billion years old, has flat-topped mountains called tepuis that inspired The Lost World novel, and Angel Falls drops off one of these tepuis." },
-        { level: 3, difficulty: "easy", text: "This ancient plateau in South America has flat-topped mountains called tepuis  -  they are so mysterious they inspired a famous novel called The Lost World! Angel Falls drops off one of them!" },
+        { level: 1, difficulty: "hard", text: "This ancient plateau in northeastern South America is one of the oldest geological formations on Earth at about 1.7 billion years old." },
+        { level: 2, difficulty: "medium", text: "This ancient plateau in northeastern South America is 1.7 billion years old, has flat-topped mountains called tepuis that inspired The Lost World." },
+        { level: 3, difficulty: "easy", text: "This ancient plateau in South America has flat-topped mountains called tepuis - they are so mysterious they inspired a famous novel called." },
       ],
       options: ["Guiana Highlands", "Brazilian Highlands", "Patagonian Plateau", "Altiplano"],
       funFact: "The tepuis of the Guiana Highlands are so isolated that they have unique plants and animals found nowhere else on Earth  -  they are like islands in the sky! 🏔️",
@@ -3445,18 +3445,18 @@ const southAmerica: Topic = {
     },
     { id: "sa-61", answer: "Caatinga", category: "Ecosystems", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This dry forest and scrubland in northeastern Brazil is the world's most biodiverse dry tropical forest, covers about 844,000 square kilometres, is home to over 1,500 plant species found nowhere else on Earth, and is the only biome found exclusively in Brazil  -  meaning it exists nowhere else in the world." },
-        { level: 2, difficulty: "medium", text: "This dry forest in northeastern Brazil is the world's most biodiverse dry tropical forest, covers 844,000 square kilometres, has 1,500 unique plant species, and is the only biome found exclusively in Brazil." },
-        { level: 3, difficulty: "easy", text: "This dry forest in northeastern Brazil is found nowhere else in the world  -  it is the most biodiverse dry forest on Earth and has 1,500 plant species that grow only here!" },
+        { level: 1, difficulty: "hard", text: "This dry forest and scrubland in northeastern Brazil is the world's most biodiverse dry tropical forest, covers about 844,000 square kilometres, is." },
+        { level: 2, difficulty: "medium", text: "This dry forest in northeastern Brazil is the world's most biodiverse dry tropical forest, covers 844,000 square kilometres, has 1,500 unique plant." },
+        { level: 3, difficulty: "easy", text: "This dry forest in northeastern Brazil is found nowhere else in the world - it is the most biodiverse dry forest on." },
       ],
       options: ["Caatinga", "Cerrado", "Atlantic Forest", "Pantanal"],
       funFact: "The Caatinga is the only biome found exclusively in Brazil  -  it exists nowhere else in the entire world! It has plants and animals that are completely unique! 🌵",
       pronunciation: "kah-TING-guh",
     },    { id: "sa-63", answer: "Rio de Janeiro", category: "Cities", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city in Brazil is famous for its Carnival festival  -  the world's largest carnival  -  its iconic Christ the Redeemer statue on Corcovado mountain, Sugarloaf Mountain at the entrance to Guanabara Bay, its Copacabana and Ipanema beaches, and was the capital of Brazil from 1763 to 1960 when the capital was moved to the newly built city of Brasília." },
-        { level: 2, difficulty: "medium", text: "This Brazilian city is famous for its Carnival festival, Christ the Redeemer statue, Sugarloaf Mountain, Copacabana beach, and was Brazil's capital from 1763 to 1960 before Brasília was built." },
-        { level: 3, difficulty: "easy", text: "This city in Brazil is famous for its amazing Carnival festival  -  the biggest in the world  -  and the giant Christ the Redeemer statue on the mountain overlooking the city!" },
+        { level: 1, difficulty: "hard", text: "This city in Brazil is famous for its Carnival festival - the world's largest carnival - its iconic Christ the Redeemer statue." },
+        { level: 2, difficulty: "medium", text: "This Brazilian city is famous for its Carnival festival, Christ the Redeemer statue, Sugarloaf Mountain, Copacabana beach, and was Brazil's capital from." },
+        { level: 3, difficulty: "easy", text: "This city in Brazil is famous for its amazing Carnival festival - the biggest in the world - and the giant Christ." },
       ],
       options: ["Rio de Janeiro", "São Paulo", "Salvador", "Fortaleza"],
       funFact: "Rio de Janeiro's Carnival is the world's biggest party  -  about 2 million people dance in the streets every day during the festival, and 500,000 tourists come from around the world! 🎉",
@@ -3464,8 +3464,8 @@ const southAmerica: Topic = {
     },
     { id: "sa-64", answer: "Belo Horizonte", category: "Cities", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city in the state of Minas Gerais, Brazil is the third largest city in Brazil, was the first planned city in Brazil built in the 1890s, and is the center of the Brazilian iron and steel industry  -  Minas Gerais means 'general mines' in Portuguese, reflecting the region's enormous mineral wealth including iron ore, gold, and gemstones." },
-        { level: 2, difficulty: "medium", text: "This city in Minas Gerais, Brazil is Brazil's third largest, was the country's first planned city built in the 1890s, and is the center of Brazil's iron and steel industry." },
+        { level: 1, difficulty: "hard", text: "This city in the state of Minas Gerais, Brazil is the third largest city in Brazil, was the first planned city in." },
+        { level: 2, difficulty: "medium", text: "This city in Minas Gerais, Brazil is Brazil's third largest, was the country's first planned city built in the 1890s, and is." },
         { level: 3, difficulty: "easy", text: "This city was the first planned city in Brazil, built in the 1890s." },
       ],
       options: ["Belo Horizonte", "Brasília", "Manaus", "Recife"],
@@ -3474,9 +3474,9 @@ const southAmerica: Topic = {
     },
     { id: "sa-65", answer: "Pico da Neblina", category: "Mountains", topicId: "south-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain on the border of Brazil and Venezuela is the highest point in Brazil at 2,994 metres, is located in the Amazon rainforest in a remote area near the border with Venezuela, its name means 'Mist Peak' in Portuguese because it is almost always shrouded in clouds, and it was only discovered to be Brazil's highest peak in 1962." },
-        { level: 2, difficulty: "medium", text: "This mountain on the Brazil-Venezuela border is Brazil's highest point at 2,994 metres, is located in the Amazon rainforest, and its name means 'Mist Peak' because it is almost always covered in clouds." },
-        { level: 3, difficulty: "easy", text: "This mountain in the Amazon rainforest is the highest point in Brazil  -  its name means 'Mist Peak' because it is almost always hidden in clouds! It was only discovered to be the highest in 1962!" },
+        { level: 1, difficulty: "hard", text: "This mountain on the border of Brazil and Venezuela is the highest point in Brazil at 2,994 metres, is located in the." },
+        { level: 2, difficulty: "medium", text: "This mountain on the Brazil-Venezuela border is Brazil's highest point at 2,994 metres, is located in the Amazon rainforest, and its name." },
+        { level: 3, difficulty: "easy", text: "This mountain in the Amazon rainforest is the highest point in Brazil - its name means 'Mist Peak' because it is almost." },
       ],
       options: ["Pico da Neblina", "Pico 31 de Março", "Monte Roraima", "Serra do Mar"],
       funFact: "Pico da Neblina means 'Mist Peak'  -  it is almost always covered in clouds and was so hard to find that scientists only discovered it was Brazil's highest mountain in 1962! ☁️",
@@ -3492,7 +3492,7 @@ const southAmerica: Topic = {
       {
         level: 1,
         difficulty: "hard",
-        text: "This small country on the northeastern coast of South America is the smallest sovereign state in South America by area and the only Dutch-speaking country in the Americas  -  about 93% of its territory is covered by tropical rainforest, making it one of the world's most forested countries  -  its capital Paramaribo has a historic inner city that is a UNESCO World Heritage Site reflecting its Dutch colonial architecture.",
+        text: "This small country on South America's northeastern coast is the smallest sovereign state.",
       },
       {
         level: 2,
@@ -3523,7 +3523,7 @@ const southAmerica: Topic = {
       {
         level: 2,
         difficulty: "medium",
-        text: "This ancient city in Peru's Supe Valley dating to about 2600 BCE is the oldest city in the Americas  -  contemporary with ancient Egypt  -  with a population of 3,000, large platform mounds, and uniquely no evidence of warfare.",
+        text: "This ancient city in Peru dating to about 2600 BCE is considered the oldest city in the Americas.",
       },
       {
         level: 3,
@@ -3659,7 +3659,7 @@ const southAmerica: Topic = {
     {
       id: "sa-74",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is the world's highest capital city at 3,640 meters  -  so high that fires are hard to start because there is less oxygen." },
+      { level: 1, difficulty: "hard", text: "It is the world's highest capital city at 3,640 meters - so high that fires are hard to start because there is." },
       { level: 2, difficulty: "medium", text: "It is the seat of government of Bolivia, though Sucre is the constitutional capital." },
       { level: 3, difficulty: "easy", text: "This Bolivian city is the world's highest capital city." }
       ],
@@ -3790,7 +3790,7 @@ const southAmerica: Topic = {
     {
       id: "sa-81",
       clues: [
-      { level: 1, difficulty: "hard", text: "For many years it was the world's largest hydroelectric dam by power output, built jointly by Brazil and Paraguay on the Parana River." },
+      { level: 1, difficulty: "hard", text: "For many years it was the world's largest hydroelectric dam by power output, built jointly by Brazil and Paraguay on the Parana." },
       { level: 2, difficulty: "medium", text: "It is a massive hydroelectric dam on the border of Brazil and Paraguay." },
       { level: 3, difficulty: "easy", text: "This huge dam on the border of Brazil and Paraguay produces enormous amounts of electricity." }
       ],
@@ -3845,8 +3845,8 @@ const northAmerica: Topic = {
   questions: [
     { id: "na-1", answer: "The Grand Canyon", category: "Physical Features", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This geological formation in Arizona was carved by the Colorado River over millions of years and exposes rock layers dating back nearly 2 billion years." },
-        { level: 2, difficulty: "medium", text: "This famous canyon in the state of Arizona is one of the Seven Natural Wonders of the World and is over a mile deep." },
+        { level: 1, difficulty: "hard", text: "This geological formation in Arizona was carved by the Colorado River over millions of years and exposes rock layers dating back nearly." },
+        { level: 2, difficulty: "medium", text: "This famous canyon in the state of Arizona is one of the Seven Natural Wonders of the World and is over a." },
         { level: 3, difficulty: "easy", text: "This giant, colorful canyon in Arizona, USA, is so big you can see it from space!" },
       ],
       options: ["Bryce Canyon", "Zion Canyon", "The Grand Canyon", "Antelope Canyon"],
@@ -3854,7 +3854,7 @@ const northAmerica: Topic = {
     },
     { id: "na-2", answer: "Ottawa", pronunciation: "OT-uh-wuh", category: "Capitals", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city sits at the confluence of the Ottawa, Rideau, and Gatineau rivers and was chosen as Canada's capital by Queen Victoria in 1857." },
+        { level: 1, difficulty: "hard", text: "This city sits at the confluence of the Ottawa, Rideau, and Gatineau rivers and was chosen as Canada's capital by Queen Victoria." },
         { level: 2, difficulty: "medium", text: "This city is the capital of Canada  -  not Toronto or Vancouver, which are bigger, but this smaller city." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Canada, the second-largest country in the world." },
       ],
@@ -3863,8 +3863,8 @@ const northAmerica: Topic = {
     },
     { id: "na-3", answer: "The Great Lakes", category: "Physical Features", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This group of five interconnected freshwater lakes  -  Superior, Michigan, Huron, Erie, and Ontario  -  forms the largest surface freshwater system on Earth." },
-        { level: 2, difficulty: "medium", text: "These five large lakes sit on the border between the USA and Canada and together hold about 21% of the world's surface fresh water." },
+        { level: 1, difficulty: "hard", text: "This group of five interconnected freshwater lakes - Superior, Michigan, Huron, Erie, and Ontario - forms the largest surface freshwater system on." },
+        { level: 2, difficulty: "medium", text: "These five large lakes sit on the border between the USA and Canada and together hold about 21% of the world's surface." },
         { level: 3, difficulty: "easy", text: "These five huge lakes in North America are so big they look like small seas on a map!" },
       ],
       options: ["The Great Salt Lake", "The Great Lakes", "The Finger Lakes", "The Everglades"],
@@ -3881,7 +3881,7 @@ const northAmerica: Topic = {
     },
     { id: "na-5", answer: "Rocky Mountains", category: "Physical Features", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range stretches 4,800 km from New Mexico in the south to British Columbia in the north and forms the Continental Divide of the Americas." },
+        { level: 1, difficulty: "hard", text: "This mountain range stretches 4,800 km from New Mexico in the south to British Columbia in the north and forms the Continental." },
         { level: 2, difficulty: "medium", text: "This is the major mountain range of western North America, running through the USA and Canada." },
         { level: 3, difficulty: "easy", text: "This big mountain range in western North America is home to grizzly bears, elk, and famous ski resorts!" },
       ],
@@ -3890,7 +3890,7 @@ const northAmerica: Topic = {
     },
     { id: "na-6", answer: "Niagara Falls", pronunciation: "ny-AG-ruh FAWLZ", category: "Landmarks", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This waterfall system on the border of New York State and Ontario, Canada, consists of three falls  -  Horseshoe, American, and Bridal Veil." },
+        { level: 1, difficulty: "hard", text: "This waterfall system on the border of New York State and Ontario, Canada, consists of three falls - Horseshoe, American, and Bridal." },
         { level: 2, difficulty: "medium", text: "This famous waterfall sits on the border between the United States and Canada." },
         { level: 3, difficulty: "easy", text: "This famous waterfall between the USA and Canada is one of the most visited natural wonders in the world!" },
       ],
@@ -3899,7 +3899,7 @@ const northAmerica: Topic = {
     },
     { id: "na-7", answer: "The Mississippi River", pronunciation: "The mis-ih-SIP-ee RIV-er", category: "Physical Features", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river drains 31 US states and 2 Canadian provinces into the Gulf of Mexico and was the subject of Mark Twain's famous novels." },
+        { level: 1, difficulty: "hard", text: "This river drains 31 US states and 2 Canadian provinces into the Gulf of Mexico and was the subject of Mark Twain's." },
         { level: 2, difficulty: "medium", text: "This is the longest river in the United States, flowing from Minnesota all the way to the Gulf of Mexico." },
         { level: 3, difficulty: "easy", text: "This very long river flows through the middle of the United States and is famous for its riverboats!" },
       ],
@@ -3908,7 +3908,7 @@ const northAmerica: Topic = {
     },
     { id: "na-8", answer: "Havana", pronunciation: "huh-VAN-uh", category: "Capitals", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city is the largest in the Caribbean and is famous for its well-preserved Spanish colonial architecture, classic American cars from the 1950s, and salsa music." },
+        { level: 1, difficulty: "hard", text: "This city is the largest in the Caribbean and is famous for its well-preserved Spanish colonial architecture, classic American cars from the." },
         { level: 2, difficulty: "medium", text: "This is the capital of Cuba, the largest island in the Caribbean Sea." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Cuba, an island country in the Caribbean famous for its music and colorful old cars." },
       ],
@@ -3917,7 +3917,7 @@ const northAmerica: Topic = {
     },
     { id: "na-9", answer: "The Appalachian Mountains", pronunciation: "The ap-uh-LAY-chun MOWN-tinz", category: "Physical Features", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range runs 2,400 km from Alabama to Newfoundland and is one of the oldest mountain ranges on Earth, formed over 480 million years ago." },
+        { level: 1, difficulty: "hard", text: "This mountain range runs 2,400 km from Alabama to Newfoundland and is one of the oldest mountain ranges on Earth, formed over." },
         { level: 2, difficulty: "medium", text: "This is the major mountain range of eastern North America, running along the eastern United States." },
         { level: 3, difficulty: "easy", text: "This old mountain range runs along the eastern side of the United States and is famous for its beautiful fall colors." },
       ],
@@ -3953,16 +3953,16 @@ const northAmerica: Topic = {
     },
     { id: "na-14", answer: "Alaska", category: "Physical Features", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This US state contains Denali, the highest peak in North America, and was purchased from Russia in 1867 for just 7.2 million dollars." },
-        { level: 2, difficulty: "medium", text: "This is the largest US state by area, located in the far northwest of North America and separated from the rest of the USA by Canada." },
-        { level: 3, difficulty: "easy", text: "This very large, cold US state is in the far north, next to Canada, and is famous for polar bears and the Northern Lights!" },
+        { level: 1, difficulty: "hard", text: "This US state contains Denali, the highest peak in North America, and was purchased from Russia in 1867 for just 7.2 million." },
+        { level: 2, difficulty: "medium", text: "This is the largest US state by area, located in the far northwest of North America and separated from the rest of." },
+        { level: 3, difficulty: "easy", text: "This very large, cold US state is in the far north, next to Canada, and is famous for polar bears and the." },
       ],
       options: ["Greenland", "Yukon", "Alaska", "Siberia"],
       funFact: "Alaska was bought from Russia for just 2 cents per acre  -  one of the greatest bargains in history! 🐻‍❄️",
     },
     { id: "na-15", answer: "The Gulf of Mexico", category: "Bodies of Water", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This body of water is bordered by the United States to the north, Mexico to the west and south, and Cuba to the southeast, and is the world's largest gulf." },
+        { level: 1, difficulty: "hard", text: "This body of water is bordered by the United States to the north, Mexico to the west and south, and Cuba to." },
         { level: 2, difficulty: "medium", text: "This large body of water sits between the United States, Mexico, and Cuba." },
         { level: 3, difficulty: "easy", text: "This large body of warm water sits between the southern United States and Mexico." },
       ],
@@ -3974,14 +3974,14 @@ const northAmerica: Topic = {
       clues: [
         { level: 1, difficulty: "hard", text: "Long ago, millions of bison lived in this big grassland in North America." },
         { level: 2, difficulty: "medium", text: "This large flat grassland stretches from Canada to Texas." },
-        { level: 3, difficulty: "easy", text: "These are the huge, flat grasslands in the middle of the United States and Canada  -  they are sometimes called the 'breadbasket of North America'!" },
+        { level: 3, difficulty: "easy", text: "These are the huge, flat grasslands in the middle of the United States and Canada - they are sometimes called the 'breadbasket." },
       ],
       options: ["Appalachian Plateau", "Great Plains", "Interior Lowlands", "Colorado Plateau"],
       funFact: "The Great Plains once had over 60 million bison  -  today there are only about 500,000 left! 🦬",
     },
     { id: "na-19", answer: "Appalachian Mountains", pronunciation: "ap-uh-LAY-chee-un MOWN-tinz", category: "Mountains", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range in eastern North America is one of the oldest mountain ranges on Earth, formed about 480 million years ago, and stretches from Alabama to Newfoundland." },
+        { level: 1, difficulty: "hard", text: "This mountain range in eastern North America is one of the oldest mountain ranges on Earth, formed about 480 million years ago." },
         { level: 2, difficulty: "medium", text: "These are the oldest mountains in North America, running along the eastern United States from Alabama to Canada." },
         { level: 3, difficulty: "easy", text: "These are the old mountains in the eastern United States  -  they are much older and smaller than the Rocky Mountains!" },
       ],
@@ -4008,7 +4008,7 @@ const northAmerica: Topic = {
     },
     { id: "na-22", answer: "Hudson Bay", category: "Seas", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This large body of water in northeastern Canada is the world's largest bay by area and is almost completely surrounded by land, freezing over in winter and thawing in summer." },
+        { level: 1, difficulty: "hard", text: "This large body of water in northeastern Canada is the world's largest bay by area and is almost completely surrounded by land." },
         { level: 2, difficulty: "medium", text: "This large bay in northeastern Canada is almost completely surrounded by land and freezes over in winter." },
         { level: 3, difficulty: "easy", text: "This large bay in northeastern Canada is almost completely surrounded by land  -  polar bears live along its shores!" },
       ],
@@ -4017,7 +4017,7 @@ const northAmerica: Topic = {
     },
     { id: "na-23", answer: "Sierra Nevada", pronunciation: "see-AIR-uh neh-VAH-duh", category: "Mountains", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range in California contains Mount Whitney, the highest peak in the contiguous United States at 4,421 meters, and Yosemite National Park." },
+        { level: 1, difficulty: "hard", text: "This mountain range in California contains Mount Whitney, the highest peak in the contiguous United States at 4,421 meters, and Yosemite National." },
         { level: 2, difficulty: "medium", text: "This mountain range in California contains Yosemite National Park and the highest peak in the contiguous United States." },
         { level: 3, difficulty: "easy", text: "These mountains in California contain Yosemite National Park  -  they are famous for their tall granite cliffs!" },
       ],
@@ -4035,9 +4035,9 @@ const northAmerica: Topic = {
     },
     { id: "na-25", answer: "Baja California", pronunciation: "BAH-huh kal-ih-FORN-yuh", category: "Landforms", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This narrow peninsula in northwestern Mexico extends about 1,247 km southward from the US-Mexico border and is separated from the Mexican mainland by the Gulf of California." },
+        { level: 1, difficulty: "hard", text: "This narrow peninsula in northwestern Mexico extends about 1,247 km southward from the US-Mexico border and is separated from the Mexican mainland." },
         { level: 2, difficulty: "medium", text: "This long, narrow peninsula in Mexico extends southward from California and is separated from the mainland by the Gulf of California." },
-        { level: 3, difficulty: "easy", text: "This is a long, thin peninsula in Mexico that sticks south from California  -  it is separated from the rest of Mexico by a gulf." },
+        { level: 3, difficulty: "easy", text: "This is a long, thin peninsula in Mexico that sticks south from California - it is separated from the rest of Mexico." },
       ],
       options: ["Yucatan Peninsula", "Florida Peninsula", "Baja California", "Olympic Peninsula"],
       funFact: "Baja California is the world's third-longest peninsula at 1,247 km  -  it is longer than the entire state of California! 🌊",
@@ -4053,9 +4053,9 @@ const northAmerica: Topic = {
     },
     { id: "na-27", answer: "Gulf of California", category: "Seas", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This narrow body of water between the Baja California Peninsula and the Mexican mainland is sometimes called the 'Sea of Cortez' and is considered one of the world's most productive marine ecosystems." },
+        { level: 1, difficulty: "hard", text: "This narrow body of water between the Baja California Peninsula and the Mexican mainland is sometimes called the 'Sea of Cortez' and." },
         { level: 2, difficulty: "medium", text: "This body of water between the Baja California Peninsula and the Mexican mainland is also called the Sea of Cortez." },
-        { level: 3, difficulty: "easy", text: "This is the body of water between the Baja California Peninsula and the rest of Mexico  -  it is full of amazing sea life!" },
+        { level: 3, difficulty: "easy", text: "This is the body of water between the Baja California Peninsula and the rest of Mexico - it is full of amazing." },
       ],
       options: ["Gulf of Mexico", "Caribbean Sea", "Gulf of California", "Pacific Ocean"],
       funFact: "The Gulf of California is home to the world's smallest porpoise  -  the vaquita, which is critically endangered with fewer than 10 left! 🐬",
@@ -4080,7 +4080,7 @@ const northAmerica: Topic = {
     },
     { id: "na-30", answer: "Rio Grande", pronunciation: "REE-oh GRAND", category: "Rivers", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river flows about 3,057 km from Colorado through New Mexico and Texas before emptying into the Gulf of Mexico, forming the entire border between Texas and Mexico." },
+        { level: 1, difficulty: "hard", text: "This river flows about 3,057 km from Colorado through New Mexico and Texas before emptying into the Gulf of Mexico, forming the." },
         { level: 2, difficulty: "medium", text: "This river forms the entire border between Texas and Mexico before emptying into the Gulf of Mexico." },
         { level: 3, difficulty: "easy", text: "This river forms the border between Texas and Mexico  -  its name means 'Big River' in Spanish!" },
       ],
@@ -4098,7 +4098,7 @@ const northAmerica: Topic = {
     },
     { id: "na-32", answer: "Mackenzie River", pronunciation: "muh-KEN-zee RIV-er", category: "Rivers", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river in Canada is the longest river in Canada at about 4,241 km and flows northward from Great Slave Lake to the Arctic Ocean, draining about 20% of Canada's land area." },
+        { level: 1, difficulty: "hard", text: "This river in Canada is the longest river in Canada at about 4,241 km and flows northward from Great Slave Lake to." },
         { level: 2, difficulty: "medium", text: "This river in Canada is frozen for about five months every year." },
         { level: 3, difficulty: "easy", text: "This is the longest river in Canada and flows north to the Arctic Ocean." },
       ],
@@ -4107,7 +4107,7 @@ const northAmerica: Topic = {
     },
     { id: "na-33", answer: "Great Bear Lake", category: "Lakes", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This lake in Canada's Northwest Territories is the largest lake entirely within Canada and the fourth-largest in North America, and is so cold and clear that it is one of the least polluted large lakes in the world." },
+        { level: 1, difficulty: "hard", text: "This lake in Canada's Northwest Territories is the largest lake entirely within Canada and the fourth-largest in North America, and is so." },
         { level: 2, difficulty: "medium", text: "This is the largest lake entirely within Canada, located in the Northwest Territories." },
         { level: 3, difficulty: "easy", text: "This is the biggest lake entirely in Canada  -  it is in the far north and is very cold and clear!" },
       ],
@@ -4125,9 +4125,9 @@ const northAmerica: Topic = {
     },
     { id: "na-36", answer: "Yellowstone National Park", category: "Landmarks", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This national park in Wyoming, Montana, and Idaho was the world's first national park, established in 1872, sits atop a massive supervolcano that last erupted 640,000 years ago, and contains more than half of the world's geysers  -  including Old Faithful, which erupts approximately every 90 minutes." },
-        { level: 2, difficulty: "medium", text: "This national park in Wyoming was the world's first national park in 1872, sits atop a supervolcano, and contains more than half the world's geysers including Old Faithful." },
-        { level: 3, difficulty: "easy", text: "This park in Wyoming was the world's first national park  -  it has a famous geyser called Old Faithful that shoots hot water into the air every 90 minutes!" },
+        { level: 1, difficulty: "hard", text: "This national park in Wyoming, Montana, and Idaho was the world's first national park, established in 1872, sits atop a massive supervolcano." },
+        { level: 2, difficulty: "medium", text: "This national park in Wyoming was the world's first national park in 1872, sits atop a supervolcano, and contains more than half." },
+        { level: 3, difficulty: "easy", text: "This park in Wyoming was the world's first national park - it has a famous geyser called Old Faithful that shoots hot." },
       ],
       options: ["Yellowstone National Park", "Grand Canyon National Park", "Yosemite National Park", "Glacier National Park"],
       funFact: "Yellowstone has more than half of all the geysers in the world  -  over 500 geysers shoot hot water into the air there! 💨",
@@ -4135,8 +4135,8 @@ const northAmerica: Topic = {
     },
     { id: "na-37", answer: "Grand Canyon", category: "Landforms", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This gorge in Arizona was carved by the Colorado River over about 5 to 6 million years, is about 446 km long, up to 29 km wide, and over 1,800 metres deep, and its rock layers record about 2 billion years of Earth's geological history  -  nearly half the age of the entire planet." },
-        { level: 2, difficulty: "medium", text: "This gorge in Arizona was carved by the Colorado River, is 446 km long and over 1,800 metres deep, and its rock layers record about 2 billion years of Earth's geological history." },
+        { level: 1, difficulty: "hard", text: "This gorge in Arizona was carved by the Colorado River over about 5 to 6 million years, is about 446 km long." },
+        { level: 2, difficulty: "medium", text: "This gorge in Arizona was carved by the Colorado River, is 446 km long and over 1,800 metres deep, and its rock." },
         { level: 3, difficulty: "easy", text: "This canyon is so deep that six Eiffel Towers stacked would not reach its top." },
       ],
       options: ["Grand Canyon", "Bryce Canyon", "Zion Canyon", "Antelope Canyon"],
@@ -4165,9 +4165,9 @@ const northAmerica: Topic = {
     },
     { id: "na-40", answer: "Everglades", category: "Ecosystems", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This subtropical wetland in southern Florida is the largest subtropical wilderness in the United States, is often called a 'river of grass' because it is actually a very slow-moving shallow river about 97 km wide and only a few centimetres deep, and is home to American alligators, American crocodiles, Florida panthers, and manatees." },
-        { level: 2, difficulty: "medium", text: "This wetland in southern Florida is called a 'river of grass' because it is actually a very slow shallow river 97 km wide, and is home to alligators, crocodiles, and manatees." },
-        { level: 3, difficulty: "easy", text: "This wetland in Florida is called a 'river of grass'  -  it is actually a very wide, very shallow river! It is home to alligators, crocodiles, and manatees." },
+        { level: 1, difficulty: "hard", text: "This subtropical wetland in southern Florida is the largest subtropical wilderness in the United States, is often called a 'river of grass'." },
+        { level: 2, difficulty: "medium", text: "This wetland in southern Florida is called a 'river of grass' because it is actually a very slow shallow river 97 km." },
+        { level: 3, difficulty: "easy", text: "This wetland in Florida is called a 'river of grass'  -  it is actually a very wide, very shallow river!" },
       ],
       options: ["Everglades", "Okefenokee Swamp", "Atchafalaya Basin", "Dismal Swamp"],
       funFact: "The Everglades is the only place in the world where alligators and crocodiles live together in the same habitat! 🐊",
@@ -4175,9 +4175,9 @@ const northAmerica: Topic = {
     },
     { id: "na-41", answer: "Denali", category: "Mountains", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain in Alaska is the highest peak in North America at 6,190 metres, was previously known as Mount McKinley, has the greatest vertical rise of any mountain measured from base to summit in the world at about 5,500 metres, and its name means 'the high one' or 'the great one' in the Athabascan language." },
-        { level: 2, difficulty: "medium", text: "This mountain in Alaska is the highest peak in North America at 6,190 metres, was previously called Mount McKinley, and its name means 'the great one' in the Athabascan language." },
-        { level: 3, difficulty: "easy", text: "This mountain in Alaska is the highest mountain in North America  -  its name means 'the great one' and it is 6,190 metres tall!" },
+        { level: 1, difficulty: "hard", text: "This mountain in Alaska is the highest peak in North America at 6,190 metres, was previously known as Mount McKinley, has the." },
+        { level: 2, difficulty: "medium", text: "This mountain in Alaska is the highest peak in North America at 6,190 metres, was previously called Mount McKinley, and its name." },
+        { level: 3, difficulty: "easy", text: "This mountain in Alaska is the highest mountain in North America - its name means 'the great one' and it is 6,190." },
       ],
       options: ["Denali", "Mount Logan", "Mount Whitney", "Pikes Peak"],
       funFact: "Denali has the biggest vertical rise of any mountain on Earth  -  from its base to its peak is 5,500 metres, which is even more than Mount Everest's rise from its base! 🏔️",
@@ -4215,9 +4215,9 @@ const northAmerica: Topic = {
     },
     { id: "na-45", answer: "Bay of Fundy", category: "Bodies of Water", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This bay between New Brunswick and Nova Scotia in Canada has the highest tidal range in the world  -  the difference between high tide and low tide can be up to 16 metres  -  which is taller than a 5-story building, and the bay's shape acts like a funnel that amplifies the tidal effect." },
-        { level: 2, difficulty: "medium", text: "This bay between New Brunswick and Nova Scotia in Canada has the world's highest tidal range  -  the difference between high and low tide can be up to 16 metres." },
-        { level: 3, difficulty: "easy", text: "This bay in Canada has the world's biggest tides  -  the water goes up and down by 16 metres, which is as tall as a 5-story building!" },
+        { level: 1, difficulty: "hard", text: "This bay between New Brunswick and Nova Scotia in Canada has the highest tidal range in the world - the difference between." },
+        { level: 2, difficulty: "medium", text: "This bay between New Brunswick and Nova Scotia in Canada has the world's highest tidal range - the difference between high and." },
+        { level: 3, difficulty: "easy", text: "This bay in Canada has the world's biggest tides - the water goes up and down by 16 metres, which is as." },
       ],
       options: ["Bay of Fundy", "Hudson Bay", "James Bay", "Ungava Bay"],
       funFact: "The Bay of Fundy has the world's highest tides  -  160 billion tonnes of water flows in and out every day, which is more than the flow of all the world's rivers combined! 🌊",
@@ -4225,9 +4225,9 @@ const northAmerica: Topic = {
     },
     { id: "na-46", answer: "Mojave Desert", category: "Deserts", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This desert in California, Nevada, Utah, and Arizona is the smallest and driest of North America's four major deserts, is home to Death Valley  -  the hottest place on Earth  -  and is famous for the Joshua tree, which is not actually a tree but a type of yucca plant that can live for hundreds of years." },
-        { level: 2, difficulty: "medium", text: "This desert in California and Nevada is home to Death Valley  -  the hottest place on Earth  -  and is famous for the Joshua tree, which is actually a type of yucca plant." },
-        { level: 3, difficulty: "easy", text: "This desert in California has the hottest place on Earth  -  Death Valley  -  and is home to the Joshua tree, which is actually not a tree but a giant yucca plant!" },
+        { level: 1, difficulty: "hard", text: "This desert in California, Nevada, Utah, and Arizona is the smallest and driest of North America's four major deserts, is home to." },
+        { level: 2, difficulty: "medium", text: "This desert in California and Nevada is home to Death Valley - the hottest place on Earth - and is famous for." },
+        { level: 3, difficulty: "easy", text: "This desert in California has the hottest place on Earth - Death Valley - and is home to the Joshua tree, which." },
       ],
       options: ["Mojave Desert", "Sonoran Desert", "Great Basin Desert", "Chihuahuan Desert"],
       funFact: "Death Valley in the Mojave Desert recorded the hottest temperature ever on Earth  -  56.7°C (134°F) in 1913! That is hot enough to cook an egg on the ground! 🌡️",
@@ -4245,9 +4245,9 @@ const northAmerica: Topic = {
     },
     { id: "na-48", answer: "Chichen Itza", category: "Historical Sites", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This ancient Maya city in Mexico's Yucatán Peninsula was one of the largest Maya cities, is famous for the Temple of Kukulcan  -  a step pyramid that acts as a giant calendar  -  and during the spring and autumn equinoxes, the setting sun creates a shadow that looks like a serpent crawling down the pyramid's staircase." },
-        { level: 2, difficulty: "medium", text: "This ancient Maya city in Mexico's Yucatán Peninsula has a famous step pyramid that acts as a calendar, and during the equinoxes, shadows create the illusion of a serpent crawling down its stairs." },
-        { level: 3, difficulty: "easy", text: "This ancient Maya city in Mexico has a pyramid that is also a giant calendar  -  twice a year, the shadows make it look like a snake is crawling down the stairs!" },
+        { level: 1, difficulty: "hard", text: "This ancient Maya city in Mexico's Yucatán Peninsula was one of the largest Maya cities, is famous for the Temple of Kukulcan." },
+        { level: 2, difficulty: "medium", text: "This ancient Maya city in Mexico's Yucatán Peninsula has a famous step pyramid that acts as a calendar, and during the equinoxes." },
+        { level: 3, difficulty: "easy", text: "This ancient Maya city in Mexico has a pyramid that is also a giant calendar - twice a year, the shadows make." },
       ],
       options: ["Chichen Itza", "Teotihuacan", "Palenque", "Uxmal"],
       funFact: "The pyramid at Chichen Itza is a giant calendar  -  it has 365 steps, one for each day of the year, and on the equinox a snake shadow appears on the stairs! 🐍",
@@ -4257,7 +4257,7 @@ const northAmerica: Topic = {
       clues: [
         { level: 1, difficulty: "hard", text: "This city had a big market where people traded many goods long ago." },
         { level: 2, difficulty: "medium", text: "This ancient city near Mexico City has the Pyramid of the Sun." },
-        { level: 3, difficulty: "easy", text: "This ancient city near Mexico City had the third biggest pyramid in the world  -  at its peak, 125,000 people lived there, making it one of the world's biggest cities!" },
+        { level: 3, difficulty: "easy", text: "This ancient city near Mexico City had the third biggest pyramid in the world - at its peak, 125,000 people lived there." },
       ],
       options: ["Teotihuacan", "Chichen Itza", "Monte Alban", "Tula"],
       funFact: "Teotihuacan's Pyramid of the Sun is so big that it would take you about 15 minutes just to walk around its base! 🏛️",
@@ -4275,7 +4275,7 @@ const northAmerica: Topic = {
     },
     { id: "na-51", answer: "Isthmus of Panama", category: "Landforms", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This narrow strip of land connecting North and South America is only about 80 km wide at its narrowest point, was formed about 3 million years ago when tectonic plates pushed up from the ocean floor, and its formation changed ocean currents and helped create the Gulf Stream  -  which warms Europe's climate." },
+        { level: 1, difficulty: "hard", text: "This narrow strip of land connecting North and South America is only about 80 km wide at its narrowest point, was formed." },
         { level: 2, difficulty: "medium", text: "This land is very narrow and helped animals move between North and South America long ago." },
         { level: 3, difficulty: "easy", text: "This narrow land connects North America and South America and changed ocean water paths." },
       ],
@@ -4285,7 +4285,7 @@ const northAmerica: Topic = {
     },
     { id: "na-52", answer: "Copper Canyon", category: "Landforms", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This canyon system in the Sierra Madre Occidental mountains of Chihuahua, Mexico is actually a series of six canyons that together are larger and deeper than the Grand Canyon, is home to the Tarahumara indigenous people who are famous for their long-distance running ability, and is traversed by the Chihuahua al Pacífico railway  -  one of the world's most scenic train rides." },
+        { level: 1, difficulty: "hard", text: "This canyon system in the Sierra Madre Occidental mountains of Chihuahua, Mexico is actually a series of six canyons that together are." },
         { level: 2, difficulty: "medium", text: "Copper Canyon has six big canyons and a famous train that goes through the mountains in Mexico." },
         { level: 3, difficulty: "easy", text: "Copper Canyon is bigger and deeper than the Grand Canyon in the United States." },
       ],
@@ -4327,7 +4327,7 @@ const northAmerica: Topic = {
       clues: [
         { level: 1, difficulty: "hard", text: "This city was built on an island and had bridges connecting it to the land." },
         { level: 2, difficulty: "medium", text: "This ancient Aztec city was built on an island in a lake in Mexico." },
-        { level: 3, difficulty: "easy", text: "This ancient Aztec city was built on an island in a lake in Mexico  -  it was one of the world's biggest cities until the Spanish destroyed it in 1521 and built Mexico City on top!" },
+        { level: 3, difficulty: "easy", text: "This ancient Aztec city was built on an island in a lake in Mexico - it was one of the world's biggest." },
       ],
       options: ["Tenochtitlan", "Teotihuacan", "Chichen Itza", "Tula"],
       funFact: "Tenochtitlan was built on an island and connected to the mainland by giant causeways  -  it was like a city on water, similar to Venice! 🏙️",
@@ -4335,9 +4335,9 @@ const northAmerica: Topic = {
     },
     { id: "na-58", answer: "Ogallala Aquifer", category: "Physical Geography", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This underground water reservoir beneath the Great Plains of the United States is one of the world's largest aquifers, underlies about 450,000 square kilometres across eight states, provides about 30% of all groundwater used for irrigation in the United States, and is being depleted much faster than it is being replenished by rainfall." },
-        { level: 2, difficulty: "medium", text: "This underground water reservoir beneath the Great Plains of the US is one of the world's largest aquifers, underlies eight states, and provides 30% of all groundwater used for irrigation in the US." },
-        { level: 3, difficulty: "easy", text: "This giant underground lake beneath the Great Plains of the United States provides water for farming in 8 states  -  but people are using it up much faster than rain can refill it!" },
+        { level: 1, difficulty: "hard", text: "This underground water reservoir beneath the Great Plains of the United States is one of the world's largest aquifers, underlies about 450,000." },
+        { level: 2, difficulty: "medium", text: "This underground water reservoir beneath the Great Plains of the US is one of the world's largest aquifers, underlies eight states, and." },
+        { level: 3, difficulty: "easy", text: "This giant underground lake beneath the Great Plains of the United States provides water for farming in 8 states - but people." },
       ],
       options: ["Ogallala Aquifer", "Edwards Aquifer", "Floridan Aquifer", "High Plains Aquifer"],
       funFact: "The Ogallala Aquifer has been filling with water for millions of years, but farmers are using it so fast that some parts could run dry within 50 years! 💧",
@@ -4355,8 +4355,8 @@ const northAmerica: Topic = {
     },
     { id: "na-60", answer: "Caribbean Islands", category: "Islands", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This archipelago of more than 700 islands in the Caribbean Sea includes the Greater Antilles  -  Cuba, Hispaniola, Jamaica, and Puerto Rico  -  and the Lesser Antilles, spans about 4,000 km from Florida to Venezuela, and is one of the world's most popular tourist destinations known for its tropical climate, coral reefs, and diverse cultures." },
-        { level: 2, difficulty: "medium", text: "This archipelago of 700+ islands in the Caribbean Sea includes Cuba, Hispaniola, Jamaica, and Puerto Rico, spans 4,000 km, and is one of the world's most popular tourist destinations." },
+        { level: 1, difficulty: "hard", text: "This archipelago of more than 700 islands in the Caribbean Sea includes the Greater Antilles - Cuba, Hispaniola, Jamaica, and Puerto Rico." },
+        { level: 2, difficulty: "medium", text: "This archipelago of 700+ islands in the Caribbean Sea includes Cuba, Hispaniola, Jamaica, and Puerto Rico, spans 4,000 km, and is one." },
         { level: 3, difficulty: "easy", text: "These islands have more than 700 places to visit. It would take almost 2 years to see them all." },
       ],
       options: ["Caribbean Islands", "Bahamas", "Greater Antilles", "Lesser Antilles"],
@@ -4385,9 +4385,9 @@ const northAmerica: Topic = {
     },
     { id: "na-63", answer: "Popocatepetl", category: "Volcanoes", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This active stratovolcano near Mexico City is the second highest peak in Mexico at 5,426 metres, is one of the most active volcanoes in Mexico, and its name means 'Smoking Mountain' in the Nahuatl language of the Aztecs  -  it has been erupting regularly since 1994 and is closely monitored because millions of people live nearby." },
-        { level: 2, difficulty: "medium", text: "This active volcano near Mexico City is the second highest peak in Mexico at 5,426 metres, its name means 'Smoking Mountain' in Nahuatl, and it has been erupting regularly since 1994." },
-        { level: 3, difficulty: "easy", text: "This active volcano near Mexico City is called 'Smoking Mountain' in the Aztec language  -  it erupts regularly and millions of people live near it!" },
+        { level: 1, difficulty: "hard", text: "This active stratovolcano near Mexico City is the second highest peak in Mexico at 5,426 metres, is one of the most active." },
+        { level: 2, difficulty: "medium", text: "This active volcano near Mexico City is the second highest peak in Mexico at 5,426 metres, its name means 'Smoking Mountain' in." },
+        { level: 3, difficulty: "easy", text: "This active volcano near Mexico City is called 'Smoking Mountain' in the Aztec language - it erupts regularly and millions of people." },
       ],
       options: ["Popocatepetl", "Iztaccihuatl", "Pico de Orizaba", "Colima"],
       funFact: "Popocatepetl means 'Smoking Mountain' in Nahuatl  -  it has been erupting regularly since 1994 and sometimes shoots ash 6 km into the sky! 🌋",
@@ -4395,7 +4395,7 @@ const northAmerica: Topic = {
     },
     { id: "na-64", answer: "Lake Champlain", category: "Lakes", topicId: "north-america",
       clues: [
-        { level: 1, difficulty: "hard", text: "This lake on the border between New York, Vermont, and Quebec was briefly declared the sixth Great Lake by US Congress in 1998  -  though the designation was quickly reversed  -  is about 201 km long, and is famous for legends of a lake monster called Champ, similar to Scotland's Loch Ness Monster." },
+        { level: 1, difficulty: "hard", text: "This lake on the border between New York, Vermont, and Quebec was briefly declared the sixth Great Lake by US Congress in." },
         { level: 2, difficulty: "medium", text: "This lake is between New York, Vermont, and Canada and has many small islands." },
         { level: 3, difficulty: "easy", text: "This lake is famous for a lake monster called Champ." },
       ],
@@ -4406,7 +4406,7 @@ const northAmerica: Topic = {
     { id: "na-65", answer: "Chihuahuan Desert", category: "Deserts", topicId: "north-america",
       clues: [
         { level: 1, difficulty: "hard", text: "This desert has the most kinds of cacti in the world, with over 350 different types." },
-        { level: 2, difficulty: "medium", text: "This desert in northern Mexico and the southwestern US is the largest desert in North America at 362,000 square kilometres and has the world's greatest diversity of cacti species  -  over 350 species." },
+        { level: 2, difficulty: "medium", text: "This desert in northern Mexico and the southwestern US is the largest desert in North America at 362,000 square kilometres and has." },
         { level: 3, difficulty: "easy", text: "This desert is the biggest desert in North America and is in Mexico and the USA." },
       ],
       options: ["Chihuahuan Desert", "Sonoran Desert", "Mojave Desert", "Great Basin Desert"],
@@ -4452,7 +4452,7 @@ const northAmerica: Topic = {
     {
       id: "na-68",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is one of the few upland regions between the Appalachians and the Rockies, making it a biodiversity hotspot with many cave systems." },
+      { level: 1, difficulty: "hard", text: "It is one of the few upland regions between the Appalachians and the Rockies, making it a biodiversity hotspot with many cave." },
       { level: 2, difficulty: "medium", text: "It is a highland region in the south-central United States, covering parts of Missouri, Arkansas, and Oklahoma." },
       { level: 3, difficulty: "easy", text: "This highland region in the south-central United States covers parts of Missouri and Arkansas." }
       ],
@@ -4470,7 +4470,7 @@ const northAmerica: Topic = {
     {
       id: "na-69",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is a plateau region at the foot of the Appalachian Mountains, stretching from New Jersey to Alabama  -  its name means 'foot of the mountain' in Italian." },
+      { level: 1, difficulty: "hard", text: "It is a plateau region at the foot of the Appalachian Mountains, stretching from New Jersey to Alabama - its name means." },
       { level: 2, difficulty: "medium", text: "It is a plateau region in the eastern United States, lying between the Appalachian Mountains and the Atlantic Coastal Plain." },
       { level: 3, difficulty: "easy", text: "This plateau region in the eastern United States lies between the Appalachian Mountains and the Atlantic coast." }
       ],
@@ -4524,9 +4524,9 @@ const worldRecords: Topic = {
   questions: [
     { id: "wr-5", answer: "The Dead Sea", category: "Lowest Points", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This hypersaline lake on the border of Jordan and Israel sits 430 meters below sea level and has a salinity of about 34%, compared to the ocean's 3.5%." },
-        { level: 2, difficulty: "medium", text: "This body of water in the Middle East is the lowest point on Earth's surface and is so salty that nothing can live in it." },
-        { level: 3, difficulty: "easy", text: "This sea is so salty that you float in it without even trying  -  and it's the lowest place on land in the whole world!" },
+        { level: 1, difficulty: "hard", text: "This hypersaline lake on the border of Jordan and Israel sits 430 meters below sea level and has a salinity of about." },
+        { level: 2, difficulty: "medium", text: "This body of water in the Middle East is the lowest point on Earth's surface and is so salty that nothing can." },
+        { level: 3, difficulty: "easy", text: "This sea is so salty that you float in it without even trying - and it's the lowest place on land in." },
       ],
       options: ["Caspian Sea", "Red Sea", "The Dead Sea", "Aral Sea"],
       funFact: "You can float in the Dead Sea while reading a book  -  the salt makes you so buoyant! 📖",
@@ -4542,7 +4542,7 @@ const worldRecords: Topic = {
     },
     { id: "wr-10", answer: "China", category: "Most Populous Countries", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This country has the world's longest history of continuous civilization, invented paper, printing, gunpowder, and the compass, and has over 1.4 billion people." },
+        { level: 1, difficulty: "hard", text: "This country has the world's longest history of continuous civilization, invented paper, printing, gunpowder, and the compass, and has over 1.4 billion." },
         { level: 2, difficulty: "medium", text: "This country in Asia has over 1.4 billion people and the world's second-largest economy." },
         { level: 3, difficulty: "easy", text: "This country in Asia has more than a billion people and is famous for the Great Wall!" },
       ],
@@ -4551,16 +4551,16 @@ const worldRecords: Topic = {
     },
     { id: "wr-11", answer: "The Caspian Sea", pronunciation: "The KAS-pee-un SEE", category: "Lakes", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This body of water is bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan, and despite being called a 'sea,' it is actually the world's largest lake." },
+        { level: 1, difficulty: "hard", text: "This body of water is bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan, and despite being called a 'sea,' it is actually." },
         { level: 2, difficulty: "medium", text: "This is the world's largest lake by surface area, located between Europe and Asia." },
-        { level: 3, difficulty: "easy", text: "This giant lake between Europe and Asia is called a 'sea' because it's so big  -  it's the largest lake in the world!" },
+        { level: 3, difficulty: "easy", text: "This giant lake between Europe and Asia is called a 'sea' because it's so big - it's the largest lake in the." },
       ],
       options: ["Lake Superior", "Aral Sea", "The Caspian Sea", "Lake Baikal"],
       funFact: "The Caspian Sea is called a 'sea' but it's actually a lake  -  the world's largest lake! 🌊",
     },
     { id: "wr-12", answer: "Greenland", category: "Islands", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This island is an autonomous territory of Denmark, has 80% of its surface covered by an ice sheet, and is the world's largest island that is not a continent." },
+        { level: 1, difficulty: "hard", text: "This island is an autonomous territory of Denmark, has 80% of its surface covered by an ice sheet, and is the world's." },
         { level: 2, difficulty: "medium", text: "This is the world's largest island, located in the Arctic Ocean between North America and Europe." },
         { level: 3, difficulty: "easy", text: "This giant island near the North Pole is mostly covered in ice  -  even though its name says 'green'!" },
       ],
@@ -4571,14 +4571,14 @@ const worldRecords: Topic = {
       clues: [
         { level: 1, difficulty: "hard", text: "This oceanic trench in the western Pacific Ocean reaches a maximum depth of about 11,034 meters at a point called Challenger Deep." },
         { level: 2, difficulty: "medium", text: "This is the deepest point on Earth, located in the Pacific Ocean near the Mariana Islands." },
-        { level: 3, difficulty: "easy", text: "This is the deepest place in all the oceans  -  it's so deep that Mount Everest could fit inside it with room to spare!" },
+        { level: 3, difficulty: "easy", text: "This is the deepest place in all the oceans - it's so deep that Mount Everest could fit inside it with room." },
       ],
       options: ["Puerto Rico Trench", "Java Trench", "The Mariana Trench", "Tonga Trench"],
       funFact: "The Mariana Trench is so deep that it would take over an hour for a cannonball to sink to the bottom! 🌊",
     },
     { id: "wr-28", answer: "Amazon Rainforest", category: "World Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is the world's largest tropical rainforest, covering about 5.5 million square kilometers, and is home to about 10% of all species on Earth." },
+        { level: 1, difficulty: "hard", text: "This is the world's largest tropical rainforest, covering about 5.5 million square kilometers, and is home to about 10% of all species." },
         { level: 2, difficulty: "medium", text: "This is the world's largest rainforest, located in South America, and is home to an enormous variety of plants and animals." },
         { level: 3, difficulty: "easy", text: "This is the world's biggest rainforest  -  it is in South America and is sometimes called the 'lungs of the Earth'!" },
       ],
@@ -4588,9 +4588,9 @@ const worldRecords: Topic = {
     { id: "wr-30", answer: "Lake Superior",
       pronunciation: "Lake Superior (LAYK soo-PEER-ee-er)", category: "World Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is the world's largest freshwater lake by surface area  -  it covers 82,103 square kilometers  -  it is one of the five Great Lakes of North America  -  it borders the US states of Michigan, Wisconsin, and Minnesota, and the Canadian province of Ontario  -  it contains 10% of the world's surface fresh water  -  it is so large that it creates its own weather patterns  -  its average depth is 149 meters  -  it drains into Lake Huron via the St. Marys River  -  the name comes from the French 'lac supérieur' meaning 'upper lake.'" },
-        { level: 2, difficulty: "medium", text: "World's largest freshwater lake by surface area at 82,103 square kilometers  -  one of five Great Lakes  -  borders Michigan, Wisconsin, Minnesota, and Ontario  -  contains 10% of world's surface fresh water  -  creates its own weather patterns  -  average depth 149 meters  -  drains into Lake Huron via St. Marys River  -  name from French meaning 'upper lake.'" },
-        { level: 3, difficulty: "easy", text: "This is the world's biggest freshwater lake by surface area! It is one of the five Great Lakes in North America, sitting between the USA and Canada. It is so enormous that it contains 10% of all the fresh water on Earth's surface! It is so big that it creates its own weather  -  it can have waves as big as ocean waves! Its name comes from French meaning 'upper lake.'" },
+        { level: 1, difficulty: "hard", text: "This is the world's largest freshwater lake by surface area - it covers 82,103 square kilometers - it is one of the." },
+        { level: 2, difficulty: "medium", text: "World's largest freshwater lake by surface area at 82,103 square kilometers - one of five Great Lakes - borders Michigan, Wisconsin, Minnesota." },
+        { level: 3, difficulty: "easy", text: "This is the world's biggest freshwater lake by surface area!" },
       ],
       options: ["Lake Superior", "Lake Baikal", "Lake Victoria", "Caspian Sea"],
       funFact: "Lake Superior is so big that if you emptied all five Great Lakes into it, it would still have room for three more Lake Eries! It contains 10% of all the fresh surface water on Earth  -  that is enough water to flood all of North and South America under 30 centimeters of water! 🌊",
@@ -4598,9 +4598,9 @@ const worldRecords: Topic = {
     { id: "wr-36", answer: "Burj Khalifa",
       pronunciation: "Burj Khalifa (BURJ kuh-LEE-fuh)", category: "World Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is the world's tallest building  -  it stands 828 meters tall  -  it is located in Dubai, United Arab Emirates  -  it was completed in 2010  -  it has 163 floors  -  it was designed by the architectural firm Skidmore, Owings & Merrill  -  it has the world's highest observation deck at 555 meters  -  it also has the world's highest restaurant  -  it was named after the ruler of Abu Dhabi, Sheikh Khalifa bin Zayed Al Nahyan  -  construction required 330,000 cubic meters of concrete and 39,000 tonnes of steel  -  it can be seen from 95 kilometers away." },
-        { level: 2, difficulty: "medium", text: "World's tallest building at 828 meters  -  in Dubai, UAE  -  completed 2010  -  163 floors  -  designed by Skidmore, Owings & Merrill  -  world's highest observation deck at 555 meters  -  world's highest restaurant  -  named after ruler of Abu Dhabi Sheikh Khalifa  -  330,000 cubic meters of concrete, 39,000 tonnes of steel  -  visible from 95 km away." },
-        { level: 3, difficulty: "easy", text: "This is the world's tallest building at 828 meters  -  that is more than half a kilometer tall! It is in Dubai in the UAE. It has 163 floors and was completed in 2010. You can see it from 95 kilometers away! It has the world's highest observation deck where you can look out over the entire city. It was named after the ruler of Abu Dhabi. It took 22 million man-hours to build!" },
+        { level: 1, difficulty: "hard", text: "This is the world's tallest building - it stands 828 meters tall - it is located in Dubai, United Arab Emirates -." },
+        { level: 2, difficulty: "medium", text: "World's tallest building at 828 meters - in Dubai, UAE - completed 2010 - 163 floors - designed by Skidmore, Owings &." },
+        { level: 3, difficulty: "easy", text: "This is the world's tallest building at 828 meters  -  that is more than half a kilometer tall!" },
       ],
       options: ["Burj Khalifa", "Shanghai Tower", "One World Trade Center", "Taipei 101"],
       funFact: "The Burj Khalifa is so tall that if you watch the sunset from the ground floor, then take the elevator to the top, you can watch the sunset again  -  because you are so high up that the sun has not yet set from that height! 🌅",
@@ -4608,9 +4608,9 @@ const worldRecords: Topic = {
     { id: "wr-42", answer: "Great Wall of China",
       pronunciation: "Great Wall of China (GRAYT WAWL uv CHY-nuh)", category: "World Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is the world's longest wall  -  it stretches over 21,196 kilometers  -  it was built over many centuries by various Chinese dynasties  -  most of what stands today was built during the Ming Dynasty (1368-1644)  -  it was built to protect China from nomadic invasions from the north  -  it required millions of workers, many of whom died during construction  -  it is NOT visible from space with the naked eye, despite the popular myth  -  it is a UNESCO World Heritage Site  -  it is one of the New Seven Wonders of the World  -  it runs through mountains, deserts, and plains." },
-        { level: 2, difficulty: "medium", text: "World's longest wall at 21,196 km  -  built over many centuries by various Chinese dynasties  -  most standing today built during Ming Dynasty (1368-1644)  -  built to protect China from nomadic invasions  -  millions of workers, many died  -  NOT visible from space despite popular myth  -  UNESCO World Heritage Site  -  one of New Seven Wonders of the World  -  runs through mountains, deserts, plains." },
-        { level: 3, difficulty: "easy", text: "This is the world's longest wall  -  it stretches over 21,000 kilometers across China! It was built over hundreds of years to protect China from invaders from the north. Millions of workers built it, and many died during construction. It is one of the New Seven Wonders of the World. Despite what many people believe, it is NOT visible from space with the naked eye  -  that is a myth! It runs through mountains, deserts, and plains!" },
+        { level: 1, difficulty: "hard", text: "This is the world's longest wall - it stretches over 21,196 kilometers - it was built over many centuries by various Chinese." },
+        { level: 2, difficulty: "medium", text: "World's longest wall at 21,196 km - built over many centuries by various Chinese dynasties - most standing today built during Ming." },
+        { level: 3, difficulty: "easy", text: "This is the world's longest wall  -  it stretches over 21,000 kilometers across China!" },
       ],
       options: ["Great Wall of China", "Hadrian's Wall", "Berlin Wall", "Aurelian Wall"],
       funFact: "The Great Wall of China is actually made up of many separate walls built at different times  -  it is not one continuous wall! Some parts are in ruins, some are well-preserved, and some sections have been rebuilt for tourists. The total length of all sections is over 21,000 km! 🏯",
@@ -4618,8 +4618,8 @@ const worldRecords: Topic = {
     { id: "wr-51", answer: "Oymyakon",
       pronunciation: "Oymyakon (oy-mee-AH-kon)", category: "World Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This small village in Siberia, Russia is the coldest permanently inhabited place on Earth  -  the lowest temperature ever recorded there was -71.2°C in 1924  -  it is located in the Sakha Republic of Russia  -  it has a population of about 500 people  -  despite the extreme cold, people live there year-round  -  the ground is permanently frozen (permafrost)  -  cars must be kept running or they will not start  -  pens freeze and glasses stick to faces  -  the name comes from the Yakut language meaning 'unfreezing water'  -  it refers to a nearby hot spring that does not freeze." },
-        { level: 2, difficulty: "medium", text: "Coldest permanently inhabited place on Earth  -  lowest recorded temperature -71.2°C in 1924  -  in Sakha Republic, Siberia, Russia  -  population about 500  -  people live year-round despite extreme cold  -  ground permanently frozen (permafrost)  -  cars must be kept running  -  name from Yakut meaning 'unfreezing water' referring to nearby hot spring." },
+        { level: 1, difficulty: "hard", text: "This small village in Siberia, Russia is the coldest permanently inhabited place on Earth - the lowest temperature ever recorded there was." },
+        { level: 2, difficulty: "medium", text: "Coldest permanently inhabited place on Earth - lowest recorded temperature -71.2°C in 1924 - in Sakha Republic, Siberia, Russia - population about." },
         { level: 3, difficulty: "easy", text: "This village in Russia is one of the coldest places on Earth." },
       ],
       options: ["Oymyakon", "Verkhoyansk", "Yakutsk", "Barrow"],
@@ -4628,9 +4628,9 @@ const worldRecords: Topic = {
     { id: "wr-60", answer: "Challenger Deep",
       pronunciation: "Challenger Deep (CHAL-en-jer DEEP)", category: "World Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is the deepest known point in Earth's oceans  -  it is located in the Mariana Trench in the western Pacific Ocean  -  it reaches a depth of approximately 11,034 meters  -  it was first sounded by HMS Challenger during the Challenger expedition of 1872-1876  -  the first manned descent was made by Jacques Piccard and Don Walsh in 1960 in the bathyscaphe Trieste  -  filmmaker James Cameron made a solo dive in 2012 in the Deepsea Challenger  -  the water pressure at the bottom is about 1,086 times greater than at the surface  -  strange creatures including sea cucumbers and amphipods live there." },
-        { level: 2, difficulty: "medium", text: "Deepest known point in Earth's oceans at 11,034 meters  -  in Mariana Trench, western Pacific Ocean  -  first sounded by HMS Challenger in 1872-1876  -  first manned descent by Piccard and Walsh in 1960 in Trieste  -  James Cameron solo dive in 2012  -  water pressure 1,086 times greater than surface  -  sea cucumbers and amphipods live there." },
-        { level: 3, difficulty: "easy", text: "This is the deepest point in all of Earth's oceans  -  11,034 meters deep! It is at the bottom of the Mariana Trench in the Pacific Ocean. It was named after the ship HMS Challenger that first measured its depth in the 1870s. Only a handful of people have ever been to the bottom. The pressure there is so extreme it would crush a normal submarine. Amazingly, tiny creatures still live there in the total darkness!" },
+        { level: 1, difficulty: "hard", text: "This is the deepest known point in Earth's oceans - it is located in the Mariana Trench in the western Pacific Ocean." },
+        { level: 2, difficulty: "medium", text: "Deepest known point in Earth's oceans at 11,034 meters - in Mariana Trench, western Pacific Ocean - first sounded by HMS Challenger." },
+        { level: 3, difficulty: "easy", text: "This is the deepest point in all of Earth's oceans  -  11,034 meters deep!" },
       ],
       options: ["Challenger Deep", "Sirena Deep", "Horizon Deep", "Tonga Trench"],
       funFact: "Challenger Deep is so deep that if you dropped a steel ball from the surface, it would take over an hour to sink to the bottom! The pressure at the bottom is equivalent to having 50 jumbo jets stacked on top of you! 🌊",
@@ -4638,9 +4638,9 @@ const worldRecords: Topic = {
     { id: "wr-61", answer: "Kilauea",
       pronunciation: "Kilauea (kee-lah-WAY-ah)", category: "World Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This volcano in Hawaii, USA is one of the world's most active volcanoes  -  it has been erupting almost continuously since 1983  -  it is located on the Big Island of Hawaii  -  it is part of Hawaii Volcanoes National Park  -  it is a shield volcano  -  it sits on the Hawaiian hot spot  -  it is one of the most studied volcanoes in the world  -  its lava flows have added new land to the Big Island  -  in 2018, a major eruption destroyed over 700 homes  -  the name means 'spewing' or 'much spreading' in Hawaiian  -  it is considered the home of Pele, the Hawaiian goddess of volcanoes." },
-        { level: 2, difficulty: "medium", text: "One of world's most active volcanoes  -  erupting almost continuously since 1983  -  on Big Island of Hawaii  -  part of Hawaii Volcanoes National Park  -  shield volcano  -  sits on Hawaiian hot spot  -  most studied volcano in world  -  lava flows added new land to Big Island  -  2018 eruption destroyed 700+ homes  -  name means 'spewing' in Hawaiian  -  home of Pele, Hawaiian goddess of volcanoes." },
-        { level: 3, difficulty: "easy", text: "This is one of the world's most active volcanoes  -  it has been erupting almost non-stop since 1983! It is on the Big Island of Hawaii. It is a shield volcano, which means it has gentle slopes and flows lava instead of exploding. Its lava flows have actually created new land! In 2018, a big eruption destroyed over 700 homes. The Hawaiian people believe it is the home of Pele, the goddess of volcanoes!" },
+        { level: 1, difficulty: "hard", text: "This volcano in Hawaii, USA is one of the world's most active volcanoes - it has been erupting almost continuously since 1983." },
+        { level: 2, difficulty: "medium", text: "One of world's most active volcanoes - erupting almost continuously since 1983 - on Big Island of Hawaii - part of Hawaii." },
+        { level: 3, difficulty: "easy", text: "This is one of the world's most active volcanoes  -  it has been erupting almost non-stop since 1983!" },
       ],
       options: ["Kilauea", "Mauna Loa", "Mount St. Helens", "Pinatubo"],
       funFact: "Kilauea's lava flows have added over 500 acres of new land to the Big Island of Hawaii since 1983! The lava flows into the ocean and cools, creating brand-new land. Hawaii is the only US state that is literally getting bigger! 🌋",
@@ -4658,9 +4658,9 @@ const worldRecords: Topic = {
     { id: "wr-65", answer: "Krakatoa",
       pronunciation: "Krakatoa (krak-uh-TOH-uh)", category: "World Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This volcano in Indonesia produced one of the most powerful volcanic eruptions in recorded history when it erupted in 1883  -  the explosion was heard 4,800 kilometers away in Australia and Rodrigues Island near Mauritius  -  it generated a tsunami up to 30 meters tall that killed over 36,000 people  -  it ejected so much ash that global temperatures dropped by 1.2°C for five years  -  it caused vivid red sunsets around the world for months  -  the original island was largely destroyed  -  a new island called Anak Krakatau ('Child of Krakatoa') emerged from the sea in 1927  -  it is located in the Sunda Strait between Java and Sumatra." },
+        { level: 1, difficulty: "hard", text: "This volcano in Indonesia produced one of the most powerful volcanic eruptions in recorded history when it erupted in 1883 - the." },
         { level: 2, difficulty: "medium", text: "This volcano had a very loud eruption a long time ago." },
-        { level: 3, difficulty: "easy", text: "This volcano in Indonesia had one of the biggest eruptions in history in 1883! The explosion was so loud it was heard in Australia, 4,800 kilometers away  -  that is like hearing an explosion from New York all the way in London! It caused a giant wave (tsunami) that killed over 36,000 people. It shot so much ash into the sky that the whole world got colder for years! A new island called 'Child of Krakatoa' grew back from the sea in 1927!" },
+        { level: 3, difficulty: "easy", text: "This volcano in Indonesia had one of the biggest eruptions in history in 1883!" },
       ],
       options: ["Krakatoa", "Mount Tambora", "Pinatubo", "Mount Vesuvius"],
       funFact: "The 1883 Krakatoa eruption was so powerful that it destroyed most of the island and was heard 4,800 km away! The explosion was 10,000 times more powerful than the atomic bomb dropped on Hiroshima. The sunsets around the world were so vivid afterwards that they inspired the painting 'The Scream' by Edvard Munch! 🌋",
@@ -4669,7 +4669,7 @@ const worldRecords: Topic = {
       id: "wr-66",
       clues: [
       { level: 1, difficulty: "hard", text: "This village in India gets the most rain in the world." },
-      { level: 2, difficulty: "medium", text: "This village in northeastern India is the wettest place on Earth  -  it receives so much rain that residents wear special grass-woven umbrellas called 'knups' that cover their entire body." },
+      { level: 2, difficulty: "medium", text: "This village in northeastern India is the wettest place on Earth - it receives so much rain that residents wear special grass-woven." },
       { level: 3, difficulty: "easy", text: "People there use special umbrellas because of all the rain." }
       ],
       options: [
@@ -4705,7 +4705,7 @@ const worldRecords: Topic = {
     {
       id: "wr-68",
       clues: [
-      { level: 1, difficulty: "hard", text: "It holds the record for the greatest temperature range of any city on Earth  -  from -67.8°C in winter to +37.3°C in summer." },
+      { level: 1, difficulty: "hard", text: "It holds the record for the greatest temperature range of any city on Earth - from -67.8°C in winter to +37.3°C in." },
       { level: 2, difficulty: "medium", text: "It is a small town in Siberia, Russia, and one of the coldest inhabited places on Earth." },
       { level: 3, difficulty: "easy", text: "This Siberian town has the greatest temperature range of any city on Earth." }
       ],
@@ -4743,7 +4743,7 @@ const worldRecords: Topic = {
     {
       id: "wr-70",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is a volcano on an island in a lake on an island  -  making it one of the world's most unusual geographic features." },
+      { level: 1, difficulty: "hard", text: "It is a volcano on an island in a lake on an island - making it one of the world's most unusual." },
       { level: 2, difficulty: "medium", text: "It is one of the world's smallest active volcanoes, located in the Philippines." },
       { level: 3, difficulty: "easy", text: "This small but active volcano sits inside a lake in the Philippines." }
       ],
@@ -4780,7 +4780,7 @@ const worldRecords: Topic = {
     {
       id: "wr-72",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is the same rock as Uluru  -  the name 'Ayers Rock' was given by a European explorer in 1873 but the Aboriginal name Uluru is now preferred." },
+      { level: 1, difficulty: "hard", text: "It is the same rock as Uluru - the name 'Ayers Rock' was given by a European explorer in 1873 but the." },
       { level: 2, difficulty: "medium", text: "This is the former European name for the famous red rock in Australia's Northern Territory." },
       { level: 3, difficulty: "easy", text: "This is another name for the famous large red rock in the middle of Australia." }
       ],
@@ -4928,7 +4928,7 @@ const worldRecords: Topic = {
     {
       id: "wr-80",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is the only sea route between the Black Sea and the Mediterranean, making it one of the world's most strategically important waterways." },
+      { level: 1, difficulty: "hard", text: "It is the only sea route between the Black Sea and the Mediterranean, making it one of the world's most strategically important." },
       { level: 2, difficulty: "medium", text: "It divides Istanbul into European and Asian sides." },
       { level: 3, difficulty: "easy", text: "This narrow strait divides the city of Istanbul between Europe and Asia." }
       ],
@@ -4984,7 +4984,7 @@ const worldRecords: Topic = {
     {
       id: "wr-83",
       clues: [
-      { level: 1, difficulty: "hard", text: "A farmer named Dionisio Pulido watched it grow from a crack in his cornfield in 1943  -  it grew 9 meters in its first day." },
+      { level: 1, difficulty: "hard", text: "A farmer named Dionisio Pulido watched it grow from a crack in his cornfield in 1943 - it grew 9 meters in." },
       { level: 2, difficulty: "medium", text: "It is a cinder cone volcano in Mexico that grew from a flat cornfield in 1943." },
       { level: 3, difficulty: "easy", text: "This Mexican volcano famously grew out of a farmer's cornfield in 1943." }
       ],
@@ -5078,7 +5078,7 @@ const worldRecords: Topic = {
     {
       id: "wr-88",
       clues: [
-      { level: 1, difficulty: "hard", text: "The oldest known individual tree, named Methuselah, is 4,855 years old  -  it was already 2,000 years old when the pyramids were built." },
+      { level: 1, difficulty: "hard", text: "The oldest known individual tree, named Methuselah, is 4,855 years old - it was already 2,000 years old when the pyramids were." },
       { level: 2, difficulty: "medium", text: "They are the world's oldest living trees, found in the mountains of the western United States." },
       { level: 3, difficulty: "easy", text: "These trees in the western United States are the world's oldest living trees." }
       ],
@@ -5114,7 +5114,7 @@ const worldRecords: Topic = {
     {
       id: "wr-90",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is not the tallest or widest tree, but its total volume of wood  -  1,487 cubic meters  -  makes it the world's largest by volume." },
+      { level: 1, difficulty: "hard", text: "It is not the tallest or widest tree, but its total volume of wood - 1,487 cubic meters - makes it the." },
       { level: 2, difficulty: "medium", text: "It is the world's largest tree by volume, a giant sequoia in Sequoia National Park, California." },
       { level: 3, difficulty: "easy", text: "This giant sequoia tree in California is the world's largest tree by volume." }
       ],
@@ -5222,7 +5222,7 @@ const worldRecords: Topic = {
     {
       id: "wr-96",
       clues: [
-      { level: 1, difficulty: "hard", text: "They can be so large they are visible from space  -  some carry enough dust to cross the Atlantic Ocean and reach the Caribbean." },
+      { level: 1, difficulty: "hard", text: "They can be so large they are visible from space - some carry enough dust to cross the Atlantic Ocean and reach." },
       { level: 2, difficulty: "medium", text: "They are massive walls of sand and dust that can be kilometers high, occurring in the Sahara Desert." },
       { level: 3, difficulty: "easy", text: "These massive walls of sand and dust occur in the Sahara Desert." }
       ],
@@ -5258,7 +5258,7 @@ const worldRecords: Topic = {
     {
       id: "wr-98",
       clues: [
-      { level: 1, difficulty: "hard", text: "It has the roughest seas on Earth  -  waves can reach 15 meters  -  because there is no land to block the winds that circle Antarctica." },
+      { level: 1, difficulty: "hard", text: "It has the roughest seas on Earth - waves can reach 15 meters - because there is no land to block the." },
       { level: 2, difficulty: "medium", text: "It is the body of water between South America and Antarctica, known for its extremely rough seas." },
       { level: 3, difficulty: "easy", text: "This rough stretch of water lies between South America and Antarctica." }
       ],
@@ -5276,9 +5276,9 @@ const worldRecords: Topic = {
 
     { id: "wr-40", answer: "Valdes Peninsula", category: "Wildlife Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This peninsula in Patagonia, Argentina is a UNESCO World Heritage Site and is home to the world's largest colony of Magellanic penguins  -  about 400,000 breeding pairs  -  as well as southern right whales, elephant seals, and sea lions, making it one of the most important wildlife sanctuaries in South America." },
-        { level: 2, difficulty: "medium", text: "This peninsula in Patagonia, Argentina is a UNESCO World Heritage Site with the world's largest Magellanic penguin colony  -  400,000 breeding pairs  -  plus whales, elephant seals, and sea lions." },
-        { level: 3, difficulty: "easy", text: "This peninsula in Argentina has the world's biggest penguin colony  -  400,000 pairs of Magellanic penguins live there along with whales and elephant seals!" },
+        { level: 1, difficulty: "hard", text: "This peninsula in Patagonia, Argentina is a UNESCO World Heritage Site and is home to the world's largest colony of Magellanic penguins." },
+        { level: 2, difficulty: "medium", text: "This peninsula in Patagonia, Argentina is a UNESCO World Heritage Site with the world's largest Magellanic penguin colony - 400,000 breeding pairs." },
+        { level: 3, difficulty: "easy", text: "This peninsula in Argentina has the world's biggest penguin colony - 400,000 pairs of Magellanic penguins live there along with whales and." },
       ],
       options: ["Valdes Peninsula", "Falkland Islands", "Tierra del Fuego", "Chiloé Island"],
       funFact: "The Valdes Peninsula has 400,000 pairs of penguins  -  that is 800,000 penguins in one place! It is the world's largest colony of Magellanic penguins! 🐧",
@@ -5286,9 +5286,9 @@ const worldRecords: Topic = {
     },
     { id: "wr-42", answer: "Sundarbans", category: "Mangrove Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mangrove forest in the delta of the Ganges, Brahmaputra, and Meghna rivers in Bangladesh and India is the world's largest mangrove forest at about 10,000 square kilometres, is a UNESCO World Heritage Site, and is home to the world's largest population of Bengal tigers  -  about 400 tigers that have adapted to swimming between islands." },
-        { level: 2, difficulty: "medium", text: "This mangrove forest in the Ganges delta shared by Bangladesh and India is the world's largest at 10,000 square kilometres and is home to about 400 Bengal tigers that swim between islands." },
-        { level: 3, difficulty: "easy", text: "This mangrove forest in Bangladesh and India is the world's biggest  -  it is home to 400 Bengal tigers that have learned to swim between the islands!" },
+        { level: 1, difficulty: "hard", text: "This mangrove forest in the delta of the Ganges, Brahmaputra, and Meghna rivers in Bangladesh and India is the world's largest mangrove." },
+        { level: 2, difficulty: "medium", text: "This mangrove forest in the Ganges delta shared by Bangladesh and India is the world's largest at 10,000 square kilometres and is." },
+        { level: 3, difficulty: "easy", text: "This mangrove forest in Bangladesh and India is the world's biggest - it is home to 400 Bengal tigers that have learned." },
       ],
       options: ["Sundarbans", "Amazon Mangroves", "Everglades Mangroves", "Mekong Delta Mangroves"],
       funFact: "The Bengal tigers in the Sundarbans are the only tigers in the world that regularly swim in saltwater  -  they swim between islands to hunt! 🐯",
@@ -5296,8 +5296,8 @@ const worldRecords: Topic = {
     },
     { id: "wr-41", answer: "Ganges Delta", category: "Landforms", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This delta in Bangladesh and India formed by the Ganges and Brahmaputra rivers is the world's largest river delta at about 105,000 square kilometres, is home to the Sundarbans  -  the world's largest mangrove forest  -  which is a UNESCO World Heritage Site and home to the Bengal tiger." },
-        { level: 2, difficulty: "medium", text: "This delta in Bangladesh and India is the world's largest river delta, is home to the Sundarbans  -  the world's largest mangrove forest  -  and is a habitat for the Bengal tiger." },
+        { level: 1, difficulty: "hard", text: "This delta in Bangladesh and India formed by the Ganges and Brahmaputra rivers is the world's largest river delta at about 105,000." },
+        { level: 2, difficulty: "medium", text: "This delta in Bangladesh and India is the world's largest river delta, is home to the Sundarbans - the world's largest mangrove." },
         { level: 3, difficulty: "easy", text: "This is the world's biggest river delta in Bangladesh  -  it has the world's largest mangrove forest where Bengal tigers live!" },
       ],
       options: ["Ganges Delta", "Nile Delta", "Amazon Delta", "Mississippi Delta"],
@@ -5306,9 +5306,9 @@ const worldRecords: Topic = {
     },
     { id: "wr-42", answer: "Antarctic Ice Sheet", category: "Ice Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This ice sheet covering Antarctica is the world's largest single mass of ice, contains about 26.5 million cubic kilometres of ice  -  about 61% of all the fresh water on Earth  -  and if it melted completely, global sea levels would rise by about 58 metres, which would flood nearly every coastal city in the world." },
-        { level: 2, difficulty: "medium", text: "This ice sheet covering Antarctica is the world's largest ice mass, contains 61% of all Earth's fresh water, and if it melted, sea levels would rise 58 metres  -  flooding every coastal city." },
-        { level: 3, difficulty: "easy", text: "This giant sheet of ice covering Antarctica has 61% of all the fresh water on Earth  -  if it all melted, the sea would rise 58 metres and flood almost every city near the ocean!" },
+        { level: 1, difficulty: "hard", text: "This ice sheet covering Antarctica is the world's largest single mass of ice, contains about 26.5 million cubic kilometres of ice -." },
+        { level: 2, difficulty: "medium", text: "This ice sheet covering Antarctica is the world's largest ice mass, contains 61% of all Earth's fresh water, and if it melted." },
+        { level: 3, difficulty: "easy", text: "This giant sheet of ice covering Antarctica has 61% of all the fresh water on Earth - if it all melted, the." },
       ],
       options: ["Antarctic Ice Sheet", "Greenland Ice Sheet", "Arctic Sea Ice", "Himalayan Glaciers"],
       funFact: "The Antarctic Ice Sheet has 61% of all the fresh water on Earth  -  all the rivers, lakes, and rain in the world combined have less fresh water than this one ice sheet! 🧊",
@@ -5326,7 +5326,7 @@ const worldRecords: Topic = {
     },
     { id: "wr-56", answer: "Tonga Trench", category: "Ocean Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This oceanic trench in the Pacific Ocean near Tonga is the second deepest trench in the world after the Mariana Trench, reaching a depth of about 10,882 metres, and is also one of the most seismically active places on Earth  -  producing some of the world's most powerful earthquakes and tsunamis." },
+        { level: 1, difficulty: "hard", text: "This oceanic trench in the Pacific Ocean near Tonga is the second deepest trench in the world after the Mariana Trench, reaching." },
         { level: 2, difficulty: "medium", text: "This very deep part of the ocean is near a country called Tonga." },
         { level: 3, difficulty: "easy", text: "It is one of the deepest places in all the oceans." },
       ],
@@ -5346,9 +5346,9 @@ const worldRecords: Topic = {
     },
     { id: "wr-60", answer: "Baikal Seal", category: "Animal Records", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This seal species found only in Lake Baikal in Russia is the world's only exclusively freshwater seal species, is one of the smallest seal species in the world, and scientists believe it migrated to Lake Baikal from the Arctic Ocean millions of years ago  -  though there is no current water connection between the lake and the ocean." },
-        { level: 2, difficulty: "medium", text: "This seal found only in Lake Baikal is the world's only exclusively freshwater seal, and scientists believe it migrated from the Arctic Ocean millions of years ago." },
-        { level: 3, difficulty: "easy", text: "This is the world's only freshwater seal  -  it lives only in Lake Baikal in Russia and scientists think its ancestors swam from the Arctic Ocean millions of years ago!" },
+        { level: 1, difficulty: "hard", text: "This seal species found only in Lake Baikal in Russia is the world's only exclusively freshwater seal species, is one of the." },
+        { level: 2, difficulty: "medium", text: "This seal found only in Lake Baikal is the world's only exclusively freshwater seal, and scientists believe it migrated from the Arctic." },
+        { level: 3, difficulty: "easy", text: "This is the world's only freshwater seal - it lives only in Lake Baikal in Russia and scientists think its ancestors swam." },
       ],
       options: ["Baikal Seal", "Ringed Seal", "Caspian Seal", "Harbor Seal"],
       funFact: "The Baikal Seal is the world's only freshwater seal  -  it lives in a lake that is thousands of kilometres from the ocean! 🦭",
@@ -5356,9 +5356,9 @@ const worldRecords: Topic = {
     },
     { id: "wr-61", answer: "Danakil Depression", category: "Lowest Points", topicId: "world-records",
       clues: [
-        { level: 1, difficulty: "hard", text: "This depression in the Afar Triangle of Ethiopia, Eritrea, and Djibouti is one of the hottest, driest, and lowest places on Earth, is about 100 metres below sea level in parts, and contains the Dallol volcano  -  which has the highest average annual temperature of any inhabited place on Earth." },
-        { level: 2, difficulty: "medium", text: "This depression in Ethiopia and Eritrea is one of the hottest, driest, and lowest places on Earth, and contains the Dallol volcano  -  the hottest inhabited place on Earth." },
-        { level: 3, difficulty: "easy", text: "This place in Ethiopia is one of the hottest and lowest places on Earth  -  it has colorful acid pools and is so extreme it looks like another planet!" },
+        { level: 1, difficulty: "hard", text: "This depression in the Afar Triangle of Ethiopia, Eritrea, and Djibouti is one of the hottest, driest, and lowest places on Earth." },
+        { level: 2, difficulty: "medium", text: "This depression in Ethiopia and Eritrea is one of the hottest, driest, and lowest places on Earth, and contains the Dallol volcano." },
+        { level: 3, difficulty: "easy", text: "This place in Ethiopia is one of the hottest and lowest places on Earth - it has colorful acid pools and is." },
       ],
       options: ["Danakil Depression", "Dead Sea Depression", "Qattara Depression", "Turfan Depression"],
       funFact: "The Danakil Depression is so extreme that scientists study it to understand what life might look like on other planets  -  some bacteria can survive in its acid pools! 🌋",
@@ -5385,9 +5385,9 @@ const middleEast: Topic = {
   questions: [
     { id: "me-1", answer: "The Suez Canal", pronunciation: "The SOO-ez kuh-NAL", category: "Landmarks", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This 193-km waterway was completed in 1869 and connects the Mediterranean Sea to the Red Sea, eliminating the need to sail around the entire continent of Africa." },
+        { level: 1, difficulty: "hard", text: "This 193-km waterway was completed in 1869 and connects the Mediterranean Sea to the Red Sea, eliminating the need to sail around." },
         { level: 2, difficulty: "medium", text: "This important canal in Egypt allows ships to travel between Europe and Asia without going around Africa." },
-        { level: 3, difficulty: "easy", text: "This famous canal in Egypt is like a shortcut for ships  -  it cuts through the land so boats don't have to go the long way around Africa!" },
+        { level: 3, difficulty: "easy", text: "This famous canal in Egypt is like a shortcut for ships - it cuts through the land so boats don't have to." },
       ],
       options: ["Panama Canal", "Erie Canal", "The Suez Canal", "Kiel Canal"],
       funFact: "Before the Suez Canal was built, ships had to travel an extra 7,000 km around Africa! ⛵",
@@ -5396,14 +5396,14 @@ const middleEast: Topic = {
       clues: [
         { level: 1, difficulty: "hard", text: "This city sits in the Najd plateau of the Arabian Peninsula and is the capital of the world's largest oil exporter." },
         { level: 2, difficulty: "medium", text: "This is the capital of Saudi Arabia, the largest country in the Middle East." },
-        { level: 3, difficulty: "easy", text: "This city is the capital of Saudi Arabia, a country in the Middle East that has a lot of oil and sand dunes." },
+        { level: 3, difficulty: "easy", text: "This city is the capital of Saudi Arabia, a country in the Middle East that has a lot of oil and sand." },
       ],
       options: ["Dubai", "Tehran", "Riyadh", "Baghdad"],
       funFact: "Saudi Arabia has no rivers at all  -  all its fresh water comes from underground or the sea! 🏜️",
     },
     { id: "me-3", answer: "The Tigris and Euphrates", pronunciation: "The TY-gris and yoo-FRAY-teez", category: "Physical Features", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "These two rivers in Mesopotamia (modern Iraq) were the birthplace of the world's first cities and writing systems, including ancient Sumer and Babylon." },
+        { level: 1, difficulty: "hard", text: "These two rivers in Mesopotamia (modern Iraq) were the birthplace of the world's first cities and writing systems, including ancient Sumer and." },
         { level: 2, difficulty: "medium", text: "These two famous rivers in Iraq were the heart of ancient Mesopotamia, one of the world's earliest civilizations." },
         { level: 3, difficulty: "easy", text: "These two rivers in Iraq are where some of the very first cities in history were built thousands of years ago!" },
       ],
@@ -5413,7 +5413,7 @@ const middleEast: Topic = {
     { id: "me-4", answer: "Ankara", pronunciation: "ANG-kuh-ruh", category: "Capitals", topicId: "middle-east",
       clues: [
         { level: 1, difficulty: "hard", text: "This city replaced Istanbul as the capital of Turkey in 1923 when Mustafa Kemal Atatürk founded the modern Turkish Republic." },
-        { level: 2, difficulty: "medium", text: "This is the capital of Turkey  -  not Istanbul, which is the biggest city, but this city in the center of the country." },
+        { level: 2, difficulty: "medium", text: "This is the capital of Turkey - not Istanbul, which is the biggest city, but this city in the center of the." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Turkey, a country that sits between Europe and Asia." },
       ],
       options: ["Istanbul", "Ankara", "Izmir", "Bursa"],
@@ -5421,7 +5421,7 @@ const middleEast: Topic = {
     },
     { id: "me-6", answer: "Tehran", pronunciation: "teh-RAN", category: "Capitals", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city sits at the foot of the Alborz Mountains and is the capital of a country that was once called Persia, home to one of the world's oldest civilizations." },
+        { level: 1, difficulty: "hard", text: "This city sits at the foot of the Alborz Mountains and is the capital of a country that was once called Persia." },
         { level: 2, difficulty: "medium", text: "This is the capital of Iran, a large country in the Middle East that was once the center of the Persian Empire." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Iran, a country in the Middle East that was once called Persia." },
       ],
@@ -5430,7 +5430,7 @@ const middleEast: Topic = {
     },
     { id: "me-7", answer: "The Arabian Desert", category: "Physical Features", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This desert covers most of the Arabian Peninsula and contains the Rub' al Khali, or 'Empty Quarter,' the world's largest continuous sand desert." },
+        { level: 1, difficulty: "hard", text: "This desert covers most of the Arabian Peninsula and contains the Rub' al Khali, or 'Empty Quarter,' the world's largest continuous sand." },
         { level: 2, difficulty: "medium", text: "This is the world's second-largest hot desert, covering most of the Arabian Peninsula in the Middle East." },
         { level: 3, difficulty: "easy", text: "This giant desert covers most of the Middle East and is where camels and Bedouin people have lived for thousands of years." },
       ],
@@ -5439,7 +5439,7 @@ const middleEast: Topic = {
     },
     { id: "me-8", answer: "Jerusalem", pronunciation: "juh-ROO-suh-lem", category: "Cities", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This ancient city contains the Western Wall, the Church of the Holy Sepulchre, and the Dome of the Rock, making it sacred to Judaism, Christianity, and Islam simultaneously." },
+        { level: 1, difficulty: "hard", text: "This ancient city contains the Western Wall, the Church of the Holy Sepulchre, and the Dome of the Rock, making it sacred." },
         { level: 2, difficulty: "medium", text: "This ancient city in Israel is considered holy by three major world religions: Judaism, Christianity, and Islam." },
         { level: 3, difficulty: "easy", text: "This very old city is special to three religions  -  Jewish, Christian, and Muslim people all consider it holy." },
       ],
@@ -5448,7 +5448,7 @@ const middleEast: Topic = {
     },
     { id: "me-9", answer: "The Persian Gulf", category: "Bodies of Water", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This body of water is bordered by Iran to the north and the Arabian Peninsula to the south and west, and its shores contain about 50% of the world's proven oil reserves." },
+        { level: 1, difficulty: "hard", text: "This body of water is bordered by Iran to the north and the Arabian Peninsula to the south and west, and its." },
         { level: 2, difficulty: "medium", text: "This body of water in the Middle East is surrounded by some of the world's biggest oil-producing countries." },
         { level: 3, difficulty: "easy", text: "This water is between Iran and the Arabian Peninsula." },
       ],
@@ -5457,7 +5457,7 @@ const middleEast: Topic = {
     },
     { id: "me-10", answer: "Baghdad", pronunciation: "BAG-dad", category: "Capitals", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city on the Tigris River was founded in 762 AD and became the center of the Islamic Golden Age, when it was the world's largest city and a hub of science and learning." },
+        { level: 1, difficulty: "hard", text: "This city on the Tigris River was founded in 762 AD and became the center of the Islamic Golden Age, when it." },
         { level: 2, difficulty: "medium", text: "This is the capital of Iraq and one of the most historically important cities in the Middle East." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Iraq, a country in the Middle East that was home to ancient Babylon." },
       ],
@@ -5467,7 +5467,7 @@ const middleEast: Topic = {
     { id: "me-11", answer: "The Red Sea", category: "Bodies of Water", topicId: "middle-east",
       clues: [
         { level: 1, difficulty: "hard", text: "This body of water separates the Arabian Peninsula from northeastern Africa and connects to the Mediterranean Sea through the Suez Canal." },
-        { level: 2, difficulty: "medium", text: "This sea between Africa and the Arabian Peninsula is famous for its coral reefs and is one of the world's most important shipping routes." },
+        { level: 2, difficulty: "medium", text: "This sea between Africa and the Arabian Peninsula is famous for its coral reefs and is one of the world's most important." },
         { level: 3, difficulty: "easy", text: "This sea between Africa and Saudi Arabia is famous for beautiful coral reefs and colorful fish." },
       ],
       options: ["Mediterranean Sea", "Arabian Sea", "The Red Sea", "Black Sea"],
@@ -5475,7 +5475,7 @@ const middleEast: Topic = {
     },
     { id: "me-12", answer: "Mecca", pronunciation: "MEK-uh", category: "Cities", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city in Saudi Arabia contains the Masjid al-Haram, the world's largest mosque, and the Kaaba, a cube-shaped structure that Muslims around the world face when they pray." },
+        { level: 1, difficulty: "hard", text: "This city in Saudi Arabia contains the Masjid al-Haram, the world's largest mosque, and the Kaaba, a cube-shaped structure that Muslims around." },
         { level: 2, difficulty: "medium", text: "This city in Saudi Arabia is the holiest city in Islam and is visited by millions of Muslim pilgrims every year." },
         { level: 3, difficulty: "easy", text: "This city in Saudi Arabia is the most important city in the Islamic religion  -  millions of Muslims visit it every year." },
       ],
@@ -5484,7 +5484,7 @@ const middleEast: Topic = {
     },
     { id: "me-13", answer: "The Bosphorus", pronunciation: "The BOS-fuh-rus", category: "Physical Features", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This narrow strait in Turkey connects the Black Sea to the Sea of Marmara and divides the city of Istanbul between two continents." },
+        { level: 1, difficulty: "hard", text: "This narrow strait in Turkey connects the Black Sea to the Sea of Marmara and divides the city of Istanbul between two." },
         { level: 2, difficulty: "medium", text: "This narrow waterway in Turkey separates Europe from Asia and runs through the middle of Istanbul." },
         { level: 3, difficulty: "easy", text: "This narrow water channel in Turkey is special because it divides the city of Istanbul between two different continents!" },
       ],
@@ -5493,7 +5493,7 @@ const middleEast: Topic = {
     },
     { id: "me-14", answer: "Muscat", pronunciation: "MUS-kat", category: "Capitals", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city is the capital of Oman, a country known for its frankincense trade that dates back thousands of years, and sits on the Gulf of Oman." },
+        { level: 1, difficulty: "hard", text: "This city is the capital of Oman, a country known for its frankincense trade that dates back thousands of years, and sits." },
         { level: 2, difficulty: "medium", text: "This is the capital of Oman, a country on the southeastern corner of the Arabian Peninsula." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Oman, a country in the Middle East with beautiful mountains and deserts." },
       ],
@@ -5521,18 +5521,18 @@ const middleEast: Topic = {
     },
     { id: "me-18", answer: "Mesopotamia", pronunciation: "mes-uh-puh-TAY-mee-uh", category: "Historical Regions", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This historical region between the Tigris and Euphrates rivers in modern-day Iraq is often called the 'Cradle of Civilization' because it is where writing, the wheel, and the first cities were invented." },
+        { level: 1, difficulty: "hard", text: "This historical region between the Tigris and Euphrates rivers in modern-day Iraq is often called the 'Cradle of Civilization' because it is." },
         { level: 2, difficulty: "medium", text: "This ancient region between the Tigris and Euphrates rivers in Iraq is called the 'Cradle of Civilization' because writing was invented there." },
-        { level: 3, difficulty: "easy", text: "This ancient region between two rivers in Iraq is where people invented writing and built the world's first cities thousands of years ago!" },
+        { level: 3, difficulty: "easy", text: "This ancient region between two rivers in Iraq is where people invented writing and built the world's first cities thousands of years." },
       ],
       options: ["Fertile Crescent", "Mesopotamia", "Levant", "Anatolia"],
       funFact: "Writing was invented in Mesopotamia about 5,000 years ago  -  the first things people wrote down were shopping lists and business records! ✍️",
     },
     { id: "me-22", answer: "Rub al Khali", pronunciation: "ROOB al KAH-lee", category: "Deserts", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This vast sand desert in the southern Arabian Peninsula is the world's largest continuous sand desert at about 650,000 square kilometers, covering parts of Saudi Arabia, Oman, UAE, and Yemen." },
+        { level: 1, difficulty: "hard", text: "This vast sand desert in the southern Arabian Peninsula is the world's largest continuous sand desert at about 650,000 square kilometers, covering." },
         { level: 2, difficulty: "medium", text: "This is the world's largest continuous sand desert, located in the Arabian Peninsula, and is also called the 'Empty Quarter.'" },
-        { level: 3, difficulty: "easy", text: "This is the world's biggest sand desert, found in Saudi Arabia  -  it is so empty that it is called the 'Empty Quarter'!" },
+        { level: 3, difficulty: "easy", text: "This is the world's biggest sand desert, found in Saudi Arabia - it is so empty that it is called the 'Empty." },
       ],
       options: ["Sahara Desert", "Arabian Desert", "Rub al Khali", "Syrian Desert"],
       funFact: "The Rub al Khali is so remote that some parts were not explored by outsiders until the 1930s! 🏜️",
@@ -5548,9 +5548,9 @@ const middleEast: Topic = {
     },
     { id: "me-24", answer: "Anatolia", pronunciation: "an-uh-TOH-lee-uh", category: "Regions", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This large peninsula in western Asia that makes up most of modern-day Turkey is sometimes called 'Asia Minor' and has been home to many ancient civilizations including the Hittites, Lydians, and Byzantines." },
+        { level: 1, difficulty: "hard", text: "This large peninsula in western Asia that makes up most of modern-day Turkey is sometimes called 'Asia Minor' and has been home." },
         { level: 2, difficulty: "medium", text: "This large peninsula that makes up most of Turkey is sometimes called 'Asia Minor' and was home to many ancient civilizations." },
-        { level: 3, difficulty: "easy", text: "This is the large peninsula that makes up most of Turkey  -  it is where many ancient civilizations lived thousands of years ago!" },
+        { level: 3, difficulty: "easy", text: "This is the large peninsula that makes up most of Turkey - it is where many ancient civilizations lived thousands of years." },
       ],
       options: ["Levant", "Mesopotamia", "Anatolia", "Arabian Peninsula"],
       funFact: "Anatolia is sometimes called the 'cradle of civilizations'  -  over 10,000 years of continuous human settlement have been found there! 🏛️",
@@ -5584,7 +5584,7 @@ const middleEast: Topic = {
     },
     { id: "me-28", answer: "Elburz Mountains", pronunciation: "el-BURZ MOWN-tinz", category: "Mountains", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range in northern Iran runs along the southern coast of the Caspian Sea and contains Mount Damavand, the highest volcano in Asia at 5,610 meters." },
+        { level: 1, difficulty: "hard", text: "This mountain range in northern Iran runs along the southern coast of the Caspian Sea and contains Mount Damavand, the highest volcano." },
         { level: 2, difficulty: "medium", text: "These mountains in northern Iran run along the Caspian Sea and contain the highest volcano in Asia." },
         { level: 3, difficulty: "easy", text: "These mountains in northern Iran are next to the Caspian Sea  -  they have the highest volcano in Asia!" },
       ],
@@ -5602,7 +5602,7 @@ const middleEast: Topic = {
     },
     { id: "me-30", answer: "Taurus Mountains", pronunciation: "TAW-rus MOWN-tinz", category: "Mountains", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range in southern Turkey forms a barrier between the Anatolian Plateau and the Mediterranean coastal plain and was an important natural boundary in ancient times." },
+        { level: 1, difficulty: "hard", text: "This mountain range in southern Turkey forms a barrier between the Anatolian Plateau and the Mediterranean coastal plain and was an important." },
         { level: 2, difficulty: "medium", text: "These mountains run across southern Turkey and separate the interior plateau from the Mediterranean coast." },
         { level: 3, difficulty: "easy", text: "These mountains in southern Turkey separate the high plateau from the warm Mediterranean coast." },
       ],
@@ -5649,9 +5649,9 @@ const middleEast: Topic = {
     },
     { id: "me-39", answer: "Kaaba", category: "Religious Sites", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This cube-shaped building at the center of the Masjid al-Haram mosque in Mecca, Saudi Arabia is the most sacred site in Islam, is considered the 'House of God' by Muslims, and is the direction that Muslims around the world face when they pray  -  about 1.8 billion people orient themselves toward this structure five times every day." },
-        { level: 2, difficulty: "medium", text: "This cube-shaped building at the center of the Masjid al-Haram in Mecca is the most sacred site in Islam, and 1.8 billion Muslims around the world face toward it when they pray five times a day." },
-        { level: 3, difficulty: "easy", text: "This cube-shaped building in Mecca is the holiest place in Islam  -  1.8 billion Muslims around the world face toward it when they pray five times every day!" },
+        { level: 1, difficulty: "hard", text: "This cube-shaped building at the center of the Masjid al-Haram mosque in Mecca, Saudi Arabia is the most sacred site in Islam." },
+        { level: 2, difficulty: "medium", text: "This cube-shaped building at the center of the Masjid al-Haram in Mecca is the most sacred site in Islam, and 1.8 billion." },
+        { level: 3, difficulty: "easy", text: "This cube-shaped building in Mecca is the holiest place in Islam - 1.8 billion Muslims around the world face toward it when." },
       ],
       options: ["Kaaba", "Al-Aqsa Mosque", "Dome of the Rock", "Prophet's Mosque"],
       funFact: "The Kaaba in Mecca is so holy that 1.8 billion Muslims face toward it when they pray  -  that is about 1 in 4 people on Earth turning toward the same building 5 times a day! 🕌",
@@ -5659,7 +5659,7 @@ const middleEast: Topic = {
     },
     { id: "me-41", answer: "Oman", category: "Countries", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This country on the southeastern corner of the Arabian Peninsula is bordered by Saudi Arabia, the UAE, and Yemen, has a coastline on the Arabian Sea, Gulf of Oman, and Persian Gulf, is famous for its ancient frankincense trade  -  it was one of the world's main producers of frankincense for thousands of years  -  and its capital is Muscat." },
+        { level: 1, difficulty: "hard", text: "This country on the southeastern corner of the Arabian Peninsula is bordered by Saudi Arabia, the UAE, and Yemen, has a coastline." },
         { level: 2, difficulty: "medium", text: "This country is on the southeastern Arabian Peninsula. Its capital city is Muscat." },
         { level: 3, difficulty: "easy", text: "This country has a coastline on the Arabian Sea. It is next to Saudi Arabia and Yemen." },
       ],
@@ -5669,9 +5669,9 @@ const middleEast: Topic = {
     },
     { id: "me-42", answer: "Qatar", category: "Countries", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This small peninsula country in the Persian Gulf is one of the world's wealthiest countries per capita due to its enormous natural gas reserves  -  it has the world's third largest natural gas reserves  -  hosted the 2022 FIFA World Cup, and its capital Doha has transformed from a small fishing village to a modern metropolis in just a few decades." },
-        { level: 2, difficulty: "medium", text: "This small peninsula in the Persian Gulf has the world's third largest natural gas reserves, hosted the 2022 FIFA World Cup, and its capital Doha transformed from a fishing village to a modern city in decades." },
-        { level: 3, difficulty: "easy", text: "This tiny country in the Persian Gulf hosted the 2022 FIFA World Cup  -  it is one of the richest countries in the world because it has huge amounts of natural gas!" },
+        { level: 1, difficulty: "hard", text: "This small peninsula country in the Persian Gulf is one of the world's wealthiest countries per capita due to its enormous natural." },
+        { level: 2, difficulty: "medium", text: "This small peninsula in the Persian Gulf has the world's third largest natural gas reserves, hosted the 2022 FIFA World Cup, and." },
+        { level: 3, difficulty: "easy", text: "This tiny country in the Persian Gulf hosted the 2022 FIFA World Cup - it is one of the richest countries in." },
       ],
       options: ["Qatar", "Bahrain", "Kuwait", "UAE"],
       funFact: "Qatar is one of the richest countries in the world per person  -  it has so much natural gas that every citizen receives free healthcare, education, and electricity! ⚽",
@@ -5699,9 +5699,9 @@ const middleEast: Topic = {
     },
     { id: "me-47", answer: "Cappadocia", category: "Landscapes", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This region in central Turkey is famous for its unique geological formations called 'fairy chimneys'  -  tall cone-shaped rock formations created by volcanic eruptions and erosion over millions of years  -  and for its ancient underground cities carved by early Christians to hide from Roman persecution, some of which could house up to 20,000 people." },
-        { level: 2, difficulty: "medium", text: "This region in Turkey is famous for 'fairy chimney' rock formations created by volcanic eruptions and erosion, and for ancient underground cities that could house 20,000 people." },
-        { level: 3, difficulty: "easy", text: "This region in Turkey has amazing cone-shaped rocks called fairy chimneys  -  and people carved entire underground cities into the rock to hide thousands of years ago!" },
+        { level: 1, difficulty: "hard", text: "This region in central Turkey is famous for its unique geological formations called 'fairy chimneys' - tall cone-shaped rock formations created by." },
+        { level: 2, difficulty: "medium", text: "This region in Turkey is famous for 'fairy chimney' rock formations created by volcanic eruptions and erosion, and for ancient underground cities." },
+        { level: 3, difficulty: "easy", text: "This region in Turkey has amazing cone-shaped rocks called fairy chimneys - and people carved entire underground cities into the rock to." },
       ],
       options: ["Cappadocia", "Pamukkale", "Ephesus", "Troy"],
       funFact: "Cappadocia has underground cities carved into rock that could hide 20,000 people  -  they had rooms, kitchens, stables, and even churches underground! 🏔️",
@@ -5710,8 +5710,8 @@ const middleEast: Topic = {
     { id: "me-48", answer: "Pamukkale", category: "Natural Wonders", topicId: "middle-east",
       clues: [
         { level: 1, difficulty: "hard", text: "This place in Turkey has white terraces made by warm water. Its name means \'cotton castle\' in Turkish." },
-        { level: 2, difficulty: "medium", text: "This site in Turkey has terraced white pools of thermal water that deposited calcium carbonate over thousands of years, creating a white landscape  -  its name means 'cotton castle' in Turkish." },
-        { level: 3, difficulty: "easy", text: "This place in Turkey has beautiful white terraced pools of warm water  -  its name means 'cotton castle' because the white mineral deposits look like fluffy white cotton!" },
+        { level: 2, difficulty: "medium", text: "This site in Turkey has terraced white pools of thermal water that deposited calcium carbonate over thousands of years, creating a white." },
+        { level: 3, difficulty: "easy", text: "This place in Turkey has beautiful white terraced pools of warm water - its name means 'cotton castle' because the white mineral." },
       ],
       options: ["Pamukkale", "Cappadocia", "Ephesus", "Hierapolis"],
       funFact: "Pamukkale means 'cotton castle' in Turkish  -  the white mineral terraces look so much like cotton that people have been bathing in its warm pools for over 2,000 years! 🏊",
@@ -5720,9 +5720,9 @@ const middleEast: Topic = {
     { id: "me-60", answer: "Lebanon",
       pronunciation: "Lebanon (LEB-uh-non)", category: "Countries", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This small country in the Middle East is bordered by Syria to the north and east, Israel to the south, and the Mediterranean Sea to the west  -  its capital and largest city is Beirut  -  it is one of the smallest countries in the world by area  -  it is known as the 'Paris of the Middle East' for its cosmopolitan culture  -  it is home to the ancient Phoenician cities of Tyre and Sidon  -  the Cedar of Lebanon is its national symbol and appears on its flag  -  it has the highest mountains in the Middle East  -  it was once known for its cedar forests that supplied wood to ancient Egypt and Solomon's Temple." },
-        { level: 2, difficulty: "medium", text: "Small country bordered by Syria, Israel, Mediterranean Sea  -  capital Beirut called 'Paris of the Middle East'  -  one of world's smallest countries  -  home to ancient Phoenician cities Tyre and Sidon  -  Cedar of Lebanon is national symbol on flag  -  highest mountains in Middle East  -  once known for cedar forests supplying ancient Egypt and Solomon's Temple." },
-        { level: 3, difficulty: "easy", text: "This small country on the Mediterranean coast is bordered by Syria and Israel. Its capital Beirut is known as the 'Paris of the Middle East.' Its national symbol is the Cedar tree, which appears on its flag  -  ancient Egyptians and King Solomon used Lebanese cedar wood to build their greatest buildings! It has beautiful mountains and ancient Phoenician cities like Tyre and Sidon!" },
+        { level: 1, difficulty: "hard", text: "This small country in the Middle East is bordered by Syria to the north and east, Israel to the south, and the." },
+        { level: 2, difficulty: "medium", text: "Small country bordered by Syria, Israel, Mediterranean Sea - capital Beirut called 'Paris of the Middle East' - one of world's smallest." },
+        { level: 3, difficulty: "easy", text: "This small country on the Mediterranean coast is bordered by Syria and Israel." },
       ],
       options: ["Lebanon", "Jordan", "Cyprus", "Israel"],
       funFact: "The ancient Phoenicians from Lebanon invented the alphabet that most modern alphabets are based on  -  including the one you are reading right now! They also invented purple dye and were the greatest sailors of the ancient world! 📝",
@@ -5730,8 +5730,8 @@ const middleEast: Topic = {
     { id: "me-65", answer: "Kuwait",
       pronunciation: "Kuwait (koo-WAYT)", category: "Countries", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This small country is located at the northern tip of the Persian Gulf  -  it borders Saudi Arabia to the south and Iraq to the north and west  -  its capital is Kuwait City  -  it is one of the world's wealthiest countries per capita due to its vast oil reserves  -  it has the world's sixth-largest oil reserves  -  it was invaded by Iraq in 1990, triggering the Gulf War  -  a US-led coalition liberated it in 1991  -  when retreating, Iraqi forces set fire to over 700 of its oil wells, causing an environmental disaster  -  it is a constitutional emirate ruled by an emir  -  it has no income tax for its citizens." },
-        { level: 2, difficulty: "medium", text: "Small country at northern tip of Persian Gulf  -  borders Saudi Arabia and Iraq  -  capital Kuwait City  -  one of world's wealthiest per capita  -  sixth-largest oil reserves  -  invaded by Iraq in 1990 triggering Gulf War  -  US-led coalition liberated it in 1991  -  Iraqi forces set fire to 700+ oil wells when retreating  -  constitutional emirate ruled by emir  -  no income tax for citizens." },
+        { level: 1, difficulty: "hard", text: "This small country is located at the northern tip of the Persian Gulf - it borders Saudi Arabia to the south and." },
+        { level: 2, difficulty: "medium", text: "Small country at northern tip of Persian Gulf - borders Saudi Arabia and Iraq - capital Kuwait City - one of world's." },
         { level: 3, difficulty: "easy", text: "Babylon was an old city in Iraq and the capital of a big empire long ago." },
       ],
       options: ["Kuwait", "Qatar", "Bahrain", "UAE"],
@@ -5740,9 +5740,9 @@ const middleEast: Topic = {
 
     { id: "me-46", answer: "Musandam Peninsula", category: "Landforms", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This peninsula at the northern tip of the Arabian Peninsula belongs to Oman but is separated from the rest of Oman by the United Arab Emirates, overlooks the Strait of Hormuz  -  through which 20% of the world's oil passes  -  and has dramatic fjord-like inlets called khors carved into its limestone mountains." },
+        { level: 1, difficulty: "hard", text: "This peninsula at the northern tip of the Arabian Peninsula belongs to Oman but is separated from the rest of Oman by." },
         { level: 2, difficulty: "medium", text: "This land sticks out at the top of Oman and is separated from it by the United Arab Emirates." },
-        { level: 3, difficulty: "easy", text: "This peninsula in Oman overlooks the Strait of Hormuz  -  the narrow water passage through which 20% of all the world's oil travels every day!" },
+        { level: 3, difficulty: "easy", text: "This peninsula in Oman overlooks the Strait of Hormuz - the narrow water passage through which 20% of all the world's oil." },
       ],
       options: ["Musandam Peninsula", "Qatar Peninsula", "Sinai Peninsula", "Oman Peninsula"],
       funFact: "The Strait of Hormuz next to the Musandam Peninsula is only 33 km wide at its narrowest point  -  but 20% of all the world's oil passes through it every day! 🛢️",
@@ -5750,9 +5750,9 @@ const middleEast: Topic = {
     },
     { id: "me-45", answer: "Persepolis", category: "Historical Sites", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This ancient city in Iran was the ceremonial capital of the Achaemenid Empire  -  the first Persian Empire  -  founded by Darius I around 518 BCE, was one of the greatest cities of the ancient world, was burned and destroyed by Alexander the Great in 330 BCE, and its ruins are now a UNESCO World Heritage Site." },
-        { level: 2, difficulty: "medium", text: "This ancient city in Iran was the ceremonial capital of the first Persian Empire, founded around 518 BCE by Darius I, was destroyed by Alexander the Great in 330 BCE, and is now a UNESCO World Heritage Site." },
-        { level: 3, difficulty: "easy", text: "This ancient city in Iran was the capital of the mighty Persian Empire 2,500 years ago  -  it was so magnificent that Alexander the Great burned it down when he conquered it!" },
+        { level: 1, difficulty: "hard", text: "This ancient city in Iran was the ceremonial capital of the Achaemenid Empire - the first Persian Empire - founded by Darius." },
+        { level: 2, difficulty: "medium", text: "This ancient city in Iran was the ceremonial capital of the first Persian Empire, founded around 518 BCE by Darius I, was." },
+        { level: 3, difficulty: "easy", text: "This ancient city in Iran was the capital of the mighty Persian Empire 2,500 years ago - it was so magnificent that." },
       ],
       options: ["Persepolis", "Pasargadae", "Susa", "Ecbatana"],
       funFact: "Persepolis was so magnificent that when Alexander the Great burned it down in 330 BCE, it took 20,000 mules and 5,000 camels to carry away all the gold and treasure! 🏛️",
@@ -5760,9 +5760,9 @@ const middleEast: Topic = {
     },
     { id: "me-65", answer: "Babylon", category: "Historical Sites", topicId: "middle-east",
       clues: [
-        { level: 1, difficulty: "hard", text: "This ancient city in modern-day Iraq was the capital of the Babylonian Empire, was one of the largest cities in the ancient world with a population of about 200,000 people around 600 BCE, was home to the Hanging Gardens  -  considered one of the Seven Wonders of the Ancient World  -  and the Code of Hammurabi  -  one of the world's oldest written legal codes  -  was created here." },
-        { level: 2, difficulty: "medium", text: "This ancient city in Iraq was the Babylonian Empire capital with 200,000 people around 600 BCE, had the Hanging Gardens  -  a Wonder of the Ancient World  -  and the Code of Hammurabi was created here." },
-        { level: 3, difficulty: "easy", text: "This ancient city in Iraq was one of the biggest cities in the ancient world  -  it had the famous Hanging Gardens, one of the Seven Wonders of the Ancient World!" },
+        { level: 1, difficulty: "hard", text: "This ancient city in modern-day Iraq was the capital of the Babylonian Empire, was one of the largest cities in the ancient." },
+        { level: 2, difficulty: "medium", text: "This ancient city in Iraq was the Babylonian Empire capital with 200,000 people around 600 BCE, had the Hanging Gardens - a." },
+        { level: 3, difficulty: "easy", text: "This ancient city in Iraq was one of the biggest cities in the ancient world - it had the famous Hanging Gardens." },
       ],
       options: ["Babylon", "Nineveh", "Ur", "Assur"],
       funFact: "Babylon's Hanging Gardens were so amazing they were listed as one of the Seven Wonders of the Ancient World  -  but no one is completely sure they actually existed! 🌿",
@@ -5829,7 +5829,7 @@ const middleEast: Topic = {
       id: "me-69",
       clues: [
       { level: 1, difficulty: "hard", text: "It built the Palm Jumeirah, an artificial palm-shaped island visible from space." },
-      { level: 2, difficulty: "medium", text: "It is home to the Burj Khalifa, the world's tallest building, and has transformed from a fishing village to a global city in 50 years." },
+      { level: 2, difficulty: "medium", text: "It is home to the Burj Khalifa, the world's tallest building, and has transformed from a fishing village to a global city." },
       { level: 3, difficulty: "easy", text: "This famous city in the United Arab Emirates is known for its skyscrapers and luxury." }
       ],
       options: [
@@ -5922,7 +5922,7 @@ const middleEast: Topic = {
     {
       id: "me-74",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is the last divided capital city in the world  -  the northern part is controlled by Turkey and the southern part by Cyprus." },
+      { level: 1, difficulty: "hard", text: "It is the last divided capital city in the world - the northern part is controlled by Turkey and the southern part." },
       { level: 2, difficulty: "medium", text: "It is the capital of Cyprus and is divided by a UN buffer zone called the Green Line." },
       { level: 3, difficulty: "easy", text: "This divided capital city is the capital of Cyprus." }
       ],
@@ -6091,7 +6091,7 @@ const middleEast: Topic = {
     {
       id: "me-83",
       clues: [
-      { level: 1, difficulty: "hard", text: "Its name means 'Gate of Grief' in Arabic  -  ships passing through it connect the Red Sea to the Indian Ocean via the Gulf of Aden." },
+      { level: 1, difficulty: "hard", text: "Its name means 'Gate of Grief' in Arabic - ships passing through it connect the Red Sea to the Indian Ocean via." },
       { level: 2, difficulty: "medium", text: "It is a narrow strait between Yemen and Djibouti, connecting the Red Sea to the Gulf of Aden." },
       { level: 3, difficulty: "easy", text: "This narrow strait connects the Red Sea to the Gulf of Aden." }
       ],
@@ -6128,7 +6128,7 @@ const middleEast: Topic = {
     {
       id: "me-85",
       clues: [
-      { level: 1, difficulty: "hard", text: "They contain Mount Damavand  -  a dormant volcano at 5,610 meters  -  which is the highest peak in Iran and the highest volcano in Asia." },
+      { level: 1, difficulty: "hard", text: "They contain Mount Damavand - a dormant volcano at 5,610 meters - which is the highest peak in Iran and the highest." },
       { level: 2, difficulty: "medium", text: "They are a mountain range in northern Iran, running along the southern coast of the Caspian Sea." },
       { level: 3, difficulty: "easy", text: "These mountains run along the southern coast of the Caspian Sea in Iran." }
       ],
@@ -6164,7 +6164,7 @@ const australia: Topic = {
   questions: [
     { id: "au-1", answer: "Canberra", pronunciation: "KAN-buh-ruh", category: "Capitals", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city was purpose-built as a compromise capital after Sydney and Melbourne both wanted to be the capital of the new Australian federation in 1901." },
+        { level: 1, difficulty: "hard", text: "This city was purpose-built as a compromise capital after Sydney and Melbourne both wanted to be the capital of the new Australian." },
         { level: 2, difficulty: "medium", text: "This is the capital of Australia  -  not Sydney or Melbourne, which are bigger, but a specially built city between them." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Australia. Many people think it's Sydney, but it's actually this smaller city!" },
       ],
@@ -6173,7 +6173,7 @@ const australia: Topic = {
     },
     { id: "au-2", answer: "The Great Barrier Reef", category: "Physical Features", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This structure off the coast of Queensland is the world's largest living structure, visible from space, and is home to over 1,500 species of fish." },
+        { level: 1, difficulty: "hard", text: "This structure off the coast of Queensland is the world's largest living structure, visible from space, and is home to over 1,500." },
         { level: 2, difficulty: "medium", text: "This is the world's largest coral reef system, located off the northeastern coast of Australia." },
         { level: 3, difficulty: "easy", text: "This giant colorful reef in Australia is home to thousands of fish, sea turtles, and sharks  -  it's like an underwater city!" },
       ],
@@ -6182,7 +6182,7 @@ const australia: Topic = {
     },
     { id: "au-3", answer: "Wellington", pronunciation: "WEL-ing-tun", category: "Capitals", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city at the southern tip of the North Island is the world's southernmost national capital and was the filming location for the Lord of the Rings movies." },
+        { level: 1, difficulty: "hard", text: "This city at the southern tip of the North Island is the world's southernmost national capital and was the filming location for." },
         { level: 2, difficulty: "medium", text: "This is the capital of New Zealand, located on the North Island." },
         { level: 3, difficulty: "easy", text: "This city is the capital of New Zealand, the country near Australia famous for its sheep and the Lord of the Rings!" },
       ],
@@ -6192,7 +6192,7 @@ const australia: Topic = {
     { id: "au-4", answer: "Uluru", pronunciation: "oo-loo-ROO", category: "Landmarks", topicId: "australia",
       clues: [
         { level: 1, difficulty: "hard", text: "This sandstone monolith in the Northern Territory rises 348 meters above the surrounding plain and is sacred to the Anangu Aboriginal people." },
-        { level: 2, difficulty: "medium", text: "This giant red rock in the middle of Australia is one of the most famous landmarks in the world and glows orange at sunset." },
+        { level: 2, difficulty: "medium", text: "This giant red rock in the middle of Australia is one of the most famous landmarks in the world and glows orange." },
         { level: 3, difficulty: "easy", text: "This enormous red rock in the Australian desert glows bright orange at sunset and is sacred to Aboriginal people." },
       ],
       options: ["Devils Tower", "Kata Tjuta", "Uluru", "Mount Augustus"],
@@ -6200,7 +6200,7 @@ const australia: Topic = {
     },
     { id: "au-5", answer: "The Great Dividing Range", category: "Physical Features", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range runs along the eastern coast of Australia for 3,500 km and separates the coastal rivers from the inland river systems." },
+        { level: 1, difficulty: "hard", text: "This mountain range runs along the eastern coast of Australia for 3,500 km and separates the coastal rivers from the inland river." },
         { level: 2, difficulty: "medium", text: "This is Australia's most significant mountain range, running along the entire eastern coast." },
         { level: 3, difficulty: "easy", text: "This mountain range runs along the eastern side of Australia and divides the rainy coast from the dry inland." },
       ],
@@ -6209,7 +6209,7 @@ const australia: Topic = {
     },
     { id: "au-6", answer: "Sydney", category: "Cities", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city hosted the 2000 Summer Olympics and is home to the Sydney Opera House, whose roof was designed to look like sailing ships." },
+        { level: 1, difficulty: "hard", text: "This city hosted the 2000 Summer Olympics and is home to the Sydney Opera House, whose roof was designed to look like." },
         { level: 2, difficulty: "medium", text: "This is the largest city in Australia and is famous for its Opera House and Harbour Bridge." },
         { level: 3, difficulty: "easy", text: "This city in Australia is famous for its beautiful harbor, a big bridge, and a building shaped like a sailing ship!" },
       ],
@@ -6218,7 +6218,7 @@ const australia: Topic = {
     },
     { id: "au-7", answer: "Papua New Guinea", pronunciation: "PAP-yoo-uh Noo GIN-ee", category: "Countries", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This country occupies the eastern half of the world's second-largest island and has over 800 different languages  -  more than any other country on Earth." },
+        { level: 1, difficulty: "hard", text: "This country occupies the eastern half of the world's second-largest island and has over 800 different languages - more than any other." },
         { level: 2, difficulty: "medium", text: "This country north of Australia is one of the most linguistically diverse countries in the world, with hundreds of different languages." },
         { level: 3, difficulty: "easy", text: "This island country north of Australia has so many different tribes that people speak over 800 different languages!" },
       ],
@@ -6227,7 +6227,7 @@ const australia: Topic = {
     },
     { id: "au-8", answer: "The Outback", category: "Physical Features", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This vast arid interior of Australia covers about 70% of the continent and is characterized by red sandy deserts, scrubland, and extremely sparse human population." },
+        { level: 1, difficulty: "hard", text: "This vast arid interior of Australia covers about 70% of the continent and is characterized by red sandy deserts, scrubland, and extremely." },
         { level: 2, difficulty: "medium", text: "This is the name for the vast, dry, remote interior of Australia, far from the coast." },
         { level: 3, difficulty: "easy", text: "This is the name for the huge, hot, dry middle part of Australia where kangaroos and dingoes live." },
       ],
@@ -6236,7 +6236,7 @@ const australia: Topic = {
     },
     { id: "au-9", answer: "Suva", pronunciation: "SOO-vuh", category: "Capitals", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city is the capital of an island nation in the South Pacific whose people are famous for their rugby team, the 'Flying Fijians'." },
+        { level: 1, difficulty: "hard", text: "This city is the capital of an island nation in the South Pacific whose people are famous for their rugby team, the." },
         { level: 2, difficulty: "medium", text: "This is the capital of Fiji, a tropical island country in the South Pacific Ocean." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Fiji, a beautiful tropical island country in the Pacific Ocean." },
       ],
@@ -6245,7 +6245,7 @@ const australia: Topic = {
     },
     { id: "au-10", answer: "The Murray River", category: "Physical Features", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This river forms part of the border between New South Wales and Victoria and is the longest river in Australia, flowing into the Southern Ocean." },
+        { level: 1, difficulty: "hard", text: "This river forms part of the border between New South Wales and Victoria and is the longest river in Australia, flowing into." },
         { level: 2, difficulty: "medium", text: "This is Australia's longest river and most important waterway for farming." },
         { level: 3, difficulty: "easy", text: "This is the longest river in Australia and is very important for watering farms." },
       ],
@@ -6254,7 +6254,7 @@ const australia: Topic = {
     },
     { id: "au-11", answer: "Auckland", pronunciation: "AWK-lund", category: "Cities", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city is built on a volcanic field with 53 volcanoes and is the largest city in New Zealand, though not its capital." },
+        { level: 1, difficulty: "hard", text: "This city is built on a volcanic field with 53 volcanoes and is the largest city in New Zealand, though not its." },
         { level: 2, difficulty: "medium", text: "This is the largest city in New Zealand, though the capital is a different city." },
         { level: 3, difficulty: "easy", text: "This is the biggest city in New Zealand  -  even though it's not the capital!" },
       ],
@@ -6263,7 +6263,7 @@ const australia: Topic = {
     },
     { id: "au-12", answer: "Tonga", pronunciation: "TONG-uh", category: "Countries", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This island country is the only kingdom in the Pacific Ocean. It is one of the first places to see the new day." },
+        { level: 1, difficulty: "hard", text: "This island country is the only kingdom in the Pacific Ocean." },
         { level: 2, difficulty: "medium", text: "This small island country in the South Pacific is known for its friendly people and beautiful beaches." },
         { level: 3, difficulty: "easy", text: "This Pacific island country has a king!" },
       ],
@@ -6272,7 +6272,7 @@ const australia: Topic = {
     },
     { id: "au-13", answer: "The Tasman Sea", pronunciation: "The TAZ-mun SEE", category: "Bodies of Water", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This body of water separates Australia from New Zealand and is named after Dutch explorer Abel Tasman, who was the first European to reach New Zealand." },
+        { level: 1, difficulty: "hard", text: "This body of water separates Australia from New Zealand and is named after Dutch explorer Abel Tasman, who was the first European." },
         { level: 2, difficulty: "medium", text: "This sea separates Australia from New Zealand and is part of the South Pacific Ocean." },
         { level: 3, difficulty: "easy", text: "This sea sits between Australia and New Zealand  -  you have to cross it to get from one country to the other!" },
       ],
@@ -6281,7 +6281,7 @@ const australia: Topic = {
     },
     { id: "au-14", answer: "Apia", pronunciation: "ah-PEE-ah", category: "Capitals", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This city is the capital of Samoa, a Polynesian country where the traditional sport of cricket is played in a unique local style called 'kilikiti'." },
+        { level: 1, difficulty: "hard", text: "This city is the capital of Samoa, a Polynesian country where the traditional sport of cricket is played in a unique local." },
         { level: 2, difficulty: "medium", text: "This is the capital of Samoa, a tropical island nation in the South Pacific." },
         { level: 3, difficulty: "easy", text: "This city is the capital of Samoa, a beautiful island country in the Pacific Ocean." },
       ],
@@ -6299,7 +6299,7 @@ const australia: Topic = {
     },
     { id: "au-17", answer: "Outback", category: "Regions", topicId: "australia-oceania",
       clues: [
-        { level: 1, difficulty: "hard", text: "This vast, remote, arid interior of Australia covers about 70% of the continent and is characterized by red desert landscapes, sparse vegetation, and extreme temperatures." },
+        { level: 1, difficulty: "hard", text: "This vast, remote, arid interior of Australia covers about 70% of the continent and is characterized by red desert landscapes, sparse vegetation." },
         { level: 2, difficulty: "medium", text: "This is the vast, dry interior of Australia  -  a remote desert region covering most of the continent." },
         { level: 3, difficulty: "easy", text: "This is the huge, dry, remote interior of Australia  -  it is full of red sand, kangaroos, and not many people!" },
       ],
@@ -6308,7 +6308,7 @@ const australia: Topic = {
     },
     { id: "au-18", answer: "Murray River", category: "Rivers", topicId: "australia-oceania",
       clues: [
-        { level: 1, difficulty: "hard", text: "This is Australia's longest river at about 2,508 km, flowing from the Australian Alps through New South Wales, Victoria, and South Australia before emptying into the Southern Ocean." },
+        { level: 1, difficulty: "hard", text: "This is Australia's longest river at about 2,508 km, flowing from the Australian Alps through New South Wales, Victoria, and South Australia." },
         { level: 2, difficulty: "medium", text: "This is Australia's longest river, flowing through southeastern Australia to the Southern Ocean." },
         { level: 3, difficulty: "easy", text: "This is the longest river in Australia  -  it flows through the southeastern part of the country." },
       ],
@@ -6317,7 +6317,7 @@ const australia: Topic = {
     },
     { id: "au-19", answer: "Melanesia", pronunciation: "mel-uh-NEE-zhuh", category: "Regions", topicId: "australia-oceania",
       clues: [
-        { level: 1, difficulty: "hard", text: "This subregion of Oceania includes Papua New Guinea, Fiji, Vanuatu, Solomon Islands, and New Caledonia, and takes its name from the Greek words meaning 'black islands.'" },
+        { level: 1, difficulty: "hard", text: "This subregion of Oceania includes Papua New Guinea, Fiji, Vanuatu, Solomon Islands, and New Caledonia, and takes its name from the Greek." },
         { level: 2, difficulty: "medium", text: "This subregion of Oceania includes countries like Papua New Guinea, Fiji, and Vanuatu." },
         { level: 3, difficulty: "easy", text: "This is a group of islands in the Pacific Ocean that includes countries like Papua New Guinea and Fiji." },
       ],
@@ -6335,7 +6335,7 @@ const australia: Topic = {
     },
     { id: "au-21", answer: "Micronesia", pronunciation: "my-kroh-NEE-zhuh", category: "Regions", topicId: "australia-oceania",
       clues: [
-        { level: 1, difficulty: "hard", text: "This subregion of Oceania consists of thousands of small islands in the western Pacific Ocean, including Guam, Palau, the Marshall Islands, and the Federated States of Micronesia." },
+        { level: 1, difficulty: "hard", text: "This subregion of Oceania consists of thousands of small islands in the western Pacific Ocean, including Guam, Palau, the Marshall Islands, and." },
         { level: 2, difficulty: "medium", text: "This subregion of Oceania consists of thousands of small islands in the western Pacific Ocean, including Guam and Palau." },
         { level: 3, difficulty: "easy", text: "This is a group of thousands of tiny islands in the western Pacific Ocean  -  its name means 'small islands' in Greek!" },
       ],
@@ -6353,16 +6353,16 @@ const australia: Topic = {
     },
     { id: "au-25", answer: "Coral Sea", category: "Seas", topicId: "australia-oceania",
       clues: [
-        { level: 1, difficulty: "hard", text: "This marginal sea of the Pacific Ocean is located off the northeastern coast of Australia and is home to the Great Barrier Reef, the world's largest coral reef system." },
+        { level: 1, difficulty: "hard", text: "This marginal sea of the Pacific Ocean is located off the northeastern coast of Australia and is home to the Great Barrier." },
         { level: 2, difficulty: "medium", text: "This sea off the northeastern coast of Australia is home to the Great Barrier Reef." },
-        { level: 3, difficulty: "easy", text: "This sea off the coast of Australia is where the Great Barrier Reef is located  -  it is full of colorful coral and fish!" },
+        { level: 3, difficulty: "easy", text: "This sea off the coast of Australia is where the Great Barrier Reef is located - it is full of colorful coral." },
       ],
       options: ["Tasman Sea", "Timor Sea", "Coral Sea", "Arafura Sea"],
       funFact: "The Coral Sea is home to the Great Barrier Reef, which has more species of fish than anywhere else in the Southern Hemisphere! 🐠",
     },
     { id: "au-26", answer: "Tasman Sea", pronunciation: "TAZ-mun SEE", category: "Seas", topicId: "australia-oceania",
       clues: [
-        { level: 1, difficulty: "hard", text: "This body of water separates Australia from New Zealand and is named after Dutch explorer Abel Tasman, who was the first European to reach New Zealand and Tasmania." },
+        { level: 1, difficulty: "hard", text: "This body of water separates Australia from New Zealand and is named after Dutch explorer Abel Tasman, who was the first European." },
         { level: 2, difficulty: "medium", text: "This sea separates Australia from New Zealand and is named after a Dutch explorer." },
         { level: 3, difficulty: "easy", text: "This sea is between Australia and New Zealand  -  it is named after the explorer who first sailed through it!" },
       ],
@@ -6371,7 +6371,7 @@ const australia: Topic = {
     },
     { id: "au-27", answer: "Great Dividing Range", category: "Mountains", topicId: "australia-oceania",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range runs along the eastern coast of Australia for about 3,500 km, making it the world's third-longest land-based mountain range, and separates the coastal regions from the interior." },
+        { level: 1, difficulty: "hard", text: "This mountain range runs along the eastern coast of Australia for about 3,500 km, making it the world's third-longest land-based mountain range." },
         { level: 2, difficulty: "medium", text: "This mountain range runs along the eastern coast of Australia and separates the coast from the dry interior." },
         { level: 3, difficulty: "easy", text: "These mountains run along the eastern coast of Australia  -  they separate the wet coast from the dry interior." },
       ],
@@ -6391,7 +6391,7 @@ const australia: Topic = {
       clues: [
         { level: 1, difficulty: "hard", text: "This lake is the lowest point in Australia. It is usually dry, but fills with water when it rains a lot." },
         { level: 2, difficulty: "medium", text: "This is the largest lake in Australia. It is a salt lake." },
-        { level: 3, difficulty: "easy", text: "This is Australia's biggest lake, but it is usually empty and dry  -  it only fills up with water when there is a lot of rain!" },
+        { level: 3, difficulty: "easy", text: "This is Australia's biggest lake, but it is usually empty and dry - it only fills up with water when there is." },
       ],
       options: ["Lake Torrens", "Lake Gairdner", "Lake Eyre", "Lake Frome"],
       funFact: "Lake Eyre is usually dry, but when it fills with water, millions of birds come to breed there  -  it becomes a bird paradise! 🦅",
@@ -6407,7 +6407,7 @@ const australia: Topic = {
     },
     { id: "au-31", answer: "Torres Strait", pronunciation: "TOR-ez STRAYT", category: "Landforms", topicId: "australia-oceania",
       clues: [
-        { level: 1, difficulty: "hard", text: "This strait separates Australia from Papua New Guinea and connects the Coral Sea to the Arafura Sea, and is only about 150 km wide at its narrowest point." },
+        { level: 1, difficulty: "hard", text: "This strait separates Australia from Papua New Guinea and connects the Coral Sea to the Arafura Sea, and is only about 150." },
         { level: 2, difficulty: "medium", text: "This strait separates Australia from Papua New Guinea and is only about 150 km wide." },
         { level: 3, difficulty: "easy", text: "This narrow waterway separates Australia from Papua New Guinea  -  it is only about 150 km wide!" },
       ],
@@ -6425,7 +6425,7 @@ const australia: Topic = {
     },
     { id: "au-34", answer: "Arafura Sea", pronunciation: "ar-uh-FYOOR-uh SEE", category: "Seas", topicId: "australia-oceania",
       clues: [
-        { level: 1, difficulty: "hard", text: "This sea lies between Australia and Papua New Guinea and is bordered by the Timor Sea to the west and the Coral Sea to the east." },
+        { level: 1, difficulty: "hard", text: "This sea lies between Australia and Papua New Guinea and is bordered by the Timor Sea to the west and the Coral." },
         { level: 2, difficulty: "medium", text: "This sea lies between Australia and Papua New Guinea." },
         { level: 3, difficulty: "easy", text: "This sea is between Australia and Papua New Guinea  -  it is part of the Pacific Ocean." },
       ],
@@ -6434,7 +6434,7 @@ const australia: Topic = {
     },
     { id: "au-35", answer: "Samoa", pronunciation: "suh-MOH-uh", category: "Countries", topicId: "australia-oceania",
       clues: [
-        { level: 1, difficulty: "hard", text: "This island country in the South Pacific Ocean consists of two main islands and several smaller ones, and is known for its traditional Fa'a Samoa culture and the sport of rugby." },
+        { level: 1, difficulty: "hard", text: "This island country in the South Pacific Ocean consists of two main islands and several smaller ones, and is known for its." },
         { level: 2, difficulty: "medium", text: "This island country in the South Pacific is known for its traditional culture and is famous for producing great rugby players." },
         { level: 3, difficulty: "easy", text: "This island country in the Pacific Ocean is famous for its beautiful beaches and its rugby players!" },
       ],
@@ -6444,7 +6444,7 @@ const australia: Topic = {
     { id: "au-36", answer: "Kakadu National Park", category: "National Parks", topicId: "australia",
       clues: [
         { level: 1, difficulty: "hard", text: "This huge park has rock art that is 20,000 years old. It is home to saltwater crocodiles." },
-        { level: 2, difficulty: "medium", text: "This national park in Australia's Northern Territory is the largest in Australia, is a UNESCO World Heritage Site, has rock art up to 20,000 years old, and is home to saltwater crocodiles and hundreds of bird species." },
+        { level: 2, difficulty: "medium", text: "This national park in Australia's Northern Territory is the largest in Australia, is a UNESCO World Heritage Site, has rock art up." },
         { level: 3, difficulty: "easy", text: "This national park in northern Australia is very large. It has ancient rock paintings." },
       ],
       options: ["Kakadu National Park", "Blue Mountains National Park", "Daintree National Park", "Purnululu National Park"],
@@ -6463,9 +6463,9 @@ const australia: Topic = {
     },
     { id: "au-38", answer: "Daintree Rainforest", category: "Ecosystems", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This rainforest in Queensland, Australia is the world's oldest tropical rainforest  -  at about 180 million years old, it predates the Amazon rainforest by over 100 million years  -  is a UNESCO World Heritage Site, and is home to unique species found nowhere else including the cassowary, the tree kangaroo, and the Bennett's tree kangaroo." },
-        { level: 2, difficulty: "medium", text: "This rainforest in Queensland is the world's oldest tropical rainforest at 180 million years old  -  older than the Amazon by 100 million years  -  and is home to cassowaries and tree kangaroos." },
-        { level: 3, difficulty: "easy", text: "This rainforest in Queensland is the world's oldest tropical rainforest  -  it is 180 million years old, which means dinosaurs walked through it! It is home to cassowaries and tree kangaroos." },
+        { level: 1, difficulty: "hard", text: "This rainforest in Queensland, Australia is the world's oldest tropical rainforest - at about 180 million years old, it predates the Amazon." },
+        { level: 2, difficulty: "medium", text: "This rainforest in Queensland is the world's oldest tropical rainforest at 180 million years old - older than the Amazon by 100." },
+        { level: 3, difficulty: "easy", text: "This rainforest in Queensland is the world's oldest tropical rainforest - it is 180 million years old, which means dinosaurs walked through." },
       ],
       options: ["Daintree Rainforest", "Kakadu", "Tarkine Rainforest", "Otway Rainforest"],
       funFact: "The Daintree Rainforest is 180 million years old  -  dinosaurs walked through it! It is older than the Amazon rainforest by over 100 million years! 🦕",
@@ -6483,9 +6483,9 @@ const australia: Topic = {
     },
     { id: "au-40", answer: "Kata Tjuta", category: "Landmarks", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This group of 36 large domed rock formations in the Northern Territory of Australia is about 50 km west of Uluru, is sacred to the Anangu Aboriginal people, and the name means 'many heads' in the Pitjantjatjara language  -  the tallest dome, Mount Olga, is actually 198 metres taller than Uluru." },
-        { level: 2, difficulty: "medium", text: "This group of 36 domed rock formations in the Northern Territory is sacred to the Anangu people, means 'many heads' in Pitjantjatjara, and its tallest dome is 198 metres taller than Uluru." },
-        { level: 3, difficulty: "easy", text: "This group of 36 giant rock domes in Australia's Northern Territory means 'many heads'  -  they are sacred to Aboriginal Australians and the tallest dome is even bigger than Uluru!" },
+        { level: 1, difficulty: "hard", text: "This group of 36 large domed rock formations in the Northern Territory of Australia is about 50 km west of Uluru, is." },
+        { level: 2, difficulty: "medium", text: "This group of 36 domed rock formations in the Northern Territory is sacred to the Anangu people, means 'many heads' in Pitjantjatjara." },
+        { level: 3, difficulty: "easy", text: "This group of 36 giant rock domes in Australia's Northern Territory means 'many heads' - they are sacred to Aboriginal Australians and." },
       ],
       options: ["Kata Tjuta", "Uluru", "Kings Canyon", "Devils Marbles"],
       funFact: "Kata Tjuta means 'many heads'  -  the 36 giant rock domes look like the heads of giants rising from the desert floor! 🪨",
@@ -6493,9 +6493,9 @@ const australia: Topic = {
     },
     { id: "au-41", answer: "Kimberley Plateau", category: "Regions", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This remote plateau in northwestern Western Australia is one of Australia's last great wilderness areas, is about the size of California, has ancient rock art galleries that are among the oldest in the world, and is home to unique wildlife including the freshwater crocodile, the quoll, and the Gouldian finch." },
-        { level: 2, difficulty: "medium", text: "This remote plateau in northwestern Western Australia is the size of California, has ancient rock art among the world's oldest, and is home to freshwater crocodiles, quolls, and Gouldian finches." },
-        { level: 3, difficulty: "easy", text: "This huge wild plateau in Western Australia is as big as California  -  it has ancient rock art and is home to freshwater crocodiles and rare colorful birds called Gouldian finches!" },
+        { level: 1, difficulty: "hard", text: "This remote plateau in northwestern Western Australia is one of Australia's last great wilderness areas, is about the size of California, has." },
+        { level: 2, difficulty: "medium", text: "This remote plateau in northwestern Western Australia is the size of California, has ancient rock art among the world's oldest, and is." },
+        { level: 3, difficulty: "easy", text: "This huge wild plateau in Western Australia is as big as California - it has ancient rock art and is home to." },
       ],
       options: ["Kimberley Plateau", "Arnhem Land", "Cape York Peninsula", "Nullarbor Plain"],
       funFact: "The Kimberley Plateau has rock art that is among the oldest in the world  -  some paintings are over 40,000 years old, made by Aboriginal Australians during the ice age! 🎨",
@@ -6503,9 +6503,9 @@ const australia: Topic = {
     },
     { id: "au-42", answer: "Nullarbor Plain", category: "Landforms", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This vast flat treeless plain in southern Australia is the world's largest single exposure of limestone bedrock, covers about 200,000 square kilometres, and has the world's longest straight section of railway  -  the Trans-Australian Railway runs straight for 478 km without a single curve across this plain." },
-        { level: 2, difficulty: "medium", text: "This treeless plain in southern Australia is the world's largest single limestone exposure, covers 200,000 square kilometres, and has the world's longest straight railway  -  478 km without a curve." },
-        { level: 3, difficulty: "easy", text: "This huge flat treeless plain in southern Australia has the world's longest straight railway track  -  it goes straight for 478 km without a single bend or curve!" },
+        { level: 1, difficulty: "hard", text: "This vast flat treeless plain in southern Australia is the world's largest single exposure of limestone bedrock, covers about 200,000 square kilometres." },
+        { level: 2, difficulty: "medium", text: "This treeless plain in southern Australia is the world's largest single limestone exposure, covers 200,000 square kilometres, and has the world's longest." },
+        { level: 3, difficulty: "easy", text: "This huge flat treeless plain in southern Australia has the world's longest straight railway track - it goes straight for 478 km." },
       ],
       options: ["Nullarbor Plain", "Barkly Tableland", "Hay Plain", "Riverina"],
       funFact: "The Nullarbor Plain has the world's longest straight railway  -  478 km without a single curve! Train drivers on this route have the most boring job in the world! 🚂",
@@ -6513,9 +6513,9 @@ const australia: Topic = {
     },
     { id: "au-43", answer: "Lord Howe Island", category: "Islands", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This volcanic island in the Tasman Sea about 600 km east of Australia is one of the world's most remote inhabited islands, is a UNESCO World Heritage Site, has a permanent population of only about 400 people, and limits tourist numbers to 400 at any one time to protect its unique ecosystem  -  which includes the world's southernmost coral reef." },
-        { level: 2, difficulty: "medium", text: "This volcanic island 600 km east of Australia is a UNESCO World Heritage Site, has only 400 permanent residents, limits tourists to 400 at a time, and has the world's southernmost coral reef." },
-        { level: 3, difficulty: "easy", text: "This tiny island east of Australia only allows 400 tourists at a time to protect its nature  -  it has the world's southernmost coral reef and only 400 people live there permanently!" },
+        { level: 1, difficulty: "hard", text: "This volcanic island in the Tasman Sea about 600 km east of Australia is one of the world's most remote inhabited islands." },
+        { level: 2, difficulty: "medium", text: "This volcanic island 600 km east of Australia is a UNESCO World Heritage Site, has only 400 permanent residents, limits tourists to." },
+        { level: 3, difficulty: "easy", text: "This tiny island east of Australia only allows 400 tourists at a time to protect its nature - it has the world's." },
       ],
       options: ["Lord Howe Island", "Norfolk Island", "Macquarie Island", "Christmas Island"],
       funFact: "Lord Howe Island only allows 400 tourists at a time  -  it is so special that you need to book years in advance to visit! 🏝️",
@@ -6523,9 +6523,9 @@ const australia: Topic = {
     },
     { id: "au-44", answer: "Snowy Mountains", category: "Mountains", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This mountain range in New South Wales and Victoria contains Australia's highest peaks including Mount Kosciuszko, is the source of the Murray and Murrumbidgee rivers, and is home to the Snowy Mountains Hydroelectric Scheme  -  one of the largest engineering projects in Australian history  -  which generates electricity and provides irrigation water." },
-        { level: 2, difficulty: "medium", text: "This mountain range in New South Wales contains Australia's highest peaks including Mount Kosciuszko, is the source of the Murray River, and has the Snowy Mountains Hydroelectric Scheme." },
-        { level: 3, difficulty: "easy", text: "This mountain range in New South Wales has Australia's highest mountain  -  Mount Kosciuszko  -  and is the source of the Murray River, Australia's longest river!" },
+        { level: 1, difficulty: "hard", text: "This mountain range in New South Wales and Victoria contains Australia's highest peaks including Mount Kosciuszko, is the source of the Murray." },
+        { level: 2, difficulty: "medium", text: "This mountain range in New South Wales contains Australia's highest peaks including Mount Kosciuszko, is the source of the Murray River, and." },
+        { level: 3, difficulty: "easy", text: "This mountain range in New South Wales has Australia's highest mountain - Mount Kosciuszko - and is the source of the Murray." },
       ],
       options: ["Snowy Mountains", "Blue Mountains", "Flinders Ranges", "MacDonnell Ranges"],
       funFact: "The Snowy Mountains have the only ski resorts in Australia  -  it is the only place in the country where you can ski and snowboard! ⛷️",
@@ -6534,7 +6534,7 @@ const australia: Topic = {
     { id: "au-45", answer: "Arnhem Land", category: "Regions", topicId: "australia",
       clues: [
         { level: 1, difficulty: "hard", text: "This area is owned by Aboriginal people. It is known for its rich culture and ancient rock art." },
-        { level: 2, difficulty: "medium", text: "This large Aboriginal reserve in Australia's Northern Territory has been inhabited for at least 50,000 years, has some of the world's oldest rock art, and requires a permit to enter." },
+        { level: 2, difficulty: "medium", text: "This large Aboriginal reserve in Australia's Northern Territory has been inhabited for at least 50,000 years, has some of the world's oldest." },
         { level: 3, difficulty: "easy", text: "This large area in northern Australia is home to many Aboriginal communities. It has beautiful landscapes." },
       ],
       options: ["Arnhem Land", "Kimberley", "Cape York", "Kakadu"],
@@ -6573,9 +6573,9 @@ const australia: Topic = {
     },
     { id: "au-49", answer: "Rottnest Island", category: "Islands", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This island off the coast of Perth, Western Australia is famous for the quokka  -  a small marsupial known as the 'world's happiest animal' because it appears to smile  -  and its name comes from the Dutch word for 'rats' nest' because Dutch explorers in 1696 mistook the quokkas for large rats." },
-        { level: 2, difficulty: "medium", text: "This island off Perth is famous for the quokka  -  called the 'world's happiest animal' because it appears to smile  -  and its name means 'rats' nest' in Dutch because explorers mistook quokkas for rats." },
-        { level: 3, difficulty: "easy", text: "This island near Perth is home to the quokka  -  a small marsupial that always looks like it is smiling! Dutch explorers thought quokkas were giant rats, so they named the island 'rats' nest'!" },
+        { level: 1, difficulty: "hard", text: "This island off the coast of Perth, Western Australia is famous for the quokka - a small marsupial known as the 'world's." },
+        { level: 2, difficulty: "medium", text: "This island off Perth is famous for the quokka - called the 'world's happiest animal' because it appears to smile - and." },
+        { level: 3, difficulty: "easy", text: "This island near Perth is home to the quokka  -  a small marsupial that always looks like it is smiling!" },
       ],
       options: ["Rottnest Island", "Kangaroo Island", "Fraser Island", "Phillip Island"],
       funFact: "Rottnest Island is home to quokkas  -  small marsupials that always look like they are smiling! They are so friendly that they will walk right up to you for a selfie! 😊",
@@ -6583,9 +6583,9 @@ const australia: Topic = {
     },
     { id: "au-50", answer: "Kangaroo Island", category: "Islands", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This island off the coast of South Australia is Australia's third largest island, is famous for its diverse wildlife including kangaroos, koalas, sea lions, and little penguins, was separated from the mainland about 10,000 years ago when sea levels rose after the last ice age  -  isolating its wildlife  -  and is called the 'Galapagos of Australia' for its biodiversity." },
-        { level: 2, difficulty: "medium", text: "This island off South Australia is Australia's third largest, is called the 'Galapagos of Australia' for its wildlife including kangaroos, koalas, and sea lions, and was isolated from the mainland 10,000 years ago." },
-        { level: 3, difficulty: "easy", text: "This island off South Australia is called the 'Galapagos of Australia' because it has so much amazing wildlife  -  kangaroos, koalas, sea lions, and little penguins all live here!" },
+        { level: 1, difficulty: "hard", text: "This island off the coast of South Australia is Australia's third largest island, is famous for its diverse wildlife including kangaroos, koalas." },
+        { level: 2, difficulty: "medium", text: "This island off South Australia is Australia's third largest, is called the 'Galapagos of Australia' for its wildlife including kangaroos, koalas, and." },
+        { level: 3, difficulty: "easy", text: "This island off South Australia is called the 'Galapagos of Australia' because it has so much amazing wildlife - kangaroos, koalas, sea." },
       ],
       options: ["Kangaroo Island", "Rottnest Island", "Fraser Island", "Phillip Island"],
       funFact: "Kangaroo Island is called the 'Galapagos of Australia' because it has so much unique wildlife  -  when sea levels rose 10,000 years ago, the animals were cut off from the mainland and evolved separately! 🦘",
@@ -6603,9 +6603,9 @@ const australia: Topic = {
     },
     { id: "au-53", answer: "Whitsunday Islands", category: "Islands", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This group of 74 islands in Queensland, Australia is located in the heart of the Great Barrier Reef Marine Park, is famous for Whitehaven Beach  -  one of the world's most beautiful beaches with 98% pure silica sand so fine and white it does not absorb heat  -  and was named by Captain James Cook who sailed through on Whit Sunday in 1770." },
-        { level: 2, difficulty: "medium", text: "This group of 74 islands is in the Great Barrier Reef Marine Park. It has Whitehaven Beach, known for its pure silica sand." },
-        { level: 3, difficulty: "easy", text: "This group of 74 islands in Queensland has one of the world's most beautiful beaches  -  Whitehaven Beach  -  whose sand is so pure and fine that it does not get hot in the sun!" },
+        { level: 1, difficulty: "hard", text: "This group of 74 islands in Queensland, Australia is located in the heart of the Great Barrier Reef Marine Park, is famous." },
+        { level: 2, difficulty: "medium", text: "This group of 74 islands is in the Great Barrier Reef Marine Park." },
+        { level: 3, difficulty: "easy", text: "This group of 74 islands in Queensland has one of the world's most beautiful beaches - Whitehaven Beach - whose sand is." },
       ],
       options: ["Whitsunday Islands", "Magnetic Island", "Heron Island", "Lady Elliot Island"],
       funFact: "Whitehaven Beach in the Whitsundays has sand so pure that it does not absorb heat  -  you can walk on it barefoot even in the hottest summer sun! 🏖️",
@@ -6613,9 +6613,9 @@ const australia: Topic = {
     },
     { id: "au-54", answer: "Kimberley Coast", category: "Coastlines", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This remote coastline in northwestern Western Australia has some of the world's highest tidal ranges  -  up to 11 metres  -  creating dramatic waterfalls that reverse direction with the tides, is home to ancient Aboriginal rock art, and is accessible only by boat or small aircraft, making it one of Australia's most pristine wilderness areas." },
-        { level: 2, difficulty: "medium", text: "This remote coastline in northwestern Western Australia has tidal ranges up to 11 metres creating reversing waterfalls, has ancient Aboriginal rock art, and is accessible only by boat or aircraft." },
-        { level: 3, difficulty: "easy", text: "This remote coastline in Western Australia has waterfalls that flow backwards when the tide comes in  -  the tides here are so big they can be 11 metres high!" },
+        { level: 1, difficulty: "hard", text: "This remote coastline in northwestern Western Australia has some of the world's highest tidal ranges - up to 11 metres - creating." },
+        { level: 2, difficulty: "medium", text: "This remote coastline in northwestern Western Australia has tidal ranges up to 11 metres creating reversing waterfalls, has ancient Aboriginal rock art." },
+        { level: 3, difficulty: "easy", text: "This remote coastline in Western Australia has waterfalls that flow backwards when the tide comes in - the tides here are so." },
       ],
       options: ["Kimberley Coast", "Ningaloo Coast", "Eyre Peninsula Coast", "Fleurieu Peninsula"],
       funFact: "The Kimberley Coast has waterfalls that reverse direction twice a day  -  when the tide comes in, the water flows backwards up the waterfall! 🌊",
@@ -6623,9 +6623,9 @@ const australia: Topic = {
     },
     { id: "au-55", answer: "Ningaloo Reef", category: "Coral Reefs", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This fringing coral reef along the coast of Western Australia is the world's largest fringing reef  -  unlike the Great Barrier Reef which is offshore, this reef is attached directly to the shore  -  is about 300 km long, and is famous for being one of the few places in the world where whale sharks  -  the world's largest fish  -  aggregate in large numbers." },
-        { level: 2, difficulty: "medium", text: "This reef along the Western Australian coast is the world's largest fringing reef, is attached directly to the shore, is 300 km long, and is famous for large gatherings of whale sharks  -  the world's largest fish." },
-        { level: 3, difficulty: "easy", text: "This reef along the coast of Western Australia is famous for whale sharks  -  the biggest fish in the world! You can swim with them here because they only eat tiny plankton!" },
+        { level: 1, difficulty: "hard", text: "This fringing coral reef along the coast of Western Australia is the world's largest fringing reef - unlike the Great Barrier Reef." },
+        { level: 2, difficulty: "medium", text: "This reef along the Western Australian coast is the world's largest fringing reef, is attached directly to the shore, is 300 km." },
+        { level: 3, difficulty: "easy", text: "This reef along the coast of Western Australia is famous for whale sharks  -  the biggest fish in the world!" },
       ],
       options: ["Ningaloo Reef", "Great Barrier Reef", "Rowley Shoals", "Coral Bay"],
       funFact: "Ningaloo Reef is one of the only places in the world where you can swim with whale sharks  -  the biggest fish in the world  -  right from the beach! 🦈",
@@ -6633,9 +6633,9 @@ const australia: Topic = {
     },
     { id: "au-50", answer: "Lake Gairdner", category: "Lakes", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This salt lake in South Australia is the second largest salt lake in Australia, is usually dry and covered in a thick crust of salt, is located in the Gawler Ranges, and is used as a land speed record venue  -  Donald Campbell set the world land speed record on its salt flats in 1964 at 648 km/h." },
-        { level: 2, difficulty: "medium", text: "This salt lake in South Australia is usually dry and covered in salt, and was used as a land speed record venue where Donald Campbell reached 648 km/h in 1964." },
-        { level: 3, difficulty: "easy", text: "This salt lake in South Australia is usually completely dry  -  its flat salt surface was used as a race track where a car reached 648 km/h in 1964!" },
+        { level: 1, difficulty: "hard", text: "This salt lake in South Australia is the second largest salt lake in Australia, is usually dry and covered in a thick." },
+        { level: 2, difficulty: "medium", text: "This salt lake in South Australia is usually dry and covered in salt, and was used as a land speed record venue." },
+        { level: 3, difficulty: "easy", text: "This salt lake in South Australia is usually completely dry - its flat salt surface was used as a race track where." },
       ],
       options: ["Lake Gairdner", "Lake Torrens", "Lake Frome", "Lake Amadeus"],
       funFact: "Lake Gairdner's salt flats are so flat and hard that they were used as a race track  -  Donald Campbell drove a car at 648 km/h there in 1964, setting a world record! 🏎️",
@@ -6663,9 +6663,9 @@ const australia: Topic = {
     },
     { id: "au-60", answer: "Great Australian Bight", category: "Bodies of Water", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This large open bay on the central southern coast of Australia is famous for its dramatic sea cliffs  -  the Bunda Cliffs  -  which rise up to 80 metres above the Southern Ocean, is one of the world's most important breeding grounds for the southern right whale, and the Nullarbor Plain runs right up to its edge." },
-        { level: 2, difficulty: "medium", text: "This large bay on Australia's southern coast has dramatic Bunda Cliffs rising 80 metres above the Southern Ocean, is a major breeding ground for southern right whales, and the Nullarbor Plain meets it." },
-        { level: 3, difficulty: "easy", text: "This large bay on Australia's southern coast has dramatic 80-metre-high cliffs  -  and southern right whales come here every year to have their babies!" },
+        { level: 1, difficulty: "hard", text: "This large open bay on the central southern coast of Australia is famous for its dramatic sea cliffs - the Bunda Cliffs." },
+        { level: 2, difficulty: "medium", text: "This large bay on Australia's southern coast has dramatic Bunda Cliffs rising 80 metres above the Southern Ocean, is a major breeding." },
+        { level: 3, difficulty: "easy", text: "This large bay on Australia's southern coast has dramatic 80-metre-high cliffs - and southern right whales come here every year to have." },
       ],
       options: ["Great Australian Bight", "Spencer Gulf", "Gulf of Carpentaria", "Gulf St Vincent"],
       funFact: "The Great Australian Bight is one of the best places in the world to watch whales from land  -  southern right whales come here every year to give birth in the sheltered waters! 🐋",
@@ -6673,7 +6673,7 @@ const australia: Topic = {
     },
     { id: "au-61", answer: "Gulf of Carpentaria", category: "Bodies of Water", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This large shallow gulf in northern Australia is bounded by the Northern Territory to the west and Queensland to the east, is about 590 km wide and 675 km long, is one of Australia's most productive fishing grounds, and is famous for the Morning Glory cloud  -  a rare rolling cloud formation up to 1,000 km long that appears each spring." },
+        { level: 1, difficulty: "hard", text: "This large shallow gulf in northern Australia is bounded by the Northern Territory to the west and Queensland to the east, is." },
         { level: 2, difficulty: "medium", text: "This gulf is known for a rare rolling cloud called the Morning Glory. It can be 1,000 km long." },
         { level: 3, difficulty: "easy", text: "This large shallow gulf in northern Australia is a good fishing ground. It has a rare cloud formation." },
       ],
@@ -6683,9 +6683,9 @@ const australia: Topic = {
     },
     { id: "au-62", answer: "Tasmanian Devil", category: "Wildlife", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This carnivorous marsupial found only on the island of Tasmania is the world's largest carnivorous marsupial, is famous for its ferocious screeching and powerful bite  -  the strongest bite relative to body size of any living mammal  -  and is threatened by a contagious facial cancer called Devil Facial Tumor Disease that has killed about 80% of the wild population." },
-        { level: 2, difficulty: "medium", text: "This carnivorous marsupial found only in Tasmania is the world's largest carnivorous marsupial, has the strongest bite relative to body size of any mammal, and is threatened by a contagious facial cancer." },
-        { level: 3, difficulty: "easy", text: "This animal found only in Tasmania is the world's biggest meat-eating marsupial  -  it has the strongest bite for its size of any mammal and makes very scary screeching sounds!" },
+        { level: 1, difficulty: "hard", text: "This carnivorous marsupial found only on the island of Tasmania is the world's largest carnivorous marsupial, is famous for its ferocious screeching." },
+        { level: 2, difficulty: "medium", text: "This carnivorous marsupial found only in Tasmania is the world's largest carnivorous marsupial, has the strongest bite relative to body size of." },
+        { level: 3, difficulty: "easy", text: "This animal found only in Tasmania is the world's biggest meat-eating marsupial - it has the strongest bite for its size of." },
       ],
       options: ["Tasmanian Devil", "Quoll", "Thylacine", "Wombat"],
       funFact: "The Tasmanian Devil has the strongest bite for its size of any mammal  -  it can crunch through bones as easily as we bite through a carrot! 🦷",
@@ -6693,9 +6693,9 @@ const australia: Topic = {
     },
     { id: "au-63", answer: "Coober Pedy", category: "Unique Places", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This town in South Australia is the opal mining capital of the world  -  producing about 70% of the world's opals  -  and because summer temperatures regularly exceed 50°C, most residents live underground in homes carved into the rock called 'dugouts', making it one of the few places in the world where people live underground permanently." },
-        { level: 2, difficulty: "medium", text: "This town in South Australia produces 70% of the world's opals and because summer temperatures exceed 50°C, most residents live underground in homes called 'dugouts'." },
-        { level: 3, difficulty: "easy", text: "This town in South Australia produces most of the world's opals  -  and because it gets so hot (over 50°C!), most people live underground in homes carved into the rock!" },
+        { level: 1, difficulty: "hard", text: "This town in South Australia is the opal mining capital of the world - producing about 70% of the world's opals -." },
+        { level: 2, difficulty: "medium", text: "This town in South Australia produces 70% of the world's opals and because summer temperatures exceed 50°C, most residents live underground in." },
+        { level: 3, difficulty: "easy", text: "This town in South Australia produces most of the world's opals - and because it gets so hot (over 50°C!), most people." },
       ],
       options: ["Coober Pedy", "Lightning Ridge", "Broken Hill", "Kalgoorlie"],
       funFact: "In Coober Pedy it gets so hot that most people live underground  -  their homes, churches, and even hotels are carved into the rock to stay cool! 💎",
@@ -6713,8 +6713,8 @@ const australia: Topic = {
     },
     { id: "au-65", answer: "Shark Bay", category: "Natural Wonders", topicId: "australia",
       clues: [
-        { level: 1, difficulty: "hard", text: "This bay in Western Australia is a UNESCO World Heritage Site famous for its stromatolites  -  living rock formations made by cyanobacteria that are among the oldest forms of life on Earth, dating back 3.5 billion years  -  and is also home to the world's largest seagrass meadow and one of the largest populations of dugongs in the world." },
-        { level: 2, difficulty: "medium", text: "This bay in Western Australia is a UNESCO World Heritage Site famous for stromatolites  -  living rocks made by bacteria that are 3.5 billion years old  -  and has the world's largest seagrass meadow and many dugongs." },
+        { level: 1, difficulty: "hard", text: "This bay in Western Australia is a UNESCO World Heritage Site famous for its stromatolites - living rock formations made by cyanobacteria." },
+        { level: 2, difficulty: "medium", text: "This bay in Western Australia is a UNESCO World Heritage Site famous for stromatolites - living rocks made by bacteria that are." },
         { level: 3, difficulty: "easy", text: "This bay is famous for stromatolites, living rock formations made by bacteria. They are 3.5 billion years old." },
       ],
       options: ["Shark Bay", "Ningaloo", "Exmouth Gulf", "Geographe Bay"],
@@ -6731,17 +6731,17 @@ const australia: Topic = {
       {
         level: 1,
         difficulty: "hard",
-        text: "This region in northwestern Western Australia contains some of the world's oldest rocks  -  the Pilbara Craton is over 3.6 billion years old  -  and is one of the world's richest iron ore regions, with Australia exporting more iron ore than any other country, mostly from Pilbara mines to China  -  the region also contains stromatolites at Shark Bay and some of the world's oldest evidence of life dating back 3.5 billion years.",
+        text: "This region in northwestern Western Australia has rocks over 3.6 billion years old.",
       },
       {
         level: 2,
         difficulty: "medium",
-        text: "This region in northwestern Western Australia contains rocks over 3.6 billion years old and is one of the world's richest iron ore regions  -  Australia exports more iron ore than any other country, mostly from Pilbara mines to China.",
+        text: "This region in northwestern Western Australia contains rocks over 3.6 billion years old.",
       },
       {
         level: 3,
         difficulty: "easy",
-        text: "This region in western Australia has some of the oldest rocks on Earth  -  over 3.6 billion years old! It is also one of the world's biggest sources of iron ore  -  the stuff used to make steel! Most of the iron ore mined here is shipped to China to make buildings, cars, and bridges!",
+        text: "This region in western Australia has some of the oldest rocks on Earth - over 3.6 billion years old.",
       }
       ],
       options: ["Pilbara", "Kimberley", "Goldfields", "Mid West"],
@@ -6757,17 +6757,17 @@ const australia: Topic = {
       {
         level: 1,
         difficulty: "hard",
-        text: "This wine-producing region in South Australia about 60 kilometers northeast of Adelaide is one of the world's most famous wine regions  -  it was settled by German Lutheran immigrants in the 1840s fleeing religious persecution, and their cultural influence is still visible in the architecture, food, and traditions of the region  -  it produces some of the world's most prized Shiraz wines from vines that are over 150 years old.",
+        text: "This wine-producing region in South Australia was settled by German Lutheran immigrants in the 1840s.",
       },
       {
         level: 2,
         difficulty: "medium",
-        text: "This wine-producing region in South Australia settled by German Lutheran immigrants in the 1840s is one of the world's most famous wine regions  -  it produces some of the world's most prized Shiraz wines from vines over 150 years old.",
+        text: "This wine region in South Australia was settled by German Lutheran immigrants in the 1840s.",
       },
       {
         level: 3,
         difficulty: "easy",
-        text: "This famous wine region in South Australia was settled by German immigrants over 150 years ago  -  you can still see German-style buildings and eat German food there! It produces some of the world's best wines from grapevines that are over 150 years old!",
+        text: "This famous wine region in South Australia was settled by German immigrants over 150 years ago.",
       }
       ],
       options: ["Barossa Valley", "Hunter Valley", "Yarra Valley", "Clare Valley"],
@@ -6795,7 +6795,7 @@ const australia: Topic = {
     {
       id: "au-69",
       clues: [
-      { level: 1, difficulty: "hard", text: "It contains some of the world's oldest rocks at 3.5 billion years old, and the Bungle Bungle Range  -  a UNESCO World Heritage site." },
+      { level: 1, difficulty: "hard", text: "It contains some of the world's oldest rocks at 3.5 billion years old, and the Bungle Bungle Range - a UNESCO World." },
       { level: 2, difficulty: "medium", text: "It is a remote wilderness region in the far north of Western Australia." },
       { level: 3, difficulty: "easy", text: "This remote wilderness region in northern Western Australia is known for its ancient landscapes." }
       ],
@@ -6813,7 +6813,7 @@ const australia: Topic = {
     {
       id: "au-70",
       clues: [
-      { level: 1, difficulty: "hard", text: "It produces about 40% of Australia's agricultural output but is in crisis  -  over-extraction of water has reduced the rivers to a trickle in many places." },
+      { level: 1, difficulty: "hard", text: "It produces about 40% of Australia's agricultural output but is in crisis - over-extraction of water has reduced the rivers to a." },
       { level: 2, difficulty: "medium", text: "It is Australia's most important river system, covering one-seventh of the continent." },
       { level: 3, difficulty: "easy", text: "This is Australia's most important river system, covering a huge area of the continent." }
       ],
@@ -6848,7 +6848,7 @@ const physicalGeography: Topic = {
   questions: [
     { id: "pg-1", answer: "Volcano", pronunciation: "vol-KAY-noh", category: "Landforms", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This geological feature forms when magma from the Earth's mantle breaks through the crust, and can be found at tectonic plate boundaries or hotspots." },
+        { level: 1, difficulty: "hard", text: "This geological feature forms when magma from the Earth's mantle breaks through the crust, and can be found at tectonic plate boundaries." },
         { level: 2, difficulty: "medium", text: "This mountain can erupt and shoot out hot lava, ash, and gases from deep inside the Earth." },
         { level: 3, difficulty: "easy", text: "This is a mountain that can explode and shoot out hot melted rock called lava!" },
       ],
@@ -6895,14 +6895,14 @@ const physicalGeography: Topic = {
       clues: [
         { level: 1, difficulty: "hard", text: "This seasonal wind brings a lot of rain to places like India." },
         { level: 2, difficulty: "medium", text: "It is a big rain season that happens every year in South Asia." },
-        { level: 3, difficulty: "easy", text: "This is a season of very heavy rains that comes to India and Southeast Asia every year  -  it brings most of the year's rainfall!" },
+        { level: 3, difficulty: "easy", text: "This is a season of very heavy rains that comes to India and Southeast Asia every year - it brings most of." },
       ],
       options: ["Typhoon", "Monsoon", "El Niño", "Trade Wind"],
       funFact: "India gets about 80% of its annual rainfall during the monsoon season  -  just 4 months of the year! ☔",
     },
     { id: "pg-9", answer: "Savanna", pronunciation: "suh-VAN-uh", category: "Biomes", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This tropical grassland biome is characterized by scattered trees, a distinct wet and dry season, and is home to the world's greatest diversity of large mammals." },
+        { level: 1, difficulty: "hard", text: "This tropical grassland biome is characterized by scattered trees, a distinct wet and dry season, and is home to the world's greatest." },
         { level: 2, difficulty: "medium", text: "This is a tropical grassland with scattered trees, found mainly in Africa, and is where lions, elephants, and zebras live." },
         { level: 3, difficulty: "easy", text: "This is a large, flat grassland in Africa with a few trees where lions, elephants, and zebras live." },
       ],
@@ -6911,16 +6911,16 @@ const physicalGeography: Topic = {
     },
     { id: "pg-11", answer: "Tundra", pronunciation: "TUN-druh", category: "Biomes", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This biome is characterized by permafrost, treeless landscape, and is found in the Arctic regions of Russia, Canada, and Alaska, as well as on mountain tops." },
+        { level: 1, difficulty: "hard", text: "This biome is characterized by permafrost, treeless landscape, and is found in the Arctic regions of Russia, Canada, and Alaska, as well." },
         { level: 2, difficulty: "medium", text: "This is a cold, flat, treeless landscape found in the Arctic regions of the world, where the ground is frozen year-round." },
-        { level: 3, difficulty: "easy", text: "This is the cold, flat land near the North Pole where no trees grow because it's too cold and the ground stays frozen." },
+        { level: 3, difficulty: "easy", text: "This is the cold, flat land near the North Pole where no trees grow because it's too cold and the ground stays." },
       ],
       options: ["Taiga", "Tundra", "Steppe", "Permafrost"],
       funFact: "In the Arctic tundra, the sun doesn't set for months in summer  -  and doesn't rise for months in winter! ☀️",
     },
     { id: "pg-12", answer: "Strait", category: "Landforms", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This narrow body of water connecting two larger bodies of water is exemplified by the Strait of Gibraltar, which connects the Atlantic Ocean to the Mediterranean Sea." },
+        { level: 1, difficulty: "hard", text: "This narrow body of water connecting two larger bodies of water is exemplified by the Strait of Gibraltar, which connects the Atlantic." },
         { level: 2, difficulty: "medium", text: "This is a narrow passage of water between two pieces of land that connects two larger bodies of water." },
         { level: 3, difficulty: "easy", text: "This is a narrow channel of water between two pieces of land  -  like a water hallway connecting two seas!" },
       ],
@@ -6929,7 +6929,7 @@ const physicalGeography: Topic = {
     },
     { id: "pg-13", answer: "Permafrost", category: "Earth Science", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This layer of ground that remains frozen year-round covers about 25% of the Northern Hemisphere's land surface and stores vast amounts of carbon." },
+        { level: 1, difficulty: "hard", text: "This layer of ground that remains frozen year-round covers about 25% of the Northern Hemisphere's land surface and stores vast amounts of." },
         { level: 2, difficulty: "medium", text: "This is ground that stays frozen all year round, found in Arctic regions like Siberia and northern Canada." },
         { level: 3, difficulty: "easy", text: "This is ground that is frozen all year long, even in summer  -  it's found near the North Pole!" },
       ],
@@ -6947,8 +6947,8 @@ const physicalGeography: Topic = {
     },
     { id: "pg-15", answer: "Rainforest", category: "Biomes", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This biome receives more than 2,000 mm of rainfall per year, has a dense canopy layer, and contains more than half of the world's plant and animal species despite covering only 6% of Earth's surface." },
-        { level: 2, difficulty: "medium", text: "This is a very dense forest that gets a lot of rain and is home to more species of plants and animals than any other habitat." },
+        { level: 1, difficulty: "hard", text: "This biome receives more than 2,000 mm of rainfall per year, has a dense canopy layer, and contains more than half of." },
+        { level: 2, difficulty: "medium", text: "This is a very dense forest that gets a lot of rain and is home to more species of plants and animals." },
         { level: 3, difficulty: "easy", text: "This is a very thick, rainy forest full of amazing animals  -  it's where jaguars, toucans, and poison dart frogs live!" },
       ],
       options: ["Deciduous Forest", "Rainforest", "Boreal Forest", "Mangrove Forest"],
@@ -6974,9 +6974,9 @@ const physicalGeography: Topic = {
     },
     { id: "pg-24", answer: "Taiga", pronunciation: "TY-guh", category: "Biomes", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This biome, also called the boreal forest, is the world's largest land biome, stretching across Canada, Russia, and Scandinavia, and is dominated by coniferous trees like spruce, pine, and fir." },
+        { level: 1, difficulty: "hard", text: "This biome, also called the boreal forest, is the world's largest land biome, stretching across Canada, Russia, and Scandinavia, and is dominated." },
         { level: 2, difficulty: "medium", text: "This is the world's largest land biome, a vast coniferous forest stretching across Canada, Russia, and Scandinavia." },
-        { level: 3, difficulty: "easy", text: "This is the world's biggest forest biome  -  it is a huge forest of pine and spruce trees that stretches across Canada and Russia!" },
+        { level: 3, difficulty: "easy", text: "This is the world's biggest forest biome - it is a huge forest of pine and spruce trees that stretches across Canada." },
       ],
       options: ["Temperate Forest", "Tropical Rainforest", "Taiga", "Tundra"],
       funFact: "The taiga (boreal forest) is the world's largest land biome  -  it covers about 17% of Earth's land surface! 🌲",
@@ -7046,8 +7046,8 @@ const physicalGeography: Topic = {
     },
     { id: "pg-33", answer: "Aquifer", pronunciation: "AK-wih-fer", category: "Earth Science", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This underground layer of water-bearing permeable rock, rock fractures, or unconsolidated materials from which groundwater can be extracted using a well, and is the source of about 30% of the world's fresh water." },
-        { level: 2, difficulty: "medium", text: "This is an underground layer of rock that holds water  -  it is where much of the world's fresh water is stored underground." },
+        { level: 1, difficulty: "hard", text: "This underground layer of water-bearing permeable rock, rock fractures, or unconsolidated materials from which groundwater can be extracted using a well, and." },
+        { level: 2, difficulty: "medium", text: "This is an underground layer of rock that holds water - it is where much of the world's fresh water is stored." },
         { level: 3, difficulty: "easy", text: "This underground rock layer holds water. People use wells to get this water." },
       ],
       options: ["Water Table", "Aquifer", "Spring", "Groundwater"],
@@ -7074,8 +7074,8 @@ const physicalGeography: Topic = {
 
     { id: "pg-36", answer: "Earthquake", category: "Earth Science", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This natural phenomenon occurs when energy stored in Earth's lithosphere is suddenly released, usually as a result of movement along fault lines, and is measured using the Richter scale or the moment magnitude scale." },
-        { level: 2, difficulty: "medium", text: "This natural event happens when the Earth's tectonic plates suddenly move and release energy  -  it can cause the ground to shake violently and trigger tsunamis." },
+        { level: 1, difficulty: "hard", text: "This natural phenomenon occurs when energy stored in Earth's lithosphere is suddenly released, usually as a result of movement along fault lines." },
+        { level: 2, difficulty: "medium", text: "This natural event happens when the Earth's tectonic plates suddenly move and release energy - it can cause the ground to shake." },
         { level: 3, difficulty: "easy", text: "This natural event makes the ground shake and rumble  -  it happens when giant pieces of the Earth's crust suddenly move!" },
       ],
       options: ["Landslide", "Earthquake", "Avalanche", "Sinkhole"],
@@ -7084,8 +7084,8 @@ const physicalGeography: Topic = {
     { id: "pg-37", answer: "Hurricane", category: "Weather", topicId: "physical-geography",
       clues: [
         { level: 1, difficulty: "hard", text: "This intense tropical cyclone with sustained winds exceeding 119 km/h forms over warm ocean waters in the Atlantic." },
-        { level: 2, difficulty: "medium", text: "This powerful tropical storm forms over warm ocean water in the Atlantic  -  it has a calm 'eye' in the center surrounded by violent winds and heavy rain." },
-        { level: 3, difficulty: "easy", text: "This is a giant spinning storm that forms over warm ocean water  -  it has a calm center called the 'eye' surrounded by very strong winds and heavy rain!" },
+        { level: 2, difficulty: "medium", text: "This powerful tropical storm forms over warm ocean water in the Atlantic - it has a calm 'eye' in the center surrounded." },
+        { level: 3, difficulty: "easy", text: "This is a giant spinning storm that forms over warm ocean water - it has a calm center called the 'eye' surrounded." },
       ],
       options: ["Tornado", "Hurricane", "Blizzard", "Thunderstorm"],
       funFact: "The eye of a hurricane can be 30-65 km wide and is completely calm  -  birds sometimes get trapped inside and travel with the storm! 🌀",
@@ -7093,7 +7093,7 @@ const physicalGeography: Topic = {
     { id: "pg-38", answer: "Tornado", category: "Weather", topicId: "physical-geography",
       clues: [
         { level: 1, difficulty: "hard", text: "This violently rotating column of air extending from a thunderstorm to the ground is most common in the." },
-        { level: 2, difficulty: "medium", text: "This spinning column of air stretches from a thundercloud down to the ground  -  it can have the fastest winds on Earth's surface and can destroy buildings." },
+        { level: 2, difficulty: "medium", text: "This spinning column of air stretches from a thundercloud down to the ground - it can have the fastest winds on Earth's." },
         { level: 3, difficulty: "easy", text: "This spinning column of air stretches from a thundercloud down to the ground - it can have the." },
       ],
       options: ["Hurricane", "Tornado", "Cyclone", "Waterspout"],
@@ -7101,9 +7101,9 @@ const physicalGeography: Topic = {
     },
     { id: "pg-39", answer: "Stalactite", pronunciation: "stuh-LAK-tyt", category: "Landforms", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This type of speleothem hangs from the ceiling of limestone caves and is formed by the slow deposition of calcium carbonate from dripping water over thousands of years." },
-        { level: 2, difficulty: "medium", text: "This rock formation hangs from the ceiling of caves  -  it is formed drop by drop over thousands of years as water deposits minerals." },
-        { level: 3, difficulty: "easy", text: "This is a pointy rock that hangs down from the ceiling of caves  -  it grows very slowly, just a tiny bit each year!" },
+        { level: 1, difficulty: "hard", text: "This type of speleothem hangs from the ceiling of limestone caves and is formed by the slow deposition of calcium carbonate from." },
+        { level: 2, difficulty: "medium", text: "This rock formation hangs from the ceiling of caves - it is formed drop by drop over thousands of years as water." },
+        { level: 3, difficulty: "easy", text: "This is a pointy rock that hangs down from the ceiling of caves - it grows very slowly, just a tiny bit." },
       ],
       options: ["Stalagmite", "Stalactite", "Speleothem", "Column"],
       funFact: "A stalactite grows only about 0.1 mm per year  -  a stalactite 1 metre long is about 10,000 years old! 🦷",
@@ -7120,7 +7120,7 @@ const physicalGeography: Topic = {
     { id: "pg-41", answer: "Geyser", pronunciation: "GY-zer", category: "Earth Science", topicId: "physical-geography",
       clues: [
         { level: 1, difficulty: "hard", text: "This type of hot spring that periodically ejects a column of water and steam into the air is." },
-        { level: 2, difficulty: "medium", text: "This natural hot spring shoots jets of boiling water and steam high into the air at regular intervals  -  Old Faithful in Yellowstone is the world's most famous one." },
+        { level: 2, difficulty: "medium", text: "This natural hot spring shoots jets of boiling water and steam high into the air at regular intervals - Old Faithful in." },
         { level: 3, difficulty: "easy", text: "This natural hot spring shoots jets of boiling water and steam high into the air at regular intervals." },
       ],
       options: ["Hot Spring", "Geyser", "Fumarole", "Mud Pot"],
@@ -7128,7 +7128,7 @@ const physicalGeography: Topic = {
     },
     { id: "pg-42", answer: "Oxbow Lake", category: "Landforms", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This U-shaped lake forms when a wide meander of a river is cut off from the main river channel, creating a curved, isolated body of water  -  it is named for its resemblance to the U-shaped collar placed around an ox's neck." },
+        { level: 1, difficulty: "hard", text: "This U-shaped lake forms when a wide meander of a river is cut off from the main river channel, creating a curved." },
         { level: 2, difficulty: "medium", text: "This U-shaped lake forms when a wide meander of a river is cut off from the main river." },
         { level: 3, difficulty: "easy", text: "This U-shaped lake forms when a river bends so much that it eventually cuts off the bend, leaving." },
       ],
@@ -7165,7 +7165,7 @@ const physicalGeography: Topic = {
     { id: "pg-46", answer: "Tidal Wave", category: "Weather", topicId: "physical-geography",
       clues: [
         { level: 1, difficulty: "hard", text: "This common but scientifically inaccurate term is often used to describe a tsunami - unlike actual tidal waves." },
-        { level: 2, difficulty: "medium", text: "This is a popular but incorrect name for a tsunami  -  real tidal waves are caused by the moon's gravity, while tsunamis are caused by underwater earthquakes or volcanic eruptions." },
+        { level: 2, difficulty: "medium", text: "This is a popular but incorrect name for a tsunami - real tidal waves are caused by the moon's gravity, while tsunamis." },
         { level: 3, difficulty: "easy", text: "This is a popular but incorrect name for a tsunami - real tidal waves are caused by the." },
       ],
       options: ["Storm Surge", "Tidal Wave", "Rogue Wave", "Bore"],
@@ -7201,7 +7201,7 @@ const physicalGeography: Topic = {
     { id: "pg-51", answer: "Atmosphere", pronunciation: "AT-moh-sfeer", category: "Earth Science", topicId: "physical-geography",
       clues: [
         { level: 1, difficulty: "hard", text: "This layer of air around Earth helps keep us warm and safe from the sun." },
-        { level: 2, difficulty: "medium", text: "This is the layer of air surrounding the Earth  -  it protects us from the Sun's harmful rays, provides the oxygen we breathe, and creates our weather." },
+        { level: 2, difficulty: "medium", text: "This is the layer of air surrounding the Earth - it protects us from the Sun's harmful rays, provides the oxygen we." },
         { level: 3, difficulty: "easy", text: "It is the air that surrounds our planet." },
       ],
       options: ["Stratosphere", "Atmosphere", "Ionosphere", "Exosphere"],
@@ -7209,9 +7209,9 @@ const physicalGeography: Topic = {
     },
     { id: "pg-52", answer: "Ozone Layer", category: "Earth Science", topicId: "physical-geography",
       clues: [
-        { level: 1, difficulty: "hard", text: "This region of Earth's stratosphere, approximately 15 to 35 km above the surface, contains high concentrations of ozone molecules that absorb most of the Sun's ultraviolet radiation  -  a hole in it over Antarctica was discovered in 1985." },
-        { level: 2, difficulty: "medium", text: "This layer in the upper atmosphere contains a gas called ozone that absorbs harmful ultraviolet rays from the Sun  -  without it, life on Earth would be in danger." },
-        { level: 3, difficulty: "easy", text: "This is a special layer high up in the sky that protects us from the Sun's harmful rays  -  it acts like a giant sunscreen for the whole Earth!" },
+        { level: 1, difficulty: "hard", text: "This region of Earth's stratosphere, approximately 15 to 35 km above the surface, contains high concentrations of ozone molecules that absorb most." },
+        { level: 2, difficulty: "medium", text: "This layer in the upper atmosphere contains a gas called ozone that absorbs harmful ultraviolet rays from the Sun - without it." },
+        { level: 3, difficulty: "easy", text: "This is a special layer high up in the sky that protects us from the Sun's harmful rays - it acts like." },
       ],
       options: ["Stratosphere", "Ozone Layer", "Ionosphere", "Troposphere"],
       funFact: "Thanks to international agreements to stop using harmful chemicals, the ozone layer is slowly healing  -  scientists expect it to fully recover by 2065! ☀️",
@@ -7219,7 +7219,7 @@ const physicalGeography: Topic = {
     {
       id: "pg-53",
       clues: [
-      { level: 1, difficulty: "hard", text: "They produce about 20% of the world's oxygen and are home to more than half of all plant and animal species on Earth." },
+      { level: 1, difficulty: "hard", text: "They produce about 20% of the world's oxygen and are home to more than half of all plant and animal species on." },
       { level: 2, difficulty: "medium", text: "They receive more than 200 cm of rainfall per year and are found near the equator." },
       { level: 3, difficulty: "easy", text: "This dense forest near the equator receives heavy rainfall and is home to millions of plant and animal species." }
       ],
@@ -7532,7 +7532,7 @@ const physicalGeography: Topic = {
     {
       id: "pg-70",
       clues: [
-      { level: 1, difficulty: "hard", text: "It is why the windward side of mountains is lush and green while the leeward side is dry  -  called a rain shadow." },
+      { level: 1, difficulty: "hard", text: "It is why the windward side of mountains is lush and green while the leeward side is dry - called a rain." },
       { level: 2, difficulty: "medium", text: "It is the process where air is forced upward by a mountain, cools, and produces precipitation." },
       { level: 3, difficulty: "easy", text: "This is when air rises up a mountain, cools, and creates rain on one side." }
       ],
