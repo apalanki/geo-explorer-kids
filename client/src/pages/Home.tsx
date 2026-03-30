@@ -51,6 +51,7 @@ function TopicCard({
   const pct = totalQ > 0 ? Math.round((answeredQ / totalQ) * 100) : 0;
   const isComplete = answeredQ >= totalQ;
   const hasStarted = answeredQ > 0;
+  const nextQ = answeredQ + 1; // 1-based next question number
   const imp = IMPORTANCE_LABELS[topic.importance] ?? IMPORTANCE_LABELS[10];
 
   return (
@@ -134,7 +135,11 @@ function TopicCard({
             className="btn-jungle text-white flex-1 text-base py-3"
             style={{ background: isComplete ? "linear-gradient(135deg, #7c3aed, #5b21b6)" : "linear-gradient(135deg, #16a34a, #15803d)" }}
           >
-            {isComplete ? "🔄 Play Again" : hasStarted ? "▶ Continue" : "▶ Start Quiz"}
+            {isComplete
+              ? "🔄 Replay All"
+              : hasStarted
+              ? `▶ Continue (Q ${nextQ}/${totalQ})`
+              : "▶ Start Quiz"}
           </button>
 
           {hasStarted && (

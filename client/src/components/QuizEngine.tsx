@@ -68,7 +68,7 @@ function pickRandom<T>(arr: T[], lastIdx: number): [T, number] {
   return [arr[idx], idx];
 }
 
-// ── Reaction overlay ───────────────────────────────────────────────
+// ── Reaction toast (subtle top-right banner) ──────────────────────
 interface ReactionOverlayProps {
   emoji: string;
   text: string;
@@ -83,36 +83,29 @@ function ReactionOverlay({ emoji, text, color, bg, visible }: ReactionOverlayPro
       {visible && (
         <motion.div
           key={text}
-          initial={{ scale: 0.3, opacity: 0, y: 30 }}
-          animate={{ scale: 1, opacity: 1, y: 0 }}
-          exit={{ scale: 0.8, opacity: 0, y: -20 }}
-          transition={{ type: "spring", stiffness: 500, damping: 18 }}
-          className="absolute inset-0 flex flex-col items-center justify-center z-50 rounded-2xl pointer-events-none"
-          style={{ background: bg + "ee" }}
+          initial={{ opacity: 0, y: -12, scale: 0.92 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          exit={{ opacity: 0, y: -8, scale: 0.95 }}
+          transition={{ type: "spring", stiffness: 420, damping: 26 }}
+          className="fixed top-4 right-4 z-50 pointer-events-none flex items-center gap-2 px-4 py-2 rounded-2xl shadow-lg border-2"
+          style={{
+            background: bg,
+            borderColor: color + "66",
+            boxShadow: `0 4px 16px ${color}33`,
+          }}
         >
-          <motion.span
-            initial={{ rotate: -20, scale: 0.5 }}
-            animate={{ rotate: [-20, 15, -10, 8, 0], scale: [0.5, 1.4, 1.1, 1.2, 1] }}
-            transition={{ duration: 0.5, times: [0, 0.3, 0.5, 0.7, 1] }}
-            style={{ fontSize: "5rem", lineHeight: 1 }}
-          >
-            {emoji}
-          </motion.span>
-          <motion.p
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.15 }}
+          <span style={{ fontSize: "1.6rem", lineHeight: 1 }}>{emoji}</span>
+          <span
             style={{
               fontFamily: "'Fredoka One', cursive",
-              fontSize: "2rem",
+              fontSize: "1.1rem",
               color,
-              textAlign: "center",
-              lineHeight: 1.1,
-              textShadow: "0 2px 0 rgba(0,0,0,0.08)",
+              lineHeight: 1.2,
+              whiteSpace: "nowrap",
             }}
           >
             {text}
-          </motion.p>
+          </span>
         </motion.div>
       )}
     </AnimatePresence>
@@ -405,7 +398,8 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
               <div className="jungle-card flex flex-col flex-1 min-h-0 p-4 relative overflow-hidden">
                 {showConfetti && <ConfettiBurst />}
 
-                {/* Clue header */}
+                {/* Clue header */
+                /* ReactionOverlay is rendered at fixed position outside this card */}
                 <div className="flex items-center justify-between mb-3 flex-shrink-0">
                   <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-bold ${badge.bg} ${badge.text}`}>
                     <span>{badge.icon}</span>
