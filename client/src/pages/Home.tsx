@@ -195,10 +195,36 @@ function TopicCard({
   );
 }
 
+// ── Daily goal helpers ────────────────────────────────────────────────────
+const DAILY_GOAL = 10;
+const DAILY_KEY = "geo_daily_goal";
+
+function getTodayKey() {
+  return new Date().toISOString().slice(0, 10); // "YYYY-MM-DD"
+}
+
+function loadDailyCount(): number {
+  try {
+    const raw = localStorage.getItem(DAILY_KEY);
+    if (!raw) return 0;
+    const { date, count } = JSON.parse(raw);
+    return date === getTodayKey() ? (count as number) : 0;
+  } catch { return 0; }
+}
+
+function saveDailyCount(count: number) {
+  localStorage.setItem(DAILY_KEY, JSON.stringify({ date: getTodayKey(), count }));
+}
+
+export function incrementDailyCount() {
+  saveDailyCount(loadDailyCount() + 1);
+}
+
 export default function Home() {
   const [view, setView] = useState<AppView>({ screen: "home" });
   const mockBest = getMockExamBest();
   const examHistory = loadExamHistory();
+  const [dailyCount, setDailyCount] = useState(() => loadDailyCount());
   const {
     progress,
     recordAnswer,
@@ -216,6 +242,18 @@ export default function Home() {
   const handleQuizComplete = (topic: Topic, starsEarned: number, totalQ: number) => {
     setView({ screen: "score", topic, starsEarned, totalQuestions: totalQ });
   };
+
+  // ── Wrapped recordAnswer that also increments daily count ────
+  const recordAnswerWithDaily: typeof recordAnswer = (...args) => {
+    incrementDailyCount();
+    setDailyCount(loadDailyCount());
+    return recordAnswer(...args);
+  };
+
+  // ── Refresh daily count when home screen mounts / becomes visible ────
+  useEffect(() => {
+    setDailyCount(loadDailyCount());
+  }, [view.screen]);
 
   // ── Listen for practise-topic event from MockExam score report ────
   useEffect(() => {
@@ -239,7 +277,7 @@ export default function Home() {
         topic={view.topic}
         onComplete={(stars, total) => handleQuizComplete(view.topic, stars, total)}
         onBack={() => setView({ screen: "home" })}
-        recordAnswer={recordAnswer}
+        recordAnswer={recordAnswerWithDaily}
         getTopicProgress={getTopicProgress}
       />
     );
@@ -335,6 +373,38 @@ export default function Home() {
                   {totalQuestions}
                 </div>
                 <div className="text-green-200 text-xs font-bold">Total Questions</div>
+              </div>
+            </div>
+            <div className="w-px h-8 bg-white/30" />
+            {/* Daily goal */}
+            <div className="flex items-center gap-2">
+              <span className="text-2xl">{dailyCount >= DAILY_GOAL ? "🌟" : "🎯"}</span>
+              <div className="text-left">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-white font-display text-xl leading-none" style={{ fontFamily: "'Fredoka One', cursive" }}>
+                    {Math.min(dailyCount, DAILY_GOAL)}/{DAILY_GOAL}
+                  </span>
+                  {dailyCount >= DAILY_GOAL && (
+                    <motion.span
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      className="text-yellow-300 text-sm font-bold"
+                    >
+                      ✓
+                    </motion.span>
+                  )}
+                </div>
+                <div className="text-green-200 text-xs font-bold">Today's Goal</div>
+                {/* Mini progress bar */}
+                <div className="w-16 bg-white/20 rounded-full h-1.5 mt-0.5 overflow-hidden">
+                  <motion.div
+                    className="h-1.5 rounded-full"
+                    style={{ background: dailyCount >= DAILY_GOAL ? "#fbbf24" : "#86efac" }}
+                    initial={{ width: 0 }}
+                    animate={{ width: `${Math.min((dailyCount / DAILY_GOAL) * 100, 100)}%` }}
+                    transition={{ duration: 0.6 }}
+                  />
+                </div>
               </div>
             </div>
           </motion.div>

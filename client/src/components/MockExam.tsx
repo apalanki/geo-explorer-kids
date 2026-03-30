@@ -6,6 +6,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import confetti from "canvas-confetti";
 import { ALL_TOPICS, CLUE_TIMER_SECONDS, STARS_PER_CLUE, type QuizQuestion } from "@/data/quizData";
 import PronounceButton from "./PronounceButton";
 import { useSound } from "@/hooks/useSound";
@@ -197,6 +198,23 @@ function ExamScoreReport({ results, onRetry, onHome, isNewBest, prevBest, onPrac
     if (missed.length > maxMissed) { maxMissed = missed.length; weakestTopicId = tid; }
   });
   const weakestTopic = weakestTopicId ? ALL_TOPICS.find((t) => t.id === weakestTopicId) : null;
+
+  // ── Confetti burst on new personal best ────────────────────────────────────────────────────
+  useEffect(() => {
+    if (!isNewBest) return;
+    // First burst from center
+    confetti({ particleCount: 120, spread: 80, origin: { x: 0.5, y: 0.5 }, colors: ["#fbbf24", "#16a34a", "#3b82f6", "#ec4899", "#f97316"] });
+    // Side cannons after a short delay
+    const t1 = setTimeout(() => {
+      confetti({ particleCount: 60, angle: 60, spread: 55, origin: { x: 0, y: 0.6 }, colors: ["#fbbf24", "#16a34a", "#3b82f6"] });
+      confetti({ particleCount: 60, angle: 120, spread: 55, origin: { x: 1, y: 0.6 }, colors: ["#ec4899", "#f97316", "#fbbf24"] });
+    }, 400);
+    // Final shower
+    const t2 = setTimeout(() => {
+      confetti({ particleCount: 80, spread: 100, origin: { x: 0.5, y: 0.3 }, gravity: 0.8, scalar: 1.2, colors: ["#fbbf24", "#16a34a", "#3b82f6", "#ec4899"] });
+    }, 900);
+    return () => { clearTimeout(t1); clearTimeout(t2); };
+  }, [isNewBest]);
 
   return (
     <div
