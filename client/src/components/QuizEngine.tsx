@@ -205,6 +205,8 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
   const [sessionStars, setSessionStars] = useState<number[]>([]);
   const [showConfetti, setShowConfetti] = useState(false);
   const [shakeKey, setShakeKey] = useState(0);
+  const [streak, setStreak] = useState(0);
+  const [showStreakBurst, setShowStreakBurst] = useState(false);
 
   // Reaction state
   const [reaction, setReaction] = useState<(typeof CORRECT_REACTIONS)[0] | null>(null);
@@ -283,10 +285,16 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
       triggerReaction(CORRECT_REACTIONS, lastCorrectIdx);
       play("correct");
       setPhase("answered");
+      setStreak((s) => {
+        const next = s + 1;
+        if (next >= 3) { setShowStreakBurst(true); setTimeout(() => setShowStreakBurst(false), 1200); }
+        return next;
+      });
     } else {
       setShakeKey((k) => k + 1);
       triggerReaction(WRONG_REACTIONS, lastWrongIdx);
       play("wrong");
+      setStreak(0);
       setTimeout(() => {
         setSelectedOption(null);
         if (clueLevel < 3) { setClueLevel((p) => (p + 1) as 1 | 2 | 3); setPhase("clue"); }
@@ -357,11 +365,19 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
             </span>
             <span className="text-sm text-gray-400 font-bold flex-shrink-0">· Q {qIndex + 1}/{questions.length}</span>
           </div>
-          <div className="flex items-center gap-1 bg-yellow-50 border border-yellow-200 rounded-full px-3 py-1 flex-shrink-0">
-            <span className="text-lg">⭐</span>
-            <span className="font-display text-yellow-700 text-base font-bold" style={{ fontFamily: "'Fredoka One', cursive" }}>
-              {totalStarsSoFar}
-            </span>
+          <div className="flex items-center gap-2 flex-shrink-0">
+            {streak >= 2 && (
+              <div className={`flex items-center gap-1 rounded-full px-3 py-1 border ${showStreakBurst ? 'bg-orange-100 border-orange-400 scale-110' : 'bg-orange-50 border-orange-200'} transition-all duration-300`}>
+                <span className="text-lg">🔥</span>
+                <span className="font-bold text-orange-600 text-base" style={{ fontFamily: "'Fredoka One', cursive" }}>{streak}</span>
+              </div>
+            )}
+            <div className="flex items-center gap-1 bg-yellow-50 border border-yellow-200 rounded-full px-3 py-1">
+              <span className="text-lg">⭐</span>
+              <span className="font-display text-yellow-700 text-base font-bold" style={{ fontFamily: "'Fredoka One', cursive" }}>
+                {totalStarsSoFar}
+              </span>
+            </div>
           </div>
         </div>
         <div className="w-full bg-gray-100 h-1.5">

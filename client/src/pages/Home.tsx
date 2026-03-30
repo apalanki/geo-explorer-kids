@@ -9,11 +9,13 @@ import { ALL_TOPICS, getTotalQuestions, type Topic } from "@/data/quizData";
 import { useProgress } from "@/hooks/useProgress";
 import QuizEngine from "@/components/QuizEngine";
 import ScoreScreen from "@/components/ScoreScreen";
+import MockExam from "@/components/MockExam";
 
 type AppView =
   | { screen: "home" }
   | { screen: "quiz"; topic: Topic }
-  | { screen: "score"; topic: Topic; starsEarned: number; totalQuestions: number };
+  | { screen: "score"; topic: Topic; starsEarned: number; totalQuestions: number }
+  | { screen: "mockexam" };
 
 const IMPORTANCE_LABELS: Record<number, { label: string; color: string; bg: string }> = {
   1: { label: "🥇 Most Important", color: "text-yellow-700", bg: "bg-yellow-100 border-yellow-300" },
@@ -195,6 +197,10 @@ export default function Home() {
   };
 
   // ── Render ─────────────────────────────────────
+  if (view.screen === "mockexam") {
+    return <MockExam onHome={() => setView({ screen: "home" })} />;
+  }
+
   if (view.screen === "quiz") {
     return (
       <QuizEngine
@@ -300,6 +306,28 @@ export default function Home() {
               </div>
             </div>
           </motion.div>
+        </div>
+      </div>
+
+      {/* Mock Exam CTA */}
+      <div className="bg-purple-50 border-b border-purple-200 py-4">
+        <div className="container flex items-center justify-between flex-wrap gap-3">
+          <div className="flex items-center gap-3">
+            <span className="text-3xl">📋</span>
+            <div>
+              <p className="font-bold text-purple-800 text-base" style={{ fontFamily: "'Fredoka One', cursive" }}>Mock Exam — Simulate the Real Geography Bee!</p>
+              <p className="text-purple-600 text-sm font-semibold">30 questions · All topics · Timed · Full score report</p>
+            </div>
+          </div>
+          <motion.button
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.97 }}
+            onClick={() => setView({ screen: "mockexam" })}
+            className="text-white font-bold text-lg px-6 py-3 rounded-2xl shadow-lg flex items-center gap-2"
+            style={{ background: "linear-gradient(135deg, #9333ea, #7c3aed)", fontFamily: "'Fredoka One', cursive", boxShadow: "0 4px 16px rgba(147,51,234,0.35)" }}
+          >
+            🚀 Start Mock Exam
+          </motion.button>
         </div>
       </div>
 
