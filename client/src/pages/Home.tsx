@@ -3,7 +3,7 @@
 // Shows topic grid ranked by importance, global progress, and star totals.
 // Supports per-topic reset and full progress reset.
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ALL_TOPICS, getTotalQuestions, type Topic } from "@/data/quizData";
 import { useProgress } from "@/hooks/useProgress";
@@ -216,6 +216,17 @@ export default function Home() {
   const handleQuizComplete = (topic: Topic, starsEarned: number, totalQ: number) => {
     setView({ screen: "score", topic, starsEarned, totalQuestions: totalQ });
   };
+
+  // ── Listen for practise-topic event from MockExam score report ────
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const topicId = (e as CustomEvent<{ topicId: string }>).detail.topicId;
+      const topic = ALL_TOPICS.find((t) => t.id === topicId);
+      if (topic) setView({ screen: "quiz", topic });
+    };
+    window.addEventListener("practise-topic", handler);
+    return () => window.removeEventListener("practise-topic", handler);
+  }, []);
 
   // ── Render ─────────────────────────────────────
   if (view.screen === "mockexam") {

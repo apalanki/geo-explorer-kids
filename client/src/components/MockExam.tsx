@@ -161,12 +161,13 @@ function TimerRing({ seconds, total, urgent }: { seconds: number; total: number;
 // ── Score Report ───────────────────────────────────────────────────────────
 interface ExamResult { question: QuizQuestion; correct: boolean; starsEarned: number; clueUsed: 1 | 2 | 3 | "timeout" }
 
-function ExamScoreReport({ results, onRetry, onHome, isNewBest, prevBest }: {
+function ExamScoreReport({ results, onRetry, onHome, isNewBest, prevBest, onPractiseTopic }: {
   results: ExamResult[];
   onRetry: () => void;
   onHome: () => void;
   isNewBest: boolean;
   prevBest: MockBest | null;
+  onPractiseTopic: (topicId: string) => void;
 }) {
   const total = results.length;
   const correct = results.filter((r) => r.correct).length;
@@ -188,6 +189,14 @@ function ExamScoreReport({ results, onRetry, onHome, isNewBest, prevBest }: {
     if (!wrongByTopic[tid]) wrongByTopic[tid] = [];
     wrongByTopic[tid].push(r);
   });
+
+  // Find weakest topic (most missed questions)
+  let weakestTopicId: string | null = null;
+  let maxMissed = 0;
+  Object.entries(wrongByTopic).forEach(([tid, missed]) => {
+    if (missed.length > maxMissed) { maxMissed = missed.length; weakestTopicId = tid; }
+  });
+  const weakestTopic = weakestTopicId ? ALL_TOPICS.find((t) => t.id === weakestTopicId) : null;
 
   return (
     <div
@@ -279,6 +288,25 @@ function ExamScoreReport({ results, onRetry, onHome, isNewBest, prevBest }: {
           >
             🔄 Try Again!
           </button>
+
+          {weakestTopic && (
+            <motion.button
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5 }}
+              onClick={() => onPractiseTopic(weakestTopic.id)}
+              className="btn-jungle text-white text-base font-bold py-3 w-full flex items-center justify-center gap-2"
+              style={{
+                background: "linear-gradient(135deg, #ea580c, #c2410c)",
+                fontFamily: "'Fredoka One', cursive",
+                borderRadius: "16px",
+              }}
+            >
+              <span className="text-xl">{weakestTopic.emoji}</span>
+              <span>Practice {weakestTopic.name}</span>
+              <span className="text-sm opacity-80">({maxMissed} missed)</span>
+            </motion.button>
+          )}
         </div>
 
         {/* Right: Question-by-question breakdown */}
@@ -505,7 +533,19 @@ export default function MockExam({ onHome }: MockExamProps) {
   }
 
   if (done) {
-    return <ExamScoreReport results={results} onRetry={handleRetry} onHome={onHome} isNewBest={isNewBest} prevBest={prevBest} />;
+    return <ExamScoreReport
+      results={results}
+      onRetry={handleRetry}
+      onHome={onHome}
+      isNewBest={isNewBest}
+      prevBest={prevBest}
+      onPractiseTopic={(topicId) => {
+        // Navigate home then immediately open that topic's quiz
+        // We signal via a custom event so Home can pick it up
+        window.dispatchEvent(new CustomEvent("practise-topic", { detail: { topicId } }));
+        onHome();
+      }}
+    />;
   }
 
   const topicObj = ALL_TOPICS.find((t) => t.id === currentQ.topicId);
