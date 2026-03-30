@@ -215,8 +215,10 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const { play } = useSound();
 
-  const currentQ = questions[qIndex];
-  const isLastQuestion = qIndex === questions.length - 1;
+  // Clamp qIndex so it never exceeds the array length
+  const safeIndex = Math.min(qIndex, Math.max(0, questions.length - 1));
+  const currentQ = questions[safeIndex];
+  const isLastQuestion = safeIndex === questions.length - 1;
 
   const clueBadge: Record<1 | 2 | 3, { bg: string; text: string; border: string; label: string; icon: string }> = {
     1: { bg: "bg-red-50",    text: "text-red-700",    border: "border-red-300",    label: "Hard Clue",   icon: "🔴" },
@@ -310,6 +312,24 @@ export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, ge
   const urgent = timeLeft <= 5;
   const totalStarsSoFar = sessionStars.reduce((a, b) => a + b, 0);
   const isAnswered = phase === "answered" || phase === "timeout";
+
+  // ── Guard: if questions array is empty or currentQ is somehow undefined ──
+  if (!currentQ || !currentQ.clues || currentQ.clues.length < 3) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen gap-4">
+        <p className="text-2xl font-bold text-gray-600" style={{ fontFamily: "'Fredoka One', cursive" }}>
+          🎉 All done! Great work!
+        </p>
+        <button
+          onClick={() => onComplete(sessionStars.reduce((a, b) => a + b, 0), questions.length)}
+          className="btn-jungle text-white text-lg font-bold px-8 py-3"
+          style={{ background: "linear-gradient(135deg, #16a34a, #15803d)", fontFamily: "'Fredoka One', cursive", borderRadius: "16px" }}
+        >
+          🏆 See My Score!
+        </button>
+      </div>
+    );
+  }
 
   // ── Render ─────────────────────────────────────
   return (
