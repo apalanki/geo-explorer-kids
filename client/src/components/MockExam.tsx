@@ -33,6 +33,34 @@ function saveBest(b: MockBest) {
 
 export function getMockExamBest(): MockBest | null { return loadBest(); }
 
+// ── Exam history helpers ────────────────────────────────────────────────────────────────
+const HISTORY_KEY = "geo_mock_exam_history";
+const MAX_HISTORY = 5;
+
+export interface ExamHistoryEntry {
+  correct: number;
+  total: number;
+  stars: number;
+  date: string;
+}
+
+export function loadExamHistory(): ExamHistoryEntry[] {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY);
+    return raw ? (JSON.parse(raw) as ExamHistoryEntry[]) : [];
+  } catch { return []; }
+}
+
+function saveExamHistory(entries: ExamHistoryEntry[]) {
+  try { localStorage.setItem(HISTORY_KEY, JSON.stringify(entries)); } catch { /* ignore */ }
+}
+
+function appendExamHistory(entry: ExamHistoryEntry) {
+  const prev = loadExamHistory();
+  const updated = [...prev, entry].slice(-MAX_HISTORY);
+  saveExamHistory(updated);
+}
+
 // ── helpers ────────────────────────────────────────────────────────────────
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -430,9 +458,13 @@ export default function MockExam({ onHome }: MockExamProps) {
           const correct = prev.filter((r) => r.correct).length;
           const stars = prev.reduce((a, r) => a + r.starsEarned, 0);
           const total = prev.length;
+          const date = new Date().toISOString();
+          // Save history entry
+          appendExamHistory({ correct, total, stars, date });
+          // Update personal best
           const best = loadBest();
           if (!best || correct > best.correct || (correct === best.correct && stars > best.stars)) {
-            saveBest({ correct, total, stars, date: new Date().toISOString() });
+            saveBest({ correct, total, stars, date });
             setIsNewBest(true);
           }
           return prev;

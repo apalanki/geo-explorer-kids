@@ -9,7 +9,7 @@ import { ALL_TOPICS, getTotalQuestions, type Topic } from "@/data/quizData";
 import { useProgress } from "@/hooks/useProgress";
 import QuizEngine from "@/components/QuizEngine";
 import ScoreScreen from "@/components/ScoreScreen";
-import MockExam, { getMockExamBest } from "@/components/MockExam";
+import MockExam, { getMockExamBest, loadExamHistory, type ExamHistoryEntry } from "@/components/MockExam";
 
 type AppView =
   | { screen: "home" }
@@ -36,12 +36,14 @@ function TopicCard({
   onStart,
   onReset,
   index,
+  isWeakest,
 }: {
   topic: Topic;
   topicProgress: ReturnType<ReturnType<typeof useProgress>["getTopicProgress"]>;
   onStart: () => void;
   onReset: () => void;
   index: number;
+  isWeakest?: boolean;
 }) {
   const [showResetConfirm, setShowResetConfirm] = useState(false);
   const totalQ = topic.questions.length;
@@ -87,6 +89,18 @@ function TopicCard({
           <div className="absolute inset-0 bg-green-500/20 flex items-center justify-center">
             <span className="text-5xl drop-shadow-lg">🏆</span>
           </div>
+        )}
+        {/* Weak topic badge */}
+        {isWeakest && !isComplete && (
+          <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ type: "spring", stiffness: 400, delay: 0.5 }}
+            className="absolute bottom-2 right-2 bg-orange-500 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg"
+            style={{ fontFamily: "'Fredoka One', cursive" }}
+          >
+            💪 Needs Practice!
+          </motion.div>
         )}
       </div>
 
@@ -184,6 +198,7 @@ function TopicCard({
 export default function Home() {
   const [view, setView] = useState<AppView>({ screen: "home" });
   const mockBest = getMockExamBest();
+  const examHistory = loadExamHistory();
   const {
     progress,
     recordAnswer,
@@ -330,6 +345,35 @@ export default function Home() {
                   </span>
                 )}
               </div>
+              {/* Exam history trend */}
+              {examHistory.length > 0 && (
+                <div className="flex items-center gap-2 mt-1">
+                  <span className="text-purple-500 text-xs font-bold">Last {examHistory.length} exam{examHistory.length > 1 ? "s" : ""}:</span>
+                  <div className="flex items-end gap-1">
+                    {examHistory.map((entry: ExamHistoryEntry, i: number) => {
+                      const h = Math.max(8, Math.round((entry.correct / entry.total) * 32));
+                      const isLast = i === examHistory.length - 1;
+                      const prev = i > 0 ? examHistory[i - 1] : null;
+                      const trend = prev ? (entry.correct > prev.correct ? "↑" : entry.correct < prev.correct ? "↓" : "→") : null;
+                      return (
+                        <div key={i} className="flex flex-col items-center gap-0.5">
+                          {trend && <span className={`text-[9px] font-bold leading-none ${trend === "↑" ? "text-green-600" : trend === "↓" ? "text-red-500" : "text-gray-400"}`}>{trend}</span>}
+                          <div
+                            className={`w-5 rounded-t transition-all ${
+                              isLast ? "bg-purple-500" :
+                              entry.correct / entry.total >= 0.7 ? "bg-green-400" :
+                              entry.correct / entry.total >= 0.5 ? "bg-yellow-400" : "bg-red-400"
+                            }`}
+                            style={{ height: `${h}px` }}
+                            title={`${entry.correct}/${entry.total} on ${new Date(entry.date).toLocaleDateString()}`}
+                          />
+                          <span className="text-[9px] text-purple-600 font-bold leading-none">{entry.correct}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
           <motion.button
@@ -402,18 +446,33 @@ export default function Home() {
           )}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {ALL_TOPICS.map((topic, index) => (
-            <TopicCard
-              key={topic.id}
-              topic={topic}
-              topicProgress={getTopicProgress(topic.id)}
-              onStart={() => setView({ screen: "quiz", topic })}
-              onReset={() => resetTopic(topic.id)}
-              index={index}
-            />
-          ))}
-        </div>
+        {(() => {
+          // Find the weakest started topic (lowest star % among topics with at least 1 answer)
+          let weakestId: string | null = null;
+          let lowestPct = Infinity;
+          ALL_TOPICS.forEach((t) => {
+            const tp = getTopicProgress(t.id);
+            if (tp.questionsAnswered > 0 && tp.questionsAnswered < t.questions.length) {
+              const starPct = t.questions.length > 0 ? tp.totalStars / (t.questions.length * 3) : 1;
+              if (starPct < lowestPct) { lowestPct = starPct; weakestId = t.id; }
+            }
+          });
+          return (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {ALL_TOPICS.map((topic, index) => (
+                <TopicCard
+                  key={topic.id}
+                  topic={topic}
+                  topicProgress={getTopicProgress(topic.id)}
+                  onStart={() => setView({ screen: "quiz", topic })}
+                  onReset={() => resetTopic(topic.id)}
+                  index={index}
+                  isWeakest={topic.id === weakestId}
+                />
+              ))}
+            </div>
+          );
+        })()}
       </div>
 
       {/* Footer */}
