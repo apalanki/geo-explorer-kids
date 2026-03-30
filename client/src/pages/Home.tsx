@@ -9,7 +9,7 @@ import { ALL_TOPICS, getTotalQuestions, type Topic } from "@/data/quizData";
 import { useProgress } from "@/hooks/useProgress";
 import QuizEngine from "@/components/QuizEngine";
 import ScoreScreen from "@/components/ScoreScreen";
-import MockExam from "@/components/MockExam";
+import MockExam, { getMockExamBest } from "@/components/MockExam";
 
 type AppView =
   | { screen: "home" }
@@ -183,6 +183,7 @@ function TopicCard({
 
 export default function Home() {
   const [view, setView] = useState<AppView>({ screen: "home" });
+  const mockBest = getMockExamBest();
   const {
     progress,
     recordAnswer,
@@ -321,7 +322,14 @@ export default function Home() {
             <span className="text-3xl">📋</span>
             <div>
               <p className="font-bold text-purple-800 text-base" style={{ fontFamily: "'Fredoka One', cursive" }}>Mock Exam — Simulate the Real Geography Bee!</p>
-              <p className="text-purple-600 text-sm font-semibold">30 questions · All topics · Timed · Full score report</p>
+              <div className="flex items-center gap-3 flex-wrap">
+                <p className="text-purple-600 text-sm font-semibold">30 questions · All topics · Timed · Full score report</p>
+                {mockBest && (
+                  <span className="bg-yellow-100 border border-yellow-400 text-yellow-800 text-xs font-bold px-2.5 py-1 rounded-full" style={{ fontFamily: "'Fredoka One', cursive" }}>
+                    🏆 Best: {mockBest.correct}/{mockBest.total}
+                  </span>
+                )}
+              </div>
             </div>
           </div>
           <motion.button

@@ -10,6 +10,29 @@ import { ALL_TOPICS, CLUE_TIMER_SECONDS, STARS_PER_CLUE, type QuizQuestion } fro
 import PronounceButton from "./PronounceButton";
 import { useSound } from "@/hooks/useSound";
 
+// ── Personal best helpers ────────────────────────────────────────────────────
+const BEST_KEY = "geo_mock_exam_best";
+
+interface MockBest {
+  correct: number;
+  total: number;
+  stars: number;
+  date: string;
+}
+
+function loadBest(): MockBest | null {
+  try {
+    const raw = localStorage.getItem(BEST_KEY);
+    return raw ? (JSON.parse(raw) as MockBest) : null;
+  } catch { return null; }
+}
+
+function saveBest(b: MockBest) {
+  try { localStorage.setItem(BEST_KEY, JSON.stringify(b)); } catch { /* ignore */ }
+}
+
+export function getMockExamBest(): MockBest | null { return loadBest(); }
+
 // ── helpers ────────────────────────────────────────────────────────────────
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -110,7 +133,13 @@ function TimerRing({ seconds, total, urgent }: { seconds: number; total: number;
 // ── Score Report ───────────────────────────────────────────────────────────
 interface ExamResult { question: QuizQuestion; correct: boolean; starsEarned: number; clueUsed: 1 | 2 | 3 | "timeout" }
 
-function ExamScoreReport({ results, onRetry, onHome }: { results: ExamResult[]; onRetry: () => void; onHome: () => void }) {
+function ExamScoreReport({ results, onRetry, onHome, isNewBest, prevBest }: {
+  results: ExamResult[];
+  onRetry: () => void;
+  onHome: () => void;
+  isNewBest: boolean;
+  prevBest: MockBest | null;
+}) {
   const total = results.length;
   const correct = results.filter((r) => r.correct).length;
   const totalStars = results.reduce((a, r) => a + r.starsEarned, 0);
@@ -161,6 +190,17 @@ function ExamScoreReport({ results, onRetry, onHome }: { results: ExamResult[]; 
             className="jungle-card p-5 flex flex-col items-center gap-2 text-center"
             style={{ background: rating.bg, border: `2px solid ${rating.color}` }}
           >
+            {isNewBest && (
+              <motion.div
+                initial={{ scale: 0, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ type: "spring", stiffness: 400, delay: 0.3 }}
+                className="bg-yellow-400 text-yellow-900 font-bold px-4 py-1 rounded-full text-sm w-full text-center"
+                style={{ fontFamily: "'Fredoka One', cursive" }}
+              >
+                🏆 NEW PERSONAL BEST!
+              </motion.div>
+            )}
             <p className="text-3xl font-bold" style={{ fontFamily: "'Fredoka One', cursive", color: rating.color }}>
               {rating.label}
             </p>
@@ -178,6 +218,11 @@ function ExamScoreReport({ results, onRetry, onHome }: { results: ExamResult[]; 
               />
             </div>
             <p className="text-sm text-gray-500 font-bold">{pct}% accuracy</p>
+            {!isNewBest && prevBest && (
+              <p className="text-xs text-gray-400 font-semibold">
+                🏆 Best: {prevBest.correct}/{prevBest.total} — beat it next time!
+              </p>
+            )}
           </motion.div>
 
           <div className="jungle-card p-4 flex flex-col gap-2">
@@ -271,6 +316,8 @@ export default function MockExam({ onHome }: MockExamProps) {
   const [streak, setStreak] = useState(0);
   const [showStreakBurst, setShowStreakBurst] = useState(false);
   const [done, setDone] = useState(false);
+  const [prevBest] = useState<MockBest | null>(() => loadBest());
+  const [isNewBest, setIsNewBest] = useState(false);
 
   const [reaction, setReaction] = useState<(typeof CORRECT_REACTIONS)[0] | null>(null);
   const [showReaction, setShowReaction] = useState(false);
@@ -374,6 +421,23 @@ export default function MockExam({ onHome }: MockExamProps) {
   // ── Next question ──────────────────────────────────────────────────
   const handleNext = () => {
     if (isLastQuestion) {
+      // Compute final results including this last answer
+      const finalResults = results; // state update is batched; we compute inline
+      const finalCorrect = finalResults.filter((r) => r.correct).length + (phase === "clue" ? 0 : 0); // will be updated after setResults
+      // Save best after a tick so results state is flushed
+      setTimeout(() => {
+        setResults((prev) => {
+          const correct = prev.filter((r) => r.correct).length;
+          const stars = prev.reduce((a, r) => a + r.starsEarned, 0);
+          const total = prev.length;
+          const best = loadBest();
+          if (!best || correct > best.correct || (correct === best.correct && stars > best.stars)) {
+            saveBest({ correct, total, stars, date: new Date().toISOString() });
+            setIsNewBest(true);
+          }
+          return prev;
+        });
+      }, 50);
       setDone(true);
     } else {
       setQIndex((i) => i + 1);
@@ -409,7 +473,7 @@ export default function MockExam({ onHome }: MockExamProps) {
   }
 
   if (done) {
-    return <ExamScoreReport results={results} onRetry={handleRetry} onHome={onHome} />;
+    return <ExamScoreReport results={results} onRetry={handleRetry} onHome={onHome} isNewBest={isNewBest} prevBest={prevBest} />;
   }
 
   const topicObj = ALL_TOPICS.find((t) => t.id === currentQ.topicId);
