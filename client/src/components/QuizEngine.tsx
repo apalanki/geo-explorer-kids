@@ -184,11 +184,17 @@ function TimerRing({ seconds, total, urgent }: { seconds: number; total: number;
 
 // ── Main component ─────────────────────────────────────────────────
 export default function QuizEngine({ topic, onComplete, onBack, recordAnswer, getTopicProgress }: QuizEngineProps) {
-  const topicProgress = getTopicProgress(topic.id);
-  const allQuestions = topic.questions;
-  const unanswered = allQuestions.filter((q) => !topicProgress.questions[q.id]?.answered);
-  const answered = allQuestions.filter((q) => topicProgress.questions[q.id]?.answered);
-  const questions: QuizQuestion[] = unanswered.length > 0 ? unanswered : answered;
+  // Freeze the question list at mount time so that calling recordAnswer
+  // (which updates topicProgress) never mutates the array mid-session.
+  const frozenQuestionsRef = useRef<QuizQuestion[] | null>(null);
+  if (frozenQuestionsRef.current === null) {
+    const topicProgress = getTopicProgress(topic.id);
+    const allQuestions = topic.questions;
+    const unanswered = allQuestions.filter((q) => !topicProgress.questions[q.id]?.answered);
+    const answered = allQuestions.filter((q) => topicProgress.questions[q.id]?.answered);
+    frozenQuestionsRef.current = unanswered.length > 0 ? unanswered : answered;
+  }
+  const questions: QuizQuestion[] = frozenQuestionsRef.current;
 
   const [qIndex, setQIndex] = useState(0);
   const [clueLevel, setClueLevel] = useState<1 | 2 | 3>(1);
